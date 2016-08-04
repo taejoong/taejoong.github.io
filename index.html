@@ -1,1 +1,195 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Taejoong Chung</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="tj.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">Taejoong Chung</a>
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse", data-target=".navbar-collapse">
+					<span class="sr-only"> Toggle Navigation</span>
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</div>
+
+			<div id="spy-scroll-id" class="collapse navbar-collapse"> 
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#profile">Home</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#publication-menu">Publication</a></li>
+					<li><a href="#funding">Funding</a></li>
+					<li><a href="#award">Award</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<div class="container" id="profile">
+		<div class="device-md hidden-xs"> </div>
+		<div class="col-md-12">
+			<div class="container"> 
+				<div>
+					<img src="profile.png" class="img-rounded" id = "picture" alt="Rounded Image">
+				</div>
+				<div id="introduction">
+					<h2 >Hi, my name is Taejoong (TJ) Chung</h2>
+					<p class="lead">I'm a <i>happy</i> postdoctoral researcher
+					</br> supervised by Professor <a href="http://www.ccs.neu.edu/home/amislove/">Alan Mislove</a>
+					</br> at <a href="http://www.neu.edu">Northeastern University</a>
+					</br><i>t.chung@neu.edu</i>
+					</p>
+
+					<span class="label label-warning"><a href="http://mmlab.snu.ac.kr/~tjchung/cv_tjchung.pdf">CV</a></span> (Updated at Aug, 2016)
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="center title" id ="education">Education</h1>
+				<ul> 
+					<li id="education-list">Ph.D. in <a href="http://cse.snu.ac.kr">Dept. of Computer Science and Engineering, Seoul National University</a>, Korea, 2009.9 - 2015.2 <br/>
+					(Integrated MS-Ph.D. Course, Advisors: <a href="http://mmlab.snu.ac.kr/~yhchoi/">Yanhee Choi</a>, <a href="http://mmlab.snu.ac.kr/~tk">Taekyoung Kwon</a>) <br/></li>
+					<li id="education-list">B.S. in <a href="http://cse.postech.ac.kr">Dept. of Computer Science and Engineering, POSTECH (Pohang University of Science and Technology)</a>, Korea, 2005.3 - 2009.8</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="publication-menu">	
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="center title" >Publication</h1>
+				<div id = "publication">
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class ="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="center title" id="funding">Funding</h1>
+				<ul>
+					<li id="funding-list"><b>Microsoft Azure Machine Learning Reseaerch </b><i>"Group Dynamics in Group based Social Network"</i>, 04/2015 - 03/201, Primary Investigator. $20,000 </li>
+					<li id="funding-list"><b>National Research Foundation of Korea (NRF) by the Ministry of Education </b><i>"Personal Recommendation System and Privacy Protection through Big Data Analysis on Online Social Networks"</i>, 06/2015 - 05/2016, Primary Investigator. &#8361;50,000,000 (= $40,000)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class ="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="center title" id="awards">Awards</h1>
+				<ul>
+					<li id="award-list"><b>IEEE Computer Society (ComSoc) Seoul Chapter</b>, Best Paper Award, in Proc. of The 20th Joint Conference</li>
+					<li id="award-list"><b>Best Paper Award</b>, in Proc. of Korea Information and Communication Society (KICS2010) </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class ="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="center title" id="career">Career</h1>
+				<ul>
+					<!--<li id="career-list">Postdoctoral Researcher @ <a href="http://mmlab.snu.ac.kr">Network Convergence and Security Lab</a>, Seoul National University, Korea (2015.03.01 ~  2016.03.17)</li>--!>
+					<li id="career-list">Internship @ <a href="http://www.cisco.com">Cisco Systems</a>, Boston, MA (2013.06.17 ~  2014.03.17)</li>
+					<li id="career-list">Teaching Assistant for Engineering Math II (Fall, 2010)</li>
+					<li id="career-list">Teaching Assistant for Engineering Math I (Spring, 2010)</li>
+					<li id="career-list">Internship @ <a href="http://www.company100.com">Company100</a> (2008.12.01 ~ 2009.03.01)</li>
+					<li id="career-list">Internship @ <a href="http://www.nomadconnection.com">NomadConnection</a> (2007.12.01 ~ 2008.03.01)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="footer">
+	</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script>
+		//$(".contentContainer").css("min-height",$(window).height());
+
+		$.getJSON( "./publication.json", function( data ) {
+			var items = [];
+
+			data.sort( function(a, b) {
+				return parseFloat(b.year) - parseFloat(a.year);
+			});
+
+			$.each( data, function( i, item ) {
+				if(item.type === "inproceedings"){
+					source = "In <i>Proceedings of " +
+					item.booktitle_long + " (" + item.booktitle_short + "`" + item.year.substring(2,4) + ")</i>, " +
+					item.city + ", " +
+					item.country + ", ";
+				}
+				else if(item.type === "article"){
+					source = item.journal_long + " (" + item.journal_short + "), Vol. " 
+					+ item.vol + ", pp. " + item.pp + ", ";
+				}
+				
+				label = "";
+				if(item.dataset){
+					label = "<a href='" + item.dataset + "'><span class='label label-success'>Dataset</Span></a>";
+				}
+					
+
+				line = "<li class = \"item-publication\"><strong>" 
+				+ item.title + "</strong></br>" 
+				+ oxford(item.author) + "</br>" 
+				+ source 
+				+ item.month + " " 
+				+ item.year + "</br>"
+		
+				line += label + "</li>";
+				items.push(line);
+			});
+
+			$( "<ul/>", {
+				"class": "my-new-list",
+				html: items.join( "" )
+			}).appendTo( "#publication" );
+		});
+		
+		function oxford(arr) {
+				   return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
+		}
+
+		function isBreakpoint( alias ) {
+			return $('.device-' + alias).is(':visible');
+		}
+		
+		console.log( $('.device-md').is(':visible'));
+		if( ! isBreakpoint('md') ) {
+			$('#introduction').css('margin-top', '70px');
+			$('#picture').css('visibility', 'hidden');
+			$('#picture').css('width', '0%');
+		}
+
+	</script>
+  </body>
+</html>
