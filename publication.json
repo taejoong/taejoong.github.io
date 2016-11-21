@@ -23,7 +23,7 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
-	"dataset":"http://secure.pki/invalid"
+	"dataset":"http://securepki.org/invalid"
 },
 {
 	"country":"Austria",
