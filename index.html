@@ -176,7 +176,12 @@
 		});
 		
 		function oxford(arr) {
-				   return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
+			for (i = 0;i < arr.length; i++){
+				if(arr[i] == "Taejoong Chung"){
+					arr[i] = "<br>Taejonong Chung</br>"
+				}
+			}
+			return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
 		}
 
 		function isBreakpoint( alias ) {
