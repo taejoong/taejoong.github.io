@@ -1,5 +1,17 @@
 [
 {
+	"country":"Canada",
+	"title":"A Longitudinal, End-to-End View of the DNSSEC Ecosystem",
+	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
+	"booktitle_long":"USENIX Security Symposium",
+	"city":"Vancouver, BC",
+	"year":"2017",
+	"booktitle_short":"Security",
+	"month":"August",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"country":"USA",
 	"title":"Tunneling for Transparency: A Large-Scale Analysis of End-to-End Violations in the Internet",
 	"author":["Taejoong Chung","David Choffnes", "Alan Mislove"],
