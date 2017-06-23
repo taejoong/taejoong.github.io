@@ -1,12 +1,12 @@
 [
 {
 	"country":"USA",
-	"title":"The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover",
+	"title":"The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover (Poster Paper)",
 	"author":["Roland van Rijswijk-Deij", "Taejoong Chung", "David Choffness",  "Alan Mislove", "Willem Toorop"],
 	"booktitle_long":"ACM Special Interest Group on Data Communication",
 	"city":"Los Angeles",
 	"year":"2017",
-	"booktitle_short":"ACM SIGCOMM",
+	"booktitle_short":"SIGCOMM",
 	"month":"August",
 	"booktitle_type":"conference",
 	"type":"poster"
