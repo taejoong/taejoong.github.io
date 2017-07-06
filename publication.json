@@ -1,6 +1,18 @@
 [
 {
 	"country":"USA",
+	"title":"Investigating End-To-End Integrity Violations in Internet Traffic",
+	"author":["Alan Mislove", "Taejoong Chung", "David Choffness"],
+	"booktitle_long":" Research Conference on Communications, Information and Internet Policy",
+	"city":"Arlington",
+	"year":"2017",
+	"booktitle_short":"TPRC",
+	"month":"September",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
+	"country":"USA",
 	"title":"The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover (Poster Paper)",
 	"author":["Roland van Rijswijk-Deij", "Taejoong Chung", "David Choffness",  "Alan Mislove", "Willem Toorop"],
 	"booktitle_long":"ACM Special Interest Group on Data Communication",
