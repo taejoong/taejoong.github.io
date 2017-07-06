@@ -2,7 +2,7 @@
 {
 	"country":"USA",
 	"title":"Investigating End-To-End Integrity Violations in Internet Traffic",
-	"author":["Alan Mislove", "Taejoong Chung", "David Choffness"],
+	"author":["Alan Mislove", "David Choffness", "Taejoong Chung"],
 	"booktitle_long":" Research Conference on Communications, Information and Internet Policy",
 	"city":"Arlington",
 	"year":"2017",
