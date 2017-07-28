@@ -1,5 +1,17 @@
 [
 {
+	"country":"United Kingdom",
+	"title":"Understanding the Role of Registrars in DNSSEC Deployment",
+	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"London",
+	"year":"2017",
+	"booktitle_short":"IMC",
+	"month":"November",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"country":"USA",
 	"title":"Investigating End-To-End Integrity Violations in Internet Traffic",
 	"author":["Alan Mislove", "David Choffness", "Taejoong Chung"],
