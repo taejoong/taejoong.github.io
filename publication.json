@@ -1,5 +1,17 @@
 [
 {
+	"country":"United States",
+	"title":"Privacy Leakage in Event-based Social Networks: A Meetup Case Study",
+	"author":["Taejoong Chung", "Jinyoung Han", "Daejin Choi", "Taekyoung Kwon", "Jong-Youn Rha", "Hyunchul Kim"],
+	"booktitle_long":"ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+	"city":"Jersey City",
+	"year":"2018",
+	"booktitle_short":"CSCW",
+	"month":"November",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"country":"United Kingdom",
 	"title":"Understanding the Role of Registrars in DNSSEC Deployment",
 	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
