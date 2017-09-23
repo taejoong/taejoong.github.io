@@ -59,6 +59,16 @@
 				</div>
 			</div>
 		</div>
+        </div>
+	<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="center title" id ="education">Updates</h1>
+                    <ul class="updates" id="updatelist">
+                    </ul>
+
+                </div>
+            </div>
 	</div>
 
 	<div class="container">
@@ -189,6 +199,10 @@
 			return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
 		}
 
+		function formatdate(d) {
+		  return d.toDateString().substr(4);
+		}
+
 		function isBreakpoint( alias ) {
 			return $('.device-' + alias).is(':visible');
 		}
@@ -201,5 +215,45 @@
 		}
 
 	</script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" type="text/javascript"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js" type="text/javascript"></script>
+
+
+      <script>
+	var updates = "";
+	var num_updates = 12;
+      
+	$(document).ready(function () {
+	  queue()
+	  .defer(d3.json, "updates.json")
+	  .await(function(error, p) {
+	    updates = p;
+	    updates.forEach(function (d) { d["date"] = new Date(d["date"]); });
+	    updates = updates.filter(function (d) { return d["date"] <= new Date(); });
+	    updates.sort(function (a,b) { return d3.descending(a["date"], b["date"]); })
+	    
+	    if (updates.length > num_updates) {
+	      updates = updates.slice(0, num_updates);
+	    }
+	    
+	    renderupdates();
+	  });
+	});
+
+	function renderupdates() {
+	  d3.select("#updatelist")
+	   .selectAll("li")
+           .data(updates)
+	   .enter().append("li")
+           .html(renderupdate);
+	 }
+
+	 function renderupdate(d) {
+             return "<span class='date'>" + formatdate(d["date"]) + "</span> " + "<span style='font-size:1.2em'>" + d["text"] + " </span>";
+	 }
+
+      </script>
+
   </body>
 </html>

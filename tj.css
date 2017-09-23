@@ -52,4 +52,19 @@
 		padding:5px 0px 0px 0px;
 	}
 
+        ul.updates {
+            list-style-type: none;
+            padding-left:0;
+        }
+
+	.date {
+	  color: #223fbb;
+	  font-size: medium;
+	  font-family: monospace;
+	  font-weight: bold;
+	  padding-right: 1em;
+	  padding-left: 3em;
+	  vertical-align: 12.5%;
+	}
+
 </style>
