@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>SSL Research at Northeastern, University of Maryland, and Stanford</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/custom.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SSL Research</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="contact.html">Who We Are</a></li>
+	    <li class="dropdown" id="section-research">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Research<span class="caret"></span></a>
+		    <ul class="dropdown-menu" role="menu">
+		      <li><a data-toggle="tab"><a href="imc14.html">SSL/IMC'14</a></li>
+		      <li><a data-toggle="tab"><a href="imc15.html">SSL/IMC'15</a></li>
+		      <li><a data-toggle="tab"><a href="imc16-invalid.html">SSL/IMC'16</a></li>
+		      <li><a data-toggle="tab"><a href="sec17.html">DNSSEC/SEC'17</a></li>
+		      <li><a data-toggle="tab"><a href="imc17.html">DNSSEC/IMC'17</a></li>
+		    </ul>
+	  </li>
+            <li><a href="press.html">Press</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2 align='right'>Research on the SSL/TLS Ecosystem </h2>
+        <h4 align='left'>
+            <p>
+            Every day, we use Secure Sockets Layer (SSL) and Transport Layer Security (TLS) to secure our Internet transactions such as name resolution (DNS lookup), banking, e-mail and e-commerce. Along with a public key infrastructure (PKI), they allow our computers to automatically verify that our sensitive information (e.g., credit card numbers and passwords) are hidden from eavesdroppers and sent to trustworthy servers. 
+            
+            </p> 
+        </h4>
+        <br>
+      </div>
+
+      <div class="jumbotron" style ="background-color:#bcc8e2;">
+      <div class="container">
+          <h2 align='left'> <span style="color:black;">HeartBleed</span></h2>
+          <h4 align='left'>
+            In mid-April, 2014, a software vulnerability called Heartbleed was announced. It allows malicious users to capture information that would allow them to masquerade as trusted servers and potentially steal sensitive information from unsuspecting users. The PKI provides multiple ways to prevent such an attack from occurring, and we should expect Web site operators to use these countermeasures. 
+            <br>
+            <br>
+            For more details, please see <a href="imc14.html">our project </a> published at IMC'14.
+        </h4>
+      </div>
+    </div>
+
+      <div class="jumbotron" style ="background-color:#bcc8e2;">
+      <div class="container">
+          <h2 align='left'> <span style="color:black;">Invalid Certificates</span></h2>
+          <h4 align='left'>
+            SSL and TLS are used to secure the most commonly used Internet protocols. As a result, the ecosystem of SSL certificates has been thoroughly studied, leading to a broad understanding of the strengths and weaknesses of the certificates accepted by most web browsers.
+            <br>
+            Prior work has naturally focused almost exclusively on "valid" certificates—those that standard browsers accept as well-formed and trusted—and has largely disregarded certificates that are otherwise "invalid." Surprisingly, however, this leaves the majority of certificates unexamined: we find that, on average, 65% of SSL certificates advertised in each IPv4 scan that we examine are actually invalid.
+            <br>
+            <br>
+            For more details, please see <a href="imc16-invalid.html">our project </a> published at IMC'16.
+        </h4>
+      </div>
+    </div>
+      <div class="jumbotron" style ="background-color:#bcc8e2;">
+      <div class="container">
+          <h2 align='left'><span style="color:black;">DNSSEC</span></h2>
+          <h4 align='left'>
+            The Domain Name System (DNS) provides a scalable, flexible name resolution service. Unfortunately, its unauthenticated architecture has proven to be the vector for many security attacks. To address this, DNS Security Extensions (DNSSEC) were introduced in 1997.
+            <br>
+            At its core, DNSSEC is a hierarchical public key infrastructure (PKI) that largely mirrors the DNS hierarchy and is anchored in the DNS root zone. DNSSEC enables clients (typically DNS resolvers) who support it to authenticate DNS records for domains that also support DNSSEC.
+            <br>
+            <br>
+            For more details, please see our projects published at <a href="sec17.html">SEC'17</a> and <a href="imc17.html">IMC'17</a>.
+        </h4>
+      </div>
+    </div>
+    </div>
+
+
+  </body>
+</html>
+

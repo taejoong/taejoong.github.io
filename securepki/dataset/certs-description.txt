@@ -1,0 +1,35 @@
+Each column (separated by tab) of processed certificates shows field information found in the certificates.
+
+id: the fingerprint of this certificate
+x509: x509 version
+isCA: whether or not this certificate is a CA certificate  
+common_name: The common name of the certificate
+subject_alt_names: The subject alt names (SANs) of the certificate
+domains: The domain name  of the certificate
+issuer_common_name: The issuer's common name  of the certificate
+serial_number: The serial number of the certificate
+not_before: Not Before field of the certificate
+not_after: Not After of the certificate
+ig1: ignore this field
+ig2: ignore this field
+ig3: ignore this field
+ig4: ignore this field
+oids: The name of this OID (Organization ID)
+crls: CRL (Certificate Revocation List) distribution point of the certificate 
+ocsp: OCSP (Online Certificate Status Protocol) of the certificate
+aias: AIAs (Authority Information Access) of the certificate
+public_key: The public key of this certificate
+key_algo: algorithm used to generate public key for this certificate
+key_len: public key length of this certificate
+ig5: ignore this field
+ig6: ignore this field
+parser: PyOpenSSL  
+ig7: ignore this field
+ig8: ignore this field
+ig9: ignore this field
+subject_key_id: subject key ID of this certificate
+authority_key_id: authority key ID of this certificate
+ig10: ignore this field
+hostlist: The IP list that advertised this certificate
+isValid: whether or not this certificate is valid
+ErrNo: Error number produced from OpenSSL (if it is an invalid certificate)
