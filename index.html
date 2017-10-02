@@ -176,13 +176,14 @@
 				}
 				
 				label = "";
-				if(item.dataset){
-					label = "<a href='" + item.dataset + "'><span class='label label-success'>Dataset</Span></a>";
+				if(item.award){
+					label = "<span class='label label-danger'>" + item.award + "</Span> ";
 				}
 
-				if(item.award){
-					label = "<span class='label label-danger'>" + item.award + "</Span>";
+				if(item.dataset){
+					label += "<a href=' " + item.dataset + "'><span class='label label-success'>Dataset</Span></a>";
 				}
+
 					
 
 				line = "<li class = \"item-publication\"><strong>" 
