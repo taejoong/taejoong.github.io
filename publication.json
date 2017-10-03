@@ -99,7 +99,8 @@
 	"booktitle_short":"CCS",
 	"month":"October",
 	"booktitle_type":"conference",
-	"type":"inproceedings"
+	"type":"inproceedings",
+	"dataset":"http://securepki.org/ccs16.html"
 },
 {
 	"country":"USA",
