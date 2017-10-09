@@ -1,5 +1,5 @@
 [
-    {"date": "10/01/2017", "text": "I'm on the job market for a faculty position! Research/teaching statements are available upon the request."},
+    {"date": "10/01/2017", "text": "<span style=\"color:red\">I'm on the job market for a faculty position! Research/teaching statements are available upon the request.</span>"},
     {"date": "08/16/2017", "text": "Our paper won the <a href='https://www.usenix.org/conferences/best-papers'>Distinguished Paper Award</a> at <a href='https://www.usenix.org/conference/usenixsecurity17'>USENIX Security'17</a>!"},
     {"date": "08/08/2017", "text": "Our paper 'Privacy Leakage in Event-based Social Networks: A Meetup Case Study' is accepted at <a href='http://cscw.acm.org/2018'>CSCW'18</a>!"},
     {"date": "07/28/2017", "text": "Our paper 'Understanding the Role of Registrars in DNSSEC Deployment' is accepted at <a href='http://conferences.sigcomm.org/imc/2017/'>IMC'17</a>!"}
