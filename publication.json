@@ -22,7 +22,8 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"dataset":"http://securepki.org/imc17.html",
-	"type":"inproceedings"
+	"type":"inproceedings",
+	"award":"Finalist for Best Paper Award"
 },
 {
 	"country":"USA",
