@@ -1,4 +1,5 @@
 [
+    {"date": "12/08/2017", "text": "Our article summarizing DNSSEC papers now appears in <a href='https://www.usenix.org/publications/login/winter2017'>USENIX ;login: magazine.</a>"},
     {"date": "12/06/2017", "text": "I wrote a <a href='https://blog.apnic.net/2017/12/06/dnssec-deployment-remains-low/'> guest blog post </a> for APNIC about registrar's roles in DNSSEC deployment study"},
     {"date": "10/01/2017", "text": "<span style=\"color:red\">I'm on the job market for a faculty position! Research/teaching statements are available upon the request.</span>"},
     {"date": "08/16/2017", "text": "Our paper won the <a href='https://www.usenix.org/conferences/best-papers'>Distinguished Paper Award</a> at <a href='https://www.usenix.org/conference/usenixsecurity17'>USENIX Security'17</a>!"},
