@@ -1,14 +1,13 @@
 [
 {
-	"country":"",
 	"title":"An End-to-End View of DNSSEC Ecosystem Management",
 	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
-	"booktitle_long":"USENIX ;login:",
-	"city":"",
+	"journal_short":"USENIX ;login:",
 	"year":"2017",
-	"booktitle_short":"",
-	"month":"",
-	"booktitle_type":"",
+	"month":"December",
+	"vol":"42",
+	"pp":"4",
+	"journal_long":"The USENIX Magazine",
 	"type":"article"
 },
 {
