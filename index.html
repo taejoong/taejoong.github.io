@@ -206,7 +206,7 @@
 		function oxford(arr) {
 			for (i = 0;i < arr.length; i++){
 				if(arr[i] == "Taejoong Chung"){
-					arr[i] = "<u>Taejoong Chung</u>"
+                                    arr[i] = "<span style='color:#223fbb'><b>Taejoong Chung</b></span>"
 				}
 			}
 			return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
