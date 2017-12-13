@@ -1,7 +1,7 @@
 [
 {
 	"title":"An End-to-End View of DNSSEC Ecosystem Management",
-	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
+	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
 	"journal_short":"USENIX ;login:",
 	"year":"2017",
 	"month":"December",
@@ -25,7 +25,7 @@
 {
 	"country":"United Kingdom",
 	"title":"Understanding the Role of Registrars in DNSSEC Deployment",
-	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
+	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
 	"booktitle_long":"ACM Internet Measurement Conference",
 	"city":"London",
 	"year":"2017",
@@ -39,7 +39,7 @@
 {
 	"country":"USA",
 	"title":"Investigating End-To-End Integrity Violations in Internet Traffic",
-	"author":["Alan Mislove", "David Choffness", "Taejoong Chung"],
+	"author":["Alan Mislove", "David Choffnes", "Taejoong Chung"],
 	"booktitle_long":" Research Conference on Communications, Information and Internet Policy",
 	"city":"Arlington",
 	"year":"2017",
@@ -52,7 +52,7 @@
 {
 	"country":"USA",
 	"title":"The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover (Poster Paper)",
-	"author":["Roland van Rijswijk-Deij", "Taejoong Chung", "David Choffness",  "Alan Mislove", "Willem Toorop"],
+	"author":["Roland van Rijswijk-Deij", "Taejoong Chung", "David Choffnes",  "Alan Mislove", "Willem Toorop"],
 	"booktitle_long":"ACM Special Interest Group on Data Communication",
 	"city":"Los Angeles",
 	"year":"2017",
@@ -64,7 +64,7 @@
 {
 	"country":"Canada",
 	"title":"A Longitudinal, End-to-End View of the DNSSEC Ecosystem",
-	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffness", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
+	"author":["Taejoong Chung","Roland van Rijswijk-Deij", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Christo Wilson"],
 	"booktitle_long":"USENIX Security Symposium",
 	"city":"Vancouver, BC",
 	"year":"2017",
