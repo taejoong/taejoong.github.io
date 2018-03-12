@@ -194,14 +194,13 @@
 					label += "<a href=' " + item.paper + "'><span class='label label-primary'>Paper</Span></a>";
 				}
 
-					
 
 				line = "<li class = \"item-publication\"><strong>" 
 				+ item.title + "</strong></br>" 
-				+ oxford(item.author) + "</br>" 
+                                + oxford(item.author) + "</br>" 
 				+ source 
 				+ item.month + " " 
-				+ item.year + "</br>"
+                                + item.year + "</br>"
 		
 				line += label + "</li>";
 				items.push(line);
@@ -216,7 +215,7 @@
 		function oxford(arr) {
 			for (i = 0;i < arr.length; i++){
 				if(arr[i] == "Taejoong Chung"){
-                                    arr[i] = "<span style='color:#223fbb'><b>Taejoong Chung</b></span>"
+                                    arr[i] = "<span style='color:#223fbb'>Taejoong Chung</span>"
 				}
 			}
 			return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
