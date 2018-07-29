@@ -1,5 +1,17 @@
 [
 {
+	"country":"USA",
+	"title":"Is the Web Ready for OCSP Must Staple?",
+	"author":["Taejoong Chung", "Jay Lok", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "John Rula", "Nick Sullivan", "Christo Wilson"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Boston",
+	"year":"2018",
+	"booktitle_short":"IMC",
+	"month":"November",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"title":"A First Look at Certification Authority Authorization (CAA)",
 	"author":["Quirin Scheitle", "Taejoong Chung", "Jens Hiller", "Oliver Gasser", "Johannes Naab", "Roland van Rijswijk-Deij", "Oliver Hohlfeld", "Ralph Holz", "Dave Choffnes", "Alan Mislove", "Georg Carle"],
 	"journal_short":"CCR",
