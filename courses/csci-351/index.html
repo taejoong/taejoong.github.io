@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <title>CSCI-351 // Data Communication and Networks</title>
+    <link rel="stylesheet" href="css/mine.css" type="text/css" media="screen, projection">	
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">	
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+          
+    <script type="text/javascript" src="http://use.typekit.com/cix2tql.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+      function switchSlide(num) {
+        for (i=1; i<=5; i++) {
+          var ele = document.getElementById("slide-" + i);
+          if (ele) {
+            ele.style.display="none";          
+          }
+        }
+        
+        var ele = document.getElementById("slide-" + num);
+        ele.style.display="block";
+      }
+    </script>
+  </head>
+  
+  <body>
+    <div class="container" style="padding-top: 10px">
+      <div class="span-24 last shortdesc" align="right" style="margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc">
+        <div onClick="javascript:switchSlide(1);">CSCI-351 // Data Communication and Networks <br/>Fall 2018</div>
+      </div>
+      <div class="span-2 prepend-13 append-1"><div class="section"><a onClick="javascript:switchSlide(1);" href="#">Description</a></div></div>
+      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(2);" href="#">Schedule</a></div></div>
+      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(3);" href="#">Homeworks</a></div></div>
+      <div class="span-2 last"><div class="section"><a onClick="javascript:switchSlide(4);" href="#">Projects</a></div></div>
+      
+      <div class="span-7" >
+        <div class="title">
+          <div class="heading">Course details</div>
+          <div class="type">Instructor</div>
+          Prof. Taejoong Chung<br>
+          Office: GOL-3525<br>
+          <a href="mailto:tjc@cs.rit.edu?subject=[CSCI-351]&nbsp">tjc@cs.rit.edu</a><br>
+          &nbsp;<br>
+          
+          <div class="type">Location</div>
+          Gollisano Hall (GOL)-1455<br>
+          9:30<small>am</small>&ndash;10:45<small>am</small><br>
+          Tuesday, Thursdays<br>
+          &nbsp;<br>
+          
+          <div class="type">Office hours</div>
+          2:00<small>pm</small>&ndash;3:30<small>pm</small> Tuesday <small>(instructor, GOL-3525)</small><br>
+        </div>
+        
+        <div class="title">
+          <div class="heading">Discussion Forum</div>
+          <a href="https://mycourses.rit.edu/d2l/le/713074/discussions/List">On Mycourses</a>
+        </div>
+        
+        <div class="title">
+          <div class="heading">textbooks</div>
+          <a href="https://rit.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600000683062&storeId=35554">Computer Networks: A Systems Approach</a><br>
+          5th Edition<br>
+          Peterson and Davie<br>
+          &nbsp;<br>
+        </div>
+        
+        <div class="title">
+          <div class="heading">Handouts</div>
+          <a href="handouts/syllabus.pdf">Syllabus</a><br>
+          <a href="handouts/schedule.pdf">Rough Course Schedule</a><br>
+        </div>      
+          
+        <div class="title">
+          <div class="heading">Grading</div>
+          <table border=0>
+            <tr><td>45%</td><td>Projects </td></tr>
+            <tr><td>40%</td><td>Exams </td></tr>
+            <tr><td>15%</td><td>Homeworks </td></tr>
+          </table>
+        </div>      
+
+      </div>
+      
+      <div class="span-17 last" id="slide-1">
+        <div class="title-lowercase">
+          <div class="heading">Course description</div>
+
+This course is an in-depth study of data communications and networks. The course covers design of, and algorithms and protocols used in, the physical, data link, network, transport, and application layers in the Internet; methods for modeling and analyzing networks, including graphs, graph algorithms, and discrete event simulation; and an introduction to network science. Programming projects will be required.
+
+        </div>
+
+        <div class="title-lowercase">
+          <div class="heading">attendance and participation</div>
+          This is a junior-level course; I will not mandate you to come to class (you are still responsible for all the material covered in class).  The class projects are a major part of this course, and please be aware that you will be working in groups of two.</p>
+          
+          We will be using <a href="https://mycourses.rit.edu/d2l/le/713074/discussions/List">Mycourses</a> as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others' questions.  The course staff will regularly monitor the board, and your participation will count towards your grade.
+        </div>      
+        <div class="title-lowercase">
+          <div class="heading">completing and submitting projects</div>
+          TBD
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-2">
+        <div class="title-lowercase">
+          <div class="heading">Schedule</div>
+          Below is a rough schedule for the lectures in CSCI-351.  This is subject to change; please check back often.<p>
+          &nbsp;
+          <table border=0>
+            <the><td><b>Lecture</b></td><td><b>Topic and slides</b></td><td><b>Due Date(s)</b></td></th>
+            <tr><td><small>01</small>&nbsp;&nbsp;08/28 <small>Tue</small></td><td><a href="lectures/lecture1.pdf">Intro and Course Overview</a></td><td></td></tr>
+            <tr><td><small>02</small>&nbsp;&nbsp;08/30 <small>Thu</small></td><td><a href="lectures/lecture2.pdf">History of the Internet</a></td><td></td></tr>
+            <tr><td><small>03</small>&nbsp;&nbsp;09/04 <small>Tue</small></td><td>Networking Architecture</a></td><td></td></tr>
+            <tr><td><small>04</small>&nbsp;&nbsp;09/06 <small>Thu</small></td><td>Socket Programming</a></td><td></td></tr>
+            <tr><td><small>05</small>&nbsp;&nbsp;09/11 <small>Tue</small></td><td>Physical / Link Layer 1</a></td><td></td></tr>
+            <tr><td><small>06</small>&nbsp;&nbsp;09/13 <small>Thu</small></td><td>Link layer 2</a></td><td></td></tr>
+            <tr><td><small>07</small>&nbsp;&nbsp;09/18 <small>Tue</small></td><td>Bridging and Switching</a></td><td></td></tr>
+            <tr><td><small>08</small>&nbsp;&nbsp;09/20 <small>Thu</small></td><td>Internet Protocol 1</a></td><td></td></tr>
+            <tr><td><small>09</small>&nbsp;&nbsp;09/25 <small>Tue</small></td><td>Internet Protocol 2</a></td><td></td></tr>
+            <tr><td><small>10</small>&nbsp;&nbsp;09/27 <small>Thu</small></td><td>NAT</a></td><td></td></tr>
+            <tr><td><small>11</small>&nbsp;&nbsp;10/02 <small>Tue</small></td><td>Intra-domain Routing</a></td><td></td></tr>
+            <tr><td><small>12</small>&nbsp;&nbsp;10/04 <small>Thu</small></td><td>Inter-domain Routing</a></td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;10/09 <small>Tue</small></td><td colspan=2><i>No class&mdash;October Break</i></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;10/11 <small>Thu</small></td><td>Midterm Exam</td><td></td></tr>
+            <tr><td><small>13</small>&nbsp;&nbsp;10/16 <small>Tue</small></td><td>Broadcast and Multicast</a></td><td></td></tr>
+            <tr><td><small>14</small>&nbsp;&nbsp;10/18 <small>Thu</small></td><td>Transport Layer 1</a></td><td></td></tr>
+            <tr><td><small>15</small>&nbsp;&nbsp;10/23 <small>Tue</small></td><td>Transport Layer 2</a></td><td></td></tr>
+            <tr><td><small>16</small>&nbsp;&nbsp;10/25 <small>Thu</small></td><td>Transport Layer 3</a></td><td></td></tr>
+            <tr><td><small>17</small>&nbsp;&nbsp;10/30 <small>Tue</small></td><td>Application Layer: DNS</a></td><td></td></tr>
+            <tr><td><small>18</small>&nbsp;&nbsp;11/01 <small>Thu</small></td><td>Application Layer: HTTP</a></td><td></td></tr>
+            <tr><td><small>19</small>&nbsp;&nbsp;11/06 <small>Tue</small></td><td>Client-Server and P2P</a></td><td></td></tr>
+            <tr><td><small>20</small>&nbsp;&nbsp;11/08 <small>Thu</small></td><td>CDN</a></td><td></td></tr>
+            <tr><td><small>21</small>&nbsp;&nbsp;11/13 <small>Tue</small></td><td>Network Security Basics</a></td><td></td></tr>
+            <tr><td><small>22</small>&nbsp;&nbsp;11/15 <small>Thu</small></td><td>HTTPS</a></td><td></td></tr>
+            <tr><td><small>23</small>&nbsp;&nbsp;11/20 <small>Tue</small></td><td>DNSSEC</a></td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;11/22 <small>Thu</small></td><td colspan=2><i>No class&mdash;Thanksgiving Holiday</i></td></tr>
+            <tr><td><small>24</small>&nbsp;&nbsp;11/27 <small>Tue</small></td><td>TBD</td><td></td></tr>
+            <tr><td><small>25</small>&nbsp;&nbsp;11/29 <small>Thu</small></td><td>TBD</td><td></td></tr>
+            <tr><td><small>26</small>&nbsp;&nbsp;12/04 <small>Tue</small></td><td>TBD</td><td></td></tr>
+            <tr><td><small>27</small>&nbsp;&nbsp;12/06 <small>Thu</small></td><td>Final Reviews</td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;TBA <small></small></td><td>Final Exam</td><td></td></tr>
+          </table>
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-3">
+        <div class="title-lowercase">
+          <div class="heading">Homeworks</div>
+          Homework assignments will be posted here as they become available.<p>&nbsp;<p>
+          <!--<a href="handouts/homework1.pdf">Homework 1</a> is due at the beginning of class on February 04th, 2015.<p>
+          <a href="handouts/homework2.pdf">Homework 2</a> is due at the beginning of class on February 11th, 2015.<p>
+          <a href="handouts/homework3.pdf">Homework 3</a> is due at the beginning of class on February 23rd, 2015.<p>
+          <a href="handouts/homework4.pdf">Homework 4</a> is due at the beginning of class on March 2nd, 2015.<p>
+          Homework 5 is cancelled.<p>
+          <a href="handouts/homework6.pdf">Homework 6</a> is due at the beginning of class on March 25h, 2015.<p>
+          <a href="handouts/homework7.pdf">Homework 7</a> is due at the beginning of class on April 1st, 2015.<p>
+          <a href="handouts/homework8.pdf">Homework 8</a> is due at the beginning of class on April 8th, 2015.<p>
+          <a href="handouts/homework9.pdf">Homework 9</a> is due at the beginning of class on April 15th, 2015.<p>
+          <a href="handouts/homework10.pdf">Homework 10</a> is due at the beginning of class on April 22nd, 2015.-->
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-4">
+        <div class="title-lowercase">
+          <div class="heading">Projects</div>
+          Project descriptions will be posted here as they become available.<p>&nbsp;<p>
+          <!--<a href="handouts/project0.pdf">Project 0</a>, worth 1% of your grade, is due at 11:59:59pm on January 21th, 2015.<p>
+          <a href="handouts/project1.pdf">Project 1</a>, worth 12% of your grade, is due at 11:59:59pm on February 16th, 2015.  The milestone for project 1 is due at 11:59:59pm on February 9th, 2015.  No slip days may be used on the milestone deadline.<p>
+          <a href="handouts/project2.pdf">Project 2</a>, worth 15% of your grade, is due at 11:59:59pm on March 16th, 2015.  The milestone for project 2 is due at 11:59:59pm on March 5th, 2015.  No slip days may be used on the milestone deadline.<p>
+          <a href="handouts/project3.pdf">Project 3</a>, worth 12% of your grade, is due at 11:59:59pm on March 30th, 2015 (Be sure read the <a href="handouts/project3-primer.pdf">Implementation Notes</a>).   The milestone for project 3 is due at 11:59:59pm on March 23rd, 2015.  No slip days may be used on the milestone deadline. <p>
+          <a href="handouts/project4.pdf">Project 4</a>, worth 15% of your grade, is due at 11:59:59pm on April 22nd, 2015. The milestones for project 4 are due at 11:59:59pm on April 6th, 2015, April 13th, 2015, and April 20th, 2015.  No slip days may be used on the milestone deadlines. <p> -->
+        </div>
+      </div>    
+
+      <div class="span-24 last" style="margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc">
+        <small>&copy; 2018 Taejoong Chung</small>
+      </div>
+    </div>    
+  </body>
+</html>
