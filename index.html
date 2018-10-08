@@ -74,9 +74,8 @@
     <div class="tab-content">
         <div class="tab-pane fade in active " id="profile">
             <div id="main" role ="main">
-                <div class="device-md hidden-xs"> </div>
                 <div class="col-md-12">
-                    <div class="container"> 
+                    <div class="container" id="jumbo">  
                         <div>
                             <img src="profile.jpeg" style="width: 20%; height: 20%" class="img-rounded" id = "picture" alt="Rounded Image">
                         </div>
@@ -93,11 +92,11 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
-                            <h2 class="center title" id ="education">Updates</h1>
+                        <div class="col-md-8" id="update">
+                            <h2 class="center title" >Updates</h1>
                             <ul class="updates" id="updatelist"> </ul>
                         </div> 
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="contact">
                             <h2>Contact</h2>
                             <p><a href="mailto:tjc@cs.rit.edu">tjc@cs.rit.edu</a></p> 
                             <address>
@@ -131,31 +130,31 @@
 
     <!-- PUBLICATION -->
 
-        <div class="tab-pane fade in active" id="publications">
-            <div id="main" role="main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12"><br><br>
-                            <h1 class="center title" >Publication</h1> 
-                            <div id = "publication">
+    <div class="tab-pane fade in active" id="publications">
+        <div id="main" role="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="publications-row"><br><br>
+                        <h1 class="center title" >Publication</h1> 
+                        <div id = "publication">
                             <ul id="pubslist" class="pubslist">
                             </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
     <!-- RESEARCH -->
 
         <div class="tab-pane fade" id="research">
             <div id="main" role="main">
                 <div class="container">
-                    <div class="row"> <br><br>
+                    <div class="row"> <br><br><br>
                         <h1> Active Projects </h1>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="researchItem">
                             <h3 class="header">Public Key Infrastructure (PKI)</h3>
                             <p> A public key infrastructure (PKI) provides secure communications between two different entities over an untrusted network. 
                             Due to this ability, PKIs are now central to security on the Internet: there are a number of large-scale PKIs in use today such as DNSSEC, HTTPS, and the RPKI.
@@ -163,18 +162,18 @@
                             </p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="researchItem">
                             <h3 class="header">Privacy Leakages</h3>
                             <p>
                             Recent years have seen the increased popularity and rapid growth in usage of multiple types of online social networks.
                             It is also becoming more easier to collect user's information from multiple sources and combining them to profile a specific person.
                             Exploiting abundant information obtained from online social network, we tried to attack and protect users from a such profiling attack.
-                            For example, our study showed that a user's LGBT status can be accurately inferred with 93\% accuracy, by applying a machine learning technique to predict users' personal traits such as sexual identities.
+                            For example, our study showed that a user's LGBT status can be accurately inferred with 93% accuracy, by applying a machine learning technique to predict users' personal traits such as sexual identities.
 
                             </p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="researchItem">
                             <h3 class="header">Social Network </h3>
                             <p>
                             Over the past decade, online social networks have become major platforms to create and disseminate content, exchange opinion, share news, etc.
@@ -189,7 +188,7 @@ To better understand the characteristics of online content, we conducted measure
                     </div>
                     <div class="row">
                         <h1> Past Projects </h1>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="researchItem">
                             <h3 class="header">Information Centric Networking (ICN) </h3>
                             <p>
                             
@@ -199,7 +198,7 @@ We built a Named Data Networking (NDN) router, which is a scalable for routing a
                             </p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="researchItem">
                             <h3 class="header">Peer-to-Peer (P2P) Network </h3>
                             <p>
                             P2P Networks solves many limitations derived from traditional server and client model.
@@ -412,7 +411,7 @@ To understand this, I developed a measurement framework monitoring more than 120
 
       <script>
 	var updates = "";
-	var num_updates = 4;
+	var num_updates = 8;
       
 	$(document).ready(function () {
 	  queue()

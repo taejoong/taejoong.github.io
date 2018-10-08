@@ -1,72 +1,96 @@
 <style>
+    
+    #profile{
+            background-color: #f9f9f9;
+            margin-top:30px;
+            margin-bottom:10px;
+    }
+
+    #jumbo{
+            background-color: #f9f9f9;
+            padding-top: 20px;
+            margin-bottom: 20px;
+    }
+
+    #update{
+            background-color: #f9f9f9;
+    }
+
+    #contact{
+            background-color: #f9f9f9;
+            float: right;
+    }
 
 
-	#profile{
-		background-color:white;
-		margin-top:30px;
-		margin-bottom:10px;
-	}
+    #picture{
+            width:40%;
+            margin-top:70px;
+            margin-right:30px;
+            float:left;
+    }
+    
+    #researchItem{
+        background-color: #f9f9f9;
+        margin-top: 20px;
+    }
 
-	#picture{
-		width:40%;
-		margin-top:70px;
-		margin-right:30px;
-		float:left;
-	}
+    #publications-row{
+            background-color: #f9f9f9;
+            margin-top:20px;
+    }
 
-	#introduction{
-		background-color:white;
-		margin-top:100px;
-	}
+    #introduction{
+            margin-top:100px;
+    }
 
-	#introduction span{
-		font-size:1.2em;
-	}
+    #introduction span{
+            font-size:1.2em;
+    }
 
-	.item-publication{
-		list-style-type: none;
-		font-size:1.0em;
-		padding:10px 0px 0px 0px;
-	}
-	
-	#education-list{
-		font-size:1.2em;
-		list-style-type:none;
-		padding:10px 0px 0px 0px;
-	}
-
-	#award-list{
-		font-size:1.2em;
-		list-style-type:none;
-		padding:5px 0px 0px 0px;
-	}
-
-	#career-list{
-		font-size:1.2em;
-		list-style-type:none;
-		padding:5px 0px 0px 0px;
-	}
-
-	#funding-list{
-		font-size:1.2em;
-		list-style-type:none;
-		padding:5px 0px 0px 0px;
-	}
-
-        ul.updates {
+    .item-publication{
             list-style-type: none;
-            padding-left:0;
-        }
+            font-size:1.0em;
+            padding:10px 0px 0px 0px;
+    }
+    
+    #education-list{
+            font-size:1.2em;
+            list-style-type:none;
+            padding:10px 0px 0px 0px;
+    }
 
-	.date {
-	  color: #223fbb;
-	  font-size: medium;
-	  font-family: monospace;
-	  font-weight: bold;
-	  padding-right: 1em;
-	  padding-left: 3em;
-	  vertical-align: 12.5%;
-	}
+    #award-list{
+            font-size:1.2em;
+            list-style-type:none;
+            padding:5px 0px 0px 0px;
+    }
+
+    #career-list{
+            font-size:1.2em;
+            list-style-type:none;
+            padding:5px 0px 0px 0px;
+    }
+
+    #funding-list{
+            font-size:1.2em;
+            list-style-type:none;
+            padding:5px 0px 0px 0px;
+    }
+
+    ul.updates {
+        list-style-type: none;
+        padding-left:0;
+    }
+
+    .date {
+      color: #223fbb;
+      font-size: medium;
+      font-family: monospace;
+      font-weight: bold;
+      padding-right: 1em;
+      padding-left: 3em;
+      vertical-align: 12.5%;
+    }
 
     li.pubs-heading {
       padding-bottom: 15px;
