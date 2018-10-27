@@ -1,5 +1,5 @@
 [
-    {"date": "10/27/2018", "text": "I am looking for *highly motivated* students to work on Security and Privacy project. Please email me if you are interested."},
+    {"date": "10/27/2018", "text": "<span style=\"color:red\">I am looking for *highly motivated* students to work on Security and Privacy project. Please email me if you are interested.</span>"},
     {"date": "09/14/2018", "text": "I gave a presentation at <a href='https://www.rit.edu/cybersecurity/great-lakes-security-day-2018'> Great Lakes Security Day </a> (GLSD) 2018 how PKI secures the Internet!"},
     {"date": "08/16/2018", "text": "I will be teaching CSCI351 Data Communication and Networking in Fall 2018. Course details are available <a href='https://taejoong.github.io/courses/csci-351/'>here</a>"},
     {"date": "08/15/2018", "text": "After wonderful years in Northeastern University, I have moved to RIT to start my career as an Assistant Professor. Thanks all of you, especially to my wonderful mentors, <a href='http://mislove.org'>Alan Mislove</a> and <a href='http://david.choffnes.com/'>Dave Choffnes</a>"},
