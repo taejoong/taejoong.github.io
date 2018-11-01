@@ -9,7 +9,8 @@
 	"booktitle_short":"IMC",
 	"month":"November",
 	"booktitle_type":"conference",
-	"type":"inproceedings"
+	"type":"inproceedings",
+        "file":"chung-2018-ocsp"
 },
 {
 	"title":"A First Look at Certification Authority Authorization (CAA)",
@@ -21,7 +22,8 @@
 	"vol":"48",
 	"pp":"2",
 	"journal_long":"ACM SIGCOMM Computer Communications Review",
-	"type":"article"
+	"type":"article",
+        "file":"quirin-2018-caa"
 },
 {
 	"title":"An End-to-End View of DNSSEC Ecosystem Management",
@@ -32,6 +34,7 @@
 	"vol":"42",
 	"pp":"4",
 	"journal_long":"The USENIX Magazine",
+        "file":"chung-2017-login",
 	"type":"article"
 },
 {
@@ -43,6 +46,7 @@
 	"year":"2018",
 	"booktitle_short":"CSCW",
 	"month":"November",
+        "file":"chung-2018-meetup",
 	"booktitle_type":"conference",
 	"type":"inproceedings"
 },
@@ -58,6 +62,7 @@
 	"booktitle_type":"conference",
 	"dataset":"http://securepki.org/imc17.html",
 	"type":"inproceedings",
+        "file":"chung-2017-registrar",
 	"award":"Finalist for Best Paper Award"
 },
 {
@@ -70,6 +75,7 @@
 	"booktitle_short":"TPRC",
 	"month":"September",
 	"booktitle_type":"conference",
+        "file":"chung-2017-tprc",
 	"dataset":"http://tft.ccs.neu.edu",
 	"type":"inproceedings"
 },
@@ -97,6 +103,7 @@
 	"booktitle_type":"conference",
 	"type":"inproceedings",
 	"dataset":"http://securepki.org/sec17.html",
+        "file":"chung-2017-dnssec",
 	"award":"Distinguished Paper Award"
 },
 {
@@ -110,6 +117,7 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
+        "file":"chung-2016-dnssec",
 	"dataset":"http://tft.ccs.neu.edu"
 },
 {
@@ -123,6 +131,7 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
+        "file":"chung-2016-invalid",
 	"dataset":"http://securepki.org/imc16-invalid.html"
 },
 {
@@ -136,6 +145,7 @@
 	"month":"October",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
+        "file":"cangialosi-2017-keysharing",
 	"dataset":"http://securepki.org/ccs16.html"
 },
 {
