@@ -1,6 +1,18 @@
 [
 {
 	"country":"USA",
+	"title":"maTLS: How to Make TLS middlebox-aware?",
+	"author":["Hyunwoo Lee", "Zachary Smith", "Junghwan Lim", "Gyeongjae Choi", "Selin Chun ", "Taejoong Chung", "Taekyoung Ted Kwon"],
+	"booktitle_long":"The Network and Distributed System Security Symposium",
+	"city":"San Diego",
+	"year":"2019",
+	"booktitle_short":"NDSS",
+	"month":"February",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
+	"country":"USA",
 	"title":"Is the Web Ready for OCSP Must Staple?",
 	"author":["Taejoong Chung", "Jay Lok", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "John Rula", "Nick Sullivan", "Christo Wilson"],
 	"booktitle_long":"ACM Internet Measurement Conference",
