@@ -1,4 +1,5 @@
 [
+    {"date": "12/10/2018", "text": "Our paper 'Understanding the Role of Registrars in DNSSEC Deployment' has been selected as one of the 2019 awardees of the <a href='https://irtf.org/anrp/'>Applied Networking Research Prize</a>"},
     {"date": "11/06/2018", "text": "Our work 'Is the Web Ready for OCSP Must Staple?' has been presented at Measurement and Analysis for Protocols Research Group (MAPRG) at <a href='https://tools.ietf.org/agenda/103/agenda-103-maprg-05.html'>IETF-103</a> by <a href='http://crypto.dance'>Nick Sullivan</a> who is the head of cryptography at <a href='http://cloudflare.com'>Cloudflare</a> "},
     {"date": "11/06/2018", "text": "Our paper 'maTLS: How to Make TLS middlebox-aware?' is accepted at <a href='https://www.ndss-symposium.org/ndss2019/'>NDSS'19</a>, big congrats to the leading author <a href='http://mmlab.snu.ac.kr/~hwlee2014/'>Hyunwoo Lee</a>."},
     {"date": "10/27/2018", "text": "<span style=\"color:red\">I am looking for *highly motivated* students to work on Security and Privacy project. Please email me if you are interested.</span>"},
