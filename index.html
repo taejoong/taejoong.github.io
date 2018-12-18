@@ -337,7 +337,7 @@ To understand this, I developed a measurement framework monitoring more than 120
      function renderpub(d) {
        var result = "";
        var authors = oxford(d["author"]);
-       var bibtex = "@" + d["type"] + "{" + d["key"] + ",\n  author = {" + d["author"].join(" and ") + "},\n  title = {{" + d["title"] + "}},\n";
+       var bibtex = "@" + d["type"] + "{" + d["file"] + ",\n  author = {" + d["author"].join(" and ") + "},\n  title = {{" + d["title"] + "}},\n";
      
        if (d["type"] == "inproceedings") {
          var conference_abbr = d["booktitle_short"] + "'" + d["year"].substring(2,4);
@@ -347,6 +347,7 @@ To understand this, I developed a measurement framework monitoring more than 120
          result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br>In <i>" + conference + "</i>, " + address + ", " + d["month"] + " " + d["year"]; 
          
          bibtex += "  booktitle = {" + conference + "},\n  address = {" + address + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
+
        } else if (d["type"] == "article") {
          result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["journal_long"] + (d["journal_short"] ? " (" + d["journal_short"] + ")" : "") + "</i>" + (d["volume"] ? " " + d["volume"] + (d["number"] ? "(" + d["number"] + ")" : "") : "") + ", " + d["month"] + " " + d["year"]; 
          bibtex += "  journal = {" + d["journal_long"] + "},\n" + (d["volume"] ? "  volume = {" + d["volume"] + "},\n" + (d["number"] ? "  number = {" + d["number"] + "},\n" : "") : "") + "  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
@@ -380,7 +381,7 @@ To understand this, I developed a measurement framework monitoring more than 120
          labels.push("<a href='" + d["note"] + "'><span class='label label-danger'>Link</span></a>");
        }
 
-       labels.push("<span class='label label-default' data-toggle='modal' data-target='#bibtex-" + d["key"] + "'>BibTeX</span><div class='modal fade' id='bibtex-" + d["key"] + "' role='dialog'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>BibTeX</h4></div><div class='modal-body'><pre>" + bibtex + "</pre></div></div></div></div>");
+       labels.push("<span class='label label-default' data-toggle='modal' data-target='#bibtex-" + d["file"] + "'>BibTeX</span><div class='modal fade' id='bibtex-" + d["file"] + "' role='dialog'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>BibTeX</h4></div><div class='modal-body'><pre>" + bibtex + "</pre></div></div></div></div>");
        
        if (d["slides"]) {
          labels.push("<a href='slides/" + d["slides"] + "'><span class='label label-default'>Slides</span></a>");
