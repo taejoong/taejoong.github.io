@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>CSCI-351 // Data Communication and Networks</title>
+    <title>CSCI-759 // Data Communication and Networks</title>
     <link rel="stylesheet" href="css/mine.css" type="text/css" media="screen, projection">	
     <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">	
@@ -26,11 +26,11 @@
   <body>
     <div class="container" style="padding-top: 10px">
       <div class="span-24 last shortdesc" align="right" style="margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc">
-        <div onClick="javascript:switchSlide(1);">CSCI-351 // Data Communication and Networks <br/>Fall 2018</div>
+        <div onClick="javascript:switchSlide(1);">CSCI-759 // Data Communication and Networks <br/>Spring 2019</div>
       </div>
       <div class="span-2 prepend-13 append-1"><div class="section"><a onClick="javascript:switchSlide(1);" href="#">Description</a></div></div>
       <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(2);" href="#">Schedule</a></div></div>
-      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(3);" href="#">Presentation</a></div></div>
+      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(3);" href="#">Papers</a></div></div>
       <div class="span-2 last"><div class="section"><a onClick="javascript:switchSlide(4);" href="#">Projects</a></div></div>
       
       <div class="span-7" >
@@ -39,7 +39,7 @@
           <div class="type">Instructor</div>
           Prof. Taejoong Chung<br>
           Office: GOL-3525<br>
-          <a href="mailto:tjc@cs.rit.edu?subject=[CSCI-351]&nbsp">tjc@cs.rit.edu</a><br>
+          <a href="mailto:tjc@cs.rit.edu?subject=[CSCI-759]&nbsp">tjc@cs.rit.edu</a><br>
           &nbsp;<br>
           
           <div class="type">Location</div>
@@ -49,13 +49,12 @@
           &nbsp;<br>
           
           <div class="type">Office hours</div>
-          TBD
+          Tuesday and Thursday, 9:15–10:30pm, GOL-3525
         </div>
         
         <div class="title">
           <div class="heading">Discussion Forum</div>
-          TBD
-          <!-- <a href="https://mycourses.rit.edu/d2l/le/713074/discussions/List">On Mycourses</a> -->
+          <a href="https://mycourses.rit.edu/d2l/le/739080/discussions/List">On Mycourses</a>
         </div>
         
         <div class="title">
@@ -76,7 +75,10 @@
         <div class="title">
           <div class="heading">Grading</div>
           <table border=0>
-              TBD
+              <tr><td>30%</td><td>Paper Presentation</td></tr>
+              <tr><td>20%</td><td>Paper Discussion</td></tr>
+              <tr><td>20%</td><td>Research Projects</td></tr>
+              <tr><td>30%</td><td>Participation</td></tr>
           </table>
         </div>      
 
@@ -94,10 +96,9 @@ This course instance belongs to the Distributed Systems cluster and Security clu
 
         <div class="title-lowercase">
           <div class="heading">attendance and participation</div>
-          <!--
-          This is a junior-level course; I will not mandate you to come to class (you are still responsible for all the material covered in class).  The class projects are a major part of this course, and please be aware that you will be working in groups of two.</p>
+          All students are requred to read the paper before the class and actively participate the in-class discussion. The class projects are a major part of this course.</p>
           
-          We will be using <a href="https://mycourses.rit.edu/d2l/le/713074/discussions/List">Mycourses</a> as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others' questions.  The professor will regularly monitor the board, and your participation will count towards your grade. -->
+          We will be using <a href="https://mycourses.rit.edu/d2l/le/739080/discussions/List">Mycourses</a> as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others' questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
         </div>       
         <div class="title-lowercase">
         </div>
@@ -106,20 +107,86 @@ This course instance belongs to the Distributed Systems cluster and Security clu
       <div class="span-17 last" style="display: none;" id="slide-2">
         <div class="title-lowercase">
           <div class="heading">Schedule</div>
-          TBD
+          Below is a rough schedule for the lectures in CSCI-759.  This is subject to change; please check back often. 
+
+<p>
+          &nbsp;
+          <table border=0>
+      <td><b>Lecture</b></td><td><b>Class</b></td><td><b>Topic</b></td><td><b>Paper</b></td><td><b>Presenter</b></td></th>
+      <tr><td><small>01</small>&nbsp;&nbsp;01/15<small>Tue</small></td><td>Offline</td><td>Intro and Course Overview</td><td>-</td><td>Prof. Chung </td></tr>
+      <tr><td><small>02</small>&nbsp;&nbsp;01/17<small>Thu</small></td><td>Offline</td><td>Network Protocols with PKI</td><td>-</td><td>Prof. Chung</td></tr>
+      <tr><td><small>03</small>&nbsp;&nbsp;01/22<small>Tue</small></td><td>Offline</td><td>DNSSEC</td><td>-</td><td>Prof. Chung</td></tr>
+      <tr><td><small>04</small>&nbsp;&nbsp;01/24<small>Thu</small></td><td>Online</td><td>DNSSEC</td><td>-</td><td>-</td></tr>
+      <tr><td><small>05</small>&nbsp;&nbsp;01/29<small>Tue</small></td><td>Offline</td><td>DNSSEC</td><td>-</td><td>Student</td></tr>
+      <tr><td><small>06</small>&nbsp;&nbsp;01/31<small>Thu</small></td><td>Online</td><td>DNSSEC</td><td>-</td><td>-</td></tr>
+      <tr><td><small>07</small>&nbsp;&nbsp;02/05<small>Tue</small></td><td>Offline</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>08</small>&nbsp;&nbsp;02/07<small>Thu</small></td><td>Online</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>09</small>&nbsp;&nbsp;02/12<small>Tue</small></td><td>Offline</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>10</small>&nbsp;&nbsp;02/14<small>Thu</small></td><td>Online</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>11</small>&nbsp;&nbsp;02/19<small>Tue</small></td><td>Offline</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>12</small>&nbsp;&nbsp;02/21<small>Thu</small></td><td>Online</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>&mdash;</small>&nbsp;&nbsp;02/26<small>Tue</small></td><td></td><td>No Class (NDSS Travel)</td><td>-</td><td>-</td></tr>
+      <tr><td><small>13</small>&nbsp;&nbsp;02/28<small>Thu</small></td><td>Online</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>14</small>&nbsp;&nbsp;03/05<small>Tue</small></td><td>Offline</td><td>Project Plan Presentation</td><td>-</td><td>-</td></tr>
+      <tr><td><small>&mdash;</small>&nbsp;&nbsp;03/07<small>Thu</small></td><td></td><td></td><td>No Class (Spring Break)</td><td>-</td></tr>
+      <tr><td><small>&mdash;</small>&nbsp;&nbsp;03/12<small>Tue</small></td><td></td><td></td><td>No Class (Spring Break)</td><td>-</td></tr>
+      <tr><td><small>15</small>&nbsp;&nbsp;03/14<small>Thu</small></td><td>Online</td><td>HTTPS</td><td>-</td><td>-</td></tr>
+      <tr><td><small>16</small>&nbsp;&nbsp;03/19<small>Tue</small></td><td>Offline</td><td>RPKI</td><td>-</td><td>-</td></tr>
+      <tr><td><small>17</small>&nbsp;&nbsp;03/21<small>Thu</small></td><td>Online</td><td>RPKI</td><td>-</td><td>-</td></tr>
+      <tr><td><small>&mdash;</small>&nbsp;&nbsp;03/26<small>Tue</small></td><td></td><td>No Class (travel)</td><td>-</td><td>-</td></tr>
+      <tr><td><small>18</small>&nbsp;&nbsp;03/28<small>Thu</small></td><td>Offline</td><td>RPKI</td><td>-</td><td>-</td></tr>
+      <tr><td><small>19</small>&nbsp;&nbsp;04/02<small>Tue</small></td><td>Offline</td><td>Email Security</td><td>-</td><td>-</td></tr>
+      <tr><td><small>20</small>&nbsp;&nbsp;04/04<small>Thu</small></td><td>Online</td><td>Email Security</td><td>-</td><td>-</td></tr>
+      <tr><td><small>21</small>&nbsp;&nbsp;04/09<small>Tue</small></td><td>Offline</td><td>Email Security</td><td>-</td><td>-</td></tr>
+      <tr><td><small>22</small>&nbsp;&nbsp;04/11<small>Thu</small></td><td>Online</td><td>Email Security</td><td>-</td><td>-</td></tr>
+      <tr><td><small>23</small>&nbsp;&nbsp;04/16<small>Tue</small></td><td>Offline</td><td>TBD</td><td>-</td><td>-</td></tr>
+      <tr><td><small>24</small>&nbsp;&nbsp;04/18<small>Thu</small></td><td>Online</td><td>TBD</td><td>-</td><td>-</td></tr>
+      <tr><td><small>25</small>&nbsp;&nbsp;04/23<small>Tue</small></td><td>Offline</td><td>TBD</td><td>-</td><td>-</td></tr>
+      <tr><td><small>26</small>&nbsp;&nbsp;04/25<small>Thu</small></td><td>Online</td><td>TBD</td><td>-</td><td>-</td></tr>
+          </table>
         </div>
       </div>
       
       <div class="span-17 last" style="display: none;" id="slide-3">
         <div class="title-lowercase">
-          <div class="heading">Presentation</div>
+          <div class="heading">Papers</div>
+          Below is a list of papers, which will be discussed at the class.
+          &nbsp;
+          <table border=0>
+          <td><b>Topic</b></td><td><b>ID</b></td><td><b>Paper</b></td></th>
+      <tr><td> DNSSEC </td><td> 01 </td><td> <a href=" https://taejoong.github.io/publications/chung-2017-dnssec.pdf "> A Longitudinal, End-to-End View of the DNSSEC Ecosystem [Security’17] </a></td></th>
+<tr><td> DNSSEC </td><td> 02 </td><td> <a href=" https://taejoong.github.io/publications/chung-2017-registrar.pdf "> Understanding the Role of Registrars in DNSSEC Deployment [IMC’17] </a></td></th>
+<tr><td> DNSSEC </td><td> 03 </td><td> <a href=" https://conferences2.sigcomm.org/imc/2014/papers/p449.pdf "> DNSSEC and Its Potential for DDoS Attacks [IMC’14] </a></td></th>
+<tr><td> HTTPS </td><td> 01 </td><td> <a href=" https://censys.io/static/censys.pdf "> Censys: A Search Engine Backed by Internet-Wide Scanning [CCS’15] </a></td></th>
+<tr><td> HTTPS </td><td> 02 </td><td> <a href=" https://mislove.org/publications/SSLClient-IMC.pdf "> An End-to-End Measurement of Certificate Revocation in the Web's PKI [IMC’15] </a></td></th>
+<tr><td> HTTPS </td><td> 03 </td><td> <a href=" https://mislove.org/publications/Invalid-IMC.pdf "> Measuring and Applying Invalid SSL Certificates: The Silent Majority [IMC’16] </a></td></th>
+<tr><td> HTTPS </td><td> 04 </td><td> <a href=" https://mislove.org/publications/KeySharing-CCS.pdf "> Measurement and Analysis of Private Key Sharing in the HTTPS Ecosystem [CCS’16] </a></td></th>
+<tr><td> HTTPS </td><td> 05 </td><td> <a href=" https://cacm.acm.org/magazines/2018/3/225489-analysis-of-ssl-certificate-reissues-and-revocations-in-the-wake-of-heartbleed/fulltext "> Analysis of SSL certificate reissues and revocations in the wake of Heartbleed [IMC’14] </a></td></th>
+<tr><td> HTTPS </td><td> 06 </td><td> <a href=" https://kumarde.com/papers/misissuance.pdf "> Tracking Certificate Misissuance in the Wild [Oakland’18] </a></td></th>
+<tr><td> HTTPS </td><td> 07 </td><td> <a href=" https://jhalderm.com/pub/papers/interception-ndss17.pdf "> The Security Impact of HTTPS Interception [NDSS17] </a></td></th>
+<tr><td> HTTPS </td><td> 08 </td><td> <a href=" https://arxiv.org/pdf/1809.08325 "> The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem [IMC’18] </a></td></th>
+<tr><td> HTTPS </td><td> 09 </td><td> <a href=" https://taejoong.github.io/publications/quirin-2018-caa.pdf "> A First Look at Certification Authority Authorization (CAA) [CCR’18] </a></td></th>
+<tr><td> HTTPS </td><td> 10 </td><td> <a href=" https://storage.googleapis.com/pub-tools-public-publication-data/pdf/314fca4308f1dd1faeeb975bf25f6904af0264f9.pdf "> Does Certificate Transparency Break the Web? Measuring Adoption and Error Rate [Oakland’19] </a></td></th>
+<tr><td> HTTPS </td><td> 11 </td><td> <a href=" https://taejoong.github.io/publications/chung-2018-ocsp.pdf "> Is the Web Ready for OCSP Must Staple? [IMC’18] </a></td></th>
+<tr><td> HTTPS </td><td> 12 </td><td> <a href=" https://www.icir.org/johanna/papers/imc17httpssecurity.pdf "> Mission Accomplished? HTTPS Security after DigiNotar [IMC’17] </a></td></th>
+<tr><td> HTTPS </td><td> 13 </td><td> <a href=" http://www.ccs.neu.edu/home/amislove/publications/CRLite-Oakland.pdf "> CRLite: a Scalable System for Pushing all TLS Revocations to All Browsers [Oakland’17] </a></td></th>
+<tr><td> Email </td><td> 01 </td><td> <a href=" https://cseweb.ucsd.edu/~klevchen/flmssl-ccs15.pdf "> Security by Any Other Name: On the Effectiveness of Provider Based Email Security [CCS’15] </a></td></th>
+<tr><td> Email </td><td> 02 </td><td> <a href=" https://conferences2.sigcomm.org/imc/2015/papers/p27.pdf "> Neither Snow Nor Rain Nor MITM... An Empirical Analysis of Email Delivery Security [IMC’15] </a></td></th>
+<tr><td> Email </td><td> 03 </td><td> <a href=" https://tools.ietf.org/html/rfc7671 "> RFC7671 </a></td></th>
+<tr><td> Email </td><td> 04 </td><td> <a href=" https://www.isi.edu/~johnh/PAPERS/Zhu15a.pdf "> Measuring DANE TLSA Deployment [TMA’15] </a></td></th>
+<tr><td> RPKI </td><td> 01 </td><td> <a href=" https://www.ausnog.net/sites/default/files/ausnog-2018/presentations/2.10.1_Aftab_Siddiqui_AusNOG2018_Lightning.pdf "> Why Is It Taking So Long to Secure Internet Routing [ACMQueue’14] </a></td></th>
+<tr><td> RPKI </td><td> 02 </td><td> <a href=" https://tools.ietf.org/html/rfc6480 "> RFC6480 </a></td></th>
+<tr><td> RPKI </td><td> 03 </td><td> <a href=" https://www.cs.bu.edu/~goldbe/papers/hotRPKI.pdf "> On the Risk of Misbehaving RPKI Authorities [hotnets’16] </a></td></th>
+<tr><td> RPKI </td><td> 04 </td><td> <a href=" https://eprint.iacr.org/2016/1015.pdf "> MaxLength Considered Harmful to the RPKI  [CoNEXT’17] </a></td></th>
+      </table>
+
         </div>
       </div>
       
       <div class="span-17 last" style="display: none;" id="slide-4">
         <div class="title-lowercase">
           <div class="heading">Projects</div>
-          Project descriptions will be posted here as they become available.<p>&nbsp;<p>
+          Students need to submit their project to Mycourses.
         </div>
       </div>    
 
