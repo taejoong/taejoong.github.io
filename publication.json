@@ -1,5 +1,17 @@
 [
 {
+	"title":"Predicting content consumption from content-to-content relationships",
+	"author":["Jinyoung Han", "Daejin Choi", "Taejoong Chung", "Chen-Nee Chuah", "Hyun-chul Kim", "Ted \"Taekyoung\" Kwon"],
+	"journal_short":"JNCA",
+	"year":"2019",
+	"month":"April",
+	"vol":"132",
+	"pp":"1-9",
+	"journal_long":"Elsevier Journal of Network and Computer Applications",
+	"type":"article"
+
+},
+{
 	"country":"USA",
 	"title":"maTLS: How to Make TLS middlebox-aware?",
 	"author":["Hyunwoo Lee", "Zachary Smith", "Junghwan Lim", "Gyeongjae Choi", "Selin Chun", "Taejoong Chung", "Ted \"Taekyoung\" Kwon"],
