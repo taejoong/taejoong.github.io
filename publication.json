@@ -1,5 +1,14 @@
 [
 {
+	"title":"Rolling with Confidence: Managing the Complexity of DNSSEC Operations",
+	"author":["Moritz Müller", "Taejoong Chung", "Alan Mislove","Roland van Rijswijk-Deij" ],
+	"journal_short":"IEEE TNSM",
+	"year":"2019",
+	"journal_long":"IEEE Transactions on Network and Service Management",
+	"type":"article"
+
+},
+{
 	"title":"Predicting Content Consumption from Content-to-Content Relationships",
 	"author":["Jinyoung Han", "Daejin Choi", "Taejoong Chung", "Chen-Nee Chuah", "Hyun-chul Kim", "Ted \"Taekyoung\" Kwon"],
 	"journal_short":"JNCA",
