@@ -1,5 +1,29 @@
 [
 {
+	"country":"USA",
+	"title":"RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins",
+	"author":["Taejoong Chung", "Emile Aben", "Tim Bruijnzeels", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Roland van Rijswijk-Deij", "John P. Rula", "Nick Sullivan"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Amsterdam",
+	"year":"2019",
+	"booktitle_short":"IMC",
+	"month":"October",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
+	"country":"USA",
+	"title":"Roll, Roll, Roll your Root: A Comprehensive Analysis of the First Ever DNSSEC Root KSK Rollover",
+	"author":["Moritz Müller", "Matthew Thomas", "Duane Wessels", "Wes Hardaker",  "Taejoong Chung", "Willem Toorop", "Roland van Rijswijk-Deij"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Amsterdam",
+	"year":"2019",
+	"booktitle_short":"IMC",
+	"month":"October",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"title":"Rolling with Confidence: Managing the Complexity of DNSSEC Operations",
 	"author":["Moritz Müller", "Taejoong Chung", "Alan Mislove","Roland van Rijswijk-Deij" ],
 	"journal_short":"IEEE TNSM",
