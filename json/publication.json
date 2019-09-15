@@ -21,7 +21,9 @@
 	"booktitle_short":"IMC",
 	"month":"October",
 	"booktitle_type":"conference",
-	"type":"inproceedings"
+	"type":"inproceedings",
+        "file":"chung-2019-rpki",
+        "dataset":"https://rpki-study.github.io"
 },
 {
 	"country":"Netherlands",
