@@ -1,4 +1,5 @@
 [
+    {"date": "09/15/2019", "text": "Our paper investigating domain impersonation (e.g., phishing) in TLS certificates will be presented at CCS'19!"},
     {"date": "07/23/2019", "text": "I gave a talk at <a href='https://www.ietf.org/how/meetings/105/'>IETF'105</a> for <a href='https://irtf.org/anrp/'>the ANRP award presentation</a> and this is now <a href='https://youtu.be/2HVtswVGmak?t=2163'>publicly available</a>. If you're interested in the current status and challenge of DNSSEC deployment please take a look!"},
     {"date": "07/18/2019", "text": "We have two papers accepted at IMC'2019 about two cool PKI stuffs: RPKI (Resource PKI) and DNSSEC!"},
     {"date": "05/04/2019", "text": "I am on the program committee for <a href='https://conferences.sigcomm.org/imc/2019/'>IMC 2019</a>. Submit your cool work!"},

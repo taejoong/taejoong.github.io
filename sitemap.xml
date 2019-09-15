@@ -147,7 +147,17 @@
   </url>
   
   <url>
+    <loc>https://taejoong.github.io/courses/csci-351-2018/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://taejoong.github.io/courses/csci-351/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://taejoong.github.io/courses/csci-759-2018/</loc>
     <priority>0</priority>
   </url>
   
