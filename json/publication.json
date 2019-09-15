@@ -1,5 +1,17 @@
 [
 {
+	"country":"United Kingdom ",
+	"title":"You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates",
+	"author":["Richard Roberts", "Yaelle Goldschlag", "Rachel Walter", "Taejoong Chung", "Alan Mislove", "Dave Levin"],
+	"booktitle_long":"The ACM Conference on Computer and Communications Security",
+	"city":"London",
+	"year":"2019",
+	"booktitle_short":"CCS",
+	"month":"November",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"country":"Netherlands",
 	"title":"RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins",
 	"author":["Taejoong Chung", "Emile Aben", "Tim Bruijnzeels", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Roland van Rijswijk-Deij", "John P. Rula", "Nick Sullivan"],
@@ -29,8 +41,10 @@
 	"journal_short":"IEEE TNSM",
 	"year":"2019",
 	"journal_long":"IEEE Transactions on Network and Service Management",
-	"type":"article"
-
+	"type":"article",
+	"month":"Sepember",
+	"vol":"16",
+	"pp":"3"
 },
 {
 	"country":"USA",
