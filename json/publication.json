@@ -13,6 +13,19 @@
 },
 {
 	"country":"Netherlands",
+	"title":"Tracking Registrar Support for DNSSEC: It's Slowly Getting Better (Reproducibility Track)",
+	"author":["Spencer Roth", "Roland van Rijswijk-Deij", "Taejoong Chung"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Amsterdam",
+	"year":"2019",
+	"booktitle_short":"IMC",
+	"month":"October",
+	"booktitle_type":"conference",
+	"type":"inproceedings",
+        "file":"spencer-2019-dnssec"
+},
+{
+	"country":"Netherlands",
 	"title":"RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins",
 	"author":["Taejoong Chung", "Emile Aben", "Tim Bruijnzeels", "Balakrishnan Chandrasekaran", "David Choffnes", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Roland van Rijswijk-Deij", "John P. Rula", "Nick Sullivan"],
 	"booktitle_long":"ACM Internet Measurement Conference",
