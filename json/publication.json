@@ -48,7 +48,8 @@
 	"booktitle_short":"IMC",
 	"month":"October",
 	"booktitle_type":"conference",
-	"type":"inproceedings"
+	"type":"inproceedings",
+	"award":"Best Paper Award"
 },
 {
 	"title":"Rolling with Confidence: Managing the Complexity of DNSSEC Operations",
