@@ -1,4 +1,5 @@
 [
+    {"date": "12/18/2019", "text": "Congrats to <a href='https://www.linkedin.com/in/jspencerroth/'>Spencer Roth</a>, an undergraduate student at RIT working on DNSSEC research, is selected for <a href='https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2020'>Honorable Mention for the CRA Outstanding Undergraduate Researcher Award!</a>"},
     {"date": "10/21/2019", "text": "Our DNSSEC Root KSK Rollover paper got a <a href='https://conferences.sigcomm.org/imc/2019/awards/'>Distinguished Paper Award</a> at IMC'19!"},
     {"date": "09/15/2019", "text": "Our paper investigating domain impersonation (e.g., phishing) in TLS certificates has been accepted at CCS'19!"},
     {"date": "07/23/2019", "text": "I gave a talk at <a href='https://www.ietf.org/how/meetings/105/'>IETF'105</a> for <a href='https://irtf.org/anrp/'>the ANRP award presentation</a> and this is now <a href='https://youtu.be/2HVtswVGmak?t=2163'>publicly available</a>. If you're interested in the current status and challenge of DNSSEC deployment please take a look!"},

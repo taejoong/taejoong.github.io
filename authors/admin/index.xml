@@ -6,7 +6,7 @@
     <description>Recent content on Taejoong (Tijay) Chung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://taejoong.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>An example preprint / working paper</title>
       <link>https://taejoong.github.io/pubs/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 -0400</pubDate>
       
       <guid>https://taejoong.github.io/pubs/preprint/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
@@ -41,7 +41,7 @@
     <item>
       <title>An example conference paper</title>
       <link>https://taejoong.github.io/pubs/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
       
       <guid>https://taejoong.github.io/pubs/conference-paper/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
@@ -50,7 +50,7 @@
     <item>
       <title></title>
       <link>https://taejoong.github.io/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 -0400</pubDate>
       
       <guid>https://taejoong.github.io/authors/admin/</guid>
       <description>My research lies at the intersection of Internet security and privacy, and measurement var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101097193);</description>
