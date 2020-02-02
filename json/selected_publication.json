@@ -1,5 +1,18 @@
 [
 {
+	"country":"United States",
+	"title":"A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email (Minor Revision)",
+	"author":["Hyeonmin Lee", "Aniketh Gireesh", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
+	"booktitle_long":"USENIX Security Symposium",
+	"city":"Boston",
+	"year":"2020",
+	"booktitle_short":"Security",
+	"month":"August",
+        "file":"",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
 	"country":"United Kingdom",
 	"title":"You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates",
 	"author":["Richard Roberts", "Yaelle Goldschlag", "Rachel Walter", "Taejoong Chung", "Alan Mislove", "Dave Levin"],
