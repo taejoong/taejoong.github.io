@@ -8,7 +8,7 @@
         "year":"2020",
         "booktitle_short":"Security",
         "month":"August",
-        "file":"lee-2020-dane.pdf",
+        "file":"lee-2020-dane",
         "dataset":"https://dane-study.github.io",
         "booktitle_type":"conference",
         "type":"inproceedings"
