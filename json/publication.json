@@ -1,16 +1,17 @@
 [
 {
-    "country":"United States",
-    "title":"A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email",
-    "author":["Hyeonmin Lee", "Aniketh Gireesh", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
-    "booktitle_long":"USENIX Security Symposium",
-    "city":"Boston",
-    "year":"2020",
-    "booktitle_short":"Security",
-    "month":"August",
-        "file":"",
-    "booktitle_type":"conference",
-    "type":"inproceedings"
+        "country":"United States",
+        "title":"A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email",
+        "author":["Hyeonmin Lee", "Aniketh Gireesh", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
+        "booktitle_long":"USENIX Security Symposium",
+        "city":"Boston",
+        "year":"2020",
+        "booktitle_short":"Security",
+        "month":"August",
+        "file":"lee-2020-dane.pdf",
+        "dataset":"https://dane-study.github.io",
+        "booktitle_type":"conference",
+        "type":"inproceedings"
 },
 {
 	"country":"United Kingdom",
