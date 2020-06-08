@@ -1,5 +1,17 @@
 [
 {
+    "country":"USA",
+    "title":"Assertion-Carrying Certificates",
+    "author":["Waqar Aqeel","Zachary Hanif","James Larisch","Olamide Omolola","Taejoong Chung","Dave Levin","Bruce Maggs","Alan Mislove","Bryan Parno","Christo Wilson"],
+    "booktitle_long":"Workshop on Foundations of Computer Security",
+    "city":"Boston",
+    "year":"2020",
+    "booktitle_short":"FCS",
+    "month":"Jun",
+    "booktitle_type":"workshop",
+    "type":"inproceedings"
+},
+{
         "country":"United States",
         "title":"A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email",
         "author":["Hyeonmin Lee", "Aniketh Gireesh", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
