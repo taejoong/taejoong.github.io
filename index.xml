@@ -765,23 +765,18 @@ $$&lt;/p&gt;
  This course examines basic network security models and public key infrastructure that entwines multiple layers of the network stack: application, transport, and network layer.
 Topics include concepts in basic threat models in networking, public key infrastructure, data-driven approach for securing Internet, etc. Students are required to write critiques on assigned papers, propose and complete a research project individually or in teams, and give presentations on a related topic.
 
-        &lt;/div&gt;
-
+        &lt;br&gt;
         &lt;br&gt;
           &lt;div class=&#34;heading&#34;&gt;Prerequisites&lt;/div&gt;
           CS4254: Computer Network Architecture and Programming &lt;span style=&#34;color:red&#34;&gt;or&lt;/span&gt; an equivalent course in computer networks at the senior or graduate level.
+          &lt;/div&gt;
 
-        &lt;/div&gt;
-
-        &lt;br&gt;
         &lt;div class=&#34;title-lowercase&#34;&gt;
           &lt;div class=&#34;heading&#34;&gt;attendance and participation&lt;/div&gt;
           All students are requred to read the paper before the class and actively participate the in-class discussion. The class projects are a major part of this course.&lt;/p&gt;
           
           We will be using &lt;a href=&#34;&#34;&gt;Canvas&lt;/a&gt; as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others&#39; questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
         &lt;/div&gt;       
-        &lt;div class=&#34;title-lowercase&#34;&gt;
-        &lt;/div&gt;
       &lt;/div&gt;
       
       &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-2&#34;&gt;
@@ -805,7 +800,6 @@ Topics include concepts in basic threat models in networking, public key infrast
         &lt;/table&gt;
      &lt;/div&gt;
       &lt;/div&gt;
-
         
       &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-3&#34;&gt;
         &lt;div class=&#34;title-lowercase&#34;&gt;
