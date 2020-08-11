@@ -1,5 +1,17 @@
 [
 {
+	"country":"United States",
+	"title":"The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle",
+	"author":["Moritz Mueller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Pittsburgh",
+	"year":"2020",
+	"booktitle_short":"IMC",
+	"month":"October",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
     "country":"USA",
     "title":"Assertion-Carrying Certificates",
     "author":["Waqar Aqeel","Zachary Hanif","James Larisch","Olamide Omolola","Taejoong Chung","Dave Levin","Bruce Maggs","Alan Mislove","Bryan Parno","Christo Wilson"],
