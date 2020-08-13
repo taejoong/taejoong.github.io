@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taejoong (Tijay) Chung</title>
+    <link>https://taejoong.github.io/</link>
+    <description>Recent content on Taejoong (Tijay) Chung</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://taejoong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://taejoong.github.io/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://taejoong.github.io/pubs/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://taejoong.github.io/pubs/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://taejoong.github.io/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/post/jupyter/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-new-blog-post-as-usual-https-sourcethemes-com-academic-docs-managing-content-create-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34; target=&#34;_blank&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
+hugo new  --kind post post/my-post
+cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
+&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir=.
+
+# Copy the contents of Untitled.md and append it to index.md:
+cat Untitled.md | tee -a index.md
+
+# Remove the temporary file:
+rm Untitled.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://taejoong.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/slides/example/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://taejoong.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Key Infrastructure</title>
+      <link>https://taejoong.github.io/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>https://taejoong.github.io/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup Academic&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34; target=&#34;_blank&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support development of Academic:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic sticker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
+
+&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;https://taejoong.github.io/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://taejoong.github.io/pubs/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>https://taejoong.github.io/pubs/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taejoong.github.io/courses/csci-351-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/courses/csci-351-2018/</guid>
+      <description>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;CSCI-351 // Data Communication and Networks&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/mine.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;	
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/screen.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/print.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;	
+          
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://use.typekit.com/cix2tql.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;try{Typekit.load();}catch(e){}&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+      function switchSlide(num) {
+        for (i=1; i&lt;=5; i++) {
+          var ele = document.getElementById(&#34;slide-&#34; + i);
+          if (ele) {
+            ele.style.display=&#34;none&#34;;          
+          }
+        }
+        
+        var ele = document.getElementById(&#34;slide-&#34; + num);
+        ele.style.display=&#34;block&#34;;
+      }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+    &lt;div class=&#34;container&#34; style=&#34;padding-top: 10px&#34;&gt;
+      &lt;div class=&#34;span-24 last shortdesc&#34; align=&#34;right&#34; style=&#34;margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc&#34;&gt;
+        &lt;div onClick=&#34;javascript:switchSlide(1);&#34;&gt;CSCI-351 // Data Communication and Networks &lt;br/&gt;Fall 2018&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;span-2 prepend-13 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(1);&#34; href=&#34;#&#34;&gt;Description&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(2);&#34; href=&#34;#&#34;&gt;Schedule&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(3);&#34; href=&#34;#&#34;&gt;Quizzes&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 last&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(4);&#34; href=&#34;#&#34;&gt;Projects&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      
+      &lt;div class=&#34;span-7&#34; &gt;
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course details&lt;/div&gt;
+          &lt;div class=&#34;type&#34;&gt;Instructor&lt;/div&gt;
+          Prof. Taejoong Chung&lt;br&gt;
+          Office: GOL-3525&lt;br&gt;
+          &lt;a href=&#34;mailto:tjc@cs.rit.edu?subject=[CSCI-351]&amp;nbsp&#34;&gt;tjc@cs.rit.edu&lt;/a&gt;&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Location&lt;/div&gt;
+          Gollisano Hall (GOL)-1455&lt;br&gt;
+          9:30&lt;small&gt;am&lt;/small&gt;&amp;ndash;10:45&lt;small&gt;am&lt;/small&gt;&lt;br&gt;
+          Tuesday, Thursdays&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Office hours&lt;/div&gt;
+          2:00&lt;small&gt;pm&lt;/small&gt;&amp;ndash;3:30&lt;small&gt;pm&lt;/small&gt; Tuesday &lt;small&gt;(instructor, GOL-3525)&lt;/small&gt;&lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Discussion Forum&lt;/div&gt;
+          &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/713074/discussions/List&#34;&gt;On Mycourses&lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;textbooks&lt;/div&gt;
+          &lt;a href=&#34;https://rit.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&amp;item=N&amp;langId=-1&amp;productId=600000683062&amp;storeId=35554&#34;&gt;Computer Networks: A Systems Approach&lt;/a&gt;&lt;br&gt;
+          5th Edition&lt;br&gt;
+          Peterson and Davie&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Handouts&lt;/div&gt;
+          &lt;a href=&#34;handouts/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;br&gt;
+        &lt;/div&gt;      
+          
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Grading&lt;/div&gt;
+          &lt;table border=0&gt;
+            &lt;tr&gt;&lt;td&gt;45%&lt;/td&gt;&lt;td&gt;Projects &lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;40%&lt;/td&gt;&lt;td&gt;Exams &lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;15%&lt;/td&gt;&lt;td&gt;Quizzes &lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;      
+
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; id=&#34;slide-1&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course description&lt;/div&gt;
+
+This course is an in-depth study of data communications and networks. The course covers design of, and algorithms and protocols used in, the physical, data link, network, transport, and application layers in the Internet; methods for modeling and analyzing networks and an introduction to network security. Programming projects will be required.
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;attendance and participation&lt;/div&gt;
+          This is a junior-level course; I will not mandate you to come to class (you are still responsible for all the material covered in class).  The class projects are a major part of this course, and please be aware that you will be working in groups of two.&lt;/p&gt;
+          
+          We will be using &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/713074/discussions/List&#34;&gt;Mycourses&lt;/a&gt; as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others&#39; questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
+        &lt;/div&gt;      
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-2&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Schedule&lt;/div&gt;
+          Below is a rough schedule for the lectures in CSCI-351.  This is subject to change; please check back often. Acknowledgement: lecture slides are built with the help of Prof. &lt;a href=&#34;http://mislove.org&#34;&gt;Alan Mislove&lt;/a&gt;, &lt;a href=&#34;http://cbw.sh&#34;&gt;Christo Wilson&lt;/a&gt;, and &lt;a href=&#34;http://david.choffnes.com&#34;&gt; David Choffnes&lt;/a&gt;&#39;s class.
+
+&lt;p&gt;
+          &amp;nbsp;
+          &lt;table border=0&gt;
+            &lt;the&gt;&lt;td&gt;&lt;b&gt;Lecture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Topic and slides&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Due Date(s)&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/28 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/1-Intro.key&#34;&gt;Intro and Course Overview&lt;/a&gt;, &lt;a href=&#34;handouts/2-History.key&#34;&gt;History of the Internet&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/30 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/3-Architecture.key&#34;&gt;Networking Architecture&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/3-Architecture.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;03&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/04 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/4-C-Sockets.key&#34;&gt;Socket Programming&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/4-C-Sockets.pdf&#34;&gt;(PDF)&lt;/a&gt;, &lt;a href=&#34;handouts/5-Physical.key&#34;&gt;Physical Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/5-Physical.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;04&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/06 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/6-Data-Link.key&#34;&gt;Link Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;05&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/11 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/6-Data-Link.key&#34;&gt;Link Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pdf&#34;&gt;(PDF)&lt;/a&gt;, &lt;a href=&#34;handouts/7-Bridging.key&#34;&gt;Bridging&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/7-Bridging.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;06&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/13 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/8-Network.key&#34;&gt;Internet Protocol&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 1 Milestone&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;07&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/18 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/8-Network.key&#34;&gt;Internet Protocol&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;08&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/20 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/9-Intra-Domain-Routing.key&#34;&gt;Intra-domain Routing&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/9-Intra-Domain-Routing.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 1 Submission&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;09&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/25 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/10-Inter-Domain-Routing.key&#34;&gt;Inter-domain Routing&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/10-Inter-Domain-Routing.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;10&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/27 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/11-NAT.key&#34;&gt;NAT&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/11-NAT.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;11&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/02 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/12-DNS.key&#34;&gt;DNS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 2 Announced&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;12&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/04 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/12-DNS.key&#34;&gt;DNS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pdf&#34;&gt;(PDF)&lt;/a&gt; and &lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/09 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No class&amp;mdash;October Break&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Project 2 Milestone&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;13&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/11 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Midterm Reviews&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/16 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Midterm Exam&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;14&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/18 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer 1&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 2 Submission&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;15&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/23 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer 2&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;16&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/25 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer 3&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;17&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/30 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/14-P2P.key&#34;&gt;Client-Server and P2P&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/14-P2P.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;18&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/01 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/15-HTTP.key&#34;&gt;Application Layer: HTTP&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;19&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/06 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No Class&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;20&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/08 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/16-CDN.key&#34;&gt;Application Layer: CDN&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 3 Announced&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;18&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/13 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/15-HTTP.key&#34;&gt;Application Layer: HTTP&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;22&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/15 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/17-Security-Basics.key&#34;&gt;Network Security Basics&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/17-Security-Basics.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/17-Security-Basics.pdf&#34;&gt;(PDF)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;23&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/20 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 4 Announced&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/22 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No class&amp;mdash;Thanksgiving Holiday&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Project 3 Submission&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;24&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/27 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&amp;nbsp;
+                &lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;25&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/29 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;26&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/04 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;27&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/06 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Final Reviews&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/11 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No Class&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;strike&gt;Project 4 Submission -- You survived :)&lt;/strike&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/13 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Final Exam&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/14 &lt;small&gt;Fri&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Project 4 Submission -- You survived :)&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-3&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Quizzes&lt;/div&gt;
+          Quizzes and answers will be posted here as they become available.&lt;p&gt;&amp;nbsp;&lt;p&gt;
+          &lt;a href=&#34;handouts/quiz1.pdf&#34;&gt;Quiz 1&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz2-bonus.pdf&#34;&gt;Quiz 2 (Bonus)&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz3.pdf&#34;&gt;Quiz 3&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz4.pdf&#34;&gt;Quiz 4&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz5.pdf&#34;&gt;Quiz 5&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz6.pdf&#34;&gt;Quiz 6&lt;/a&gt; is available.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz7.pdf&#34;&gt;Quiz 7&lt;/a&gt; is available, the best example is &lt;a href=&#34;handouts/quiz7-best.jp2&#34;&gt;here&lt;/a&gt;.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz8.pdf&#34;&gt;Quiz 8&lt;/a&gt; is available, the best example is &lt;a href=&#34;handouts/quiz8-best.jp2&#34;&gt;here&lt;/a&gt;.&lt;p&gt; 
+          &lt;a href=&#34;handouts/quiz9.pdf&#34;&gt;Quiz 9&lt;/a&gt; is available, the best example is &lt;a href=&#34;handouts/quiz9-best.jpg&#34;&gt;here&lt;/a&gt;.&lt;p&gt; 
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-4&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Projects&lt;/div&gt;
+          Project descriptions will be posted here as they become available.&lt;p&gt;&amp;nbsp;&lt;p&gt;
+          &lt;a href=&#34;handouts/project1.pdf&#34;&gt;Project 1&lt;/a&gt;, worth 10% of your (project) grade, is due at 11:59:59pm on September 20, 2018.&lt;p&gt;
+          &lt;a href=&#34;handouts/project2.pdf&#34;&gt;Project 2&lt;/a&gt;, worth 20% of your (project) grade, is due at 11:59:59pm on October 18, 2018.&lt;p&gt;
+          &lt;a href=&#34;handouts/project3.pdf&#34;&gt;Project 3&lt;/a&gt;, worth 30% of your (project) grade, is due at 11:59:59pm on November 22, 2018. &lt;span style=&#34;color:red&#34;&gt;(Minor document changes at Nov 18, 2018) &lt;/span&gt;&lt;p&gt;
+          &lt;a href=&#34;handouts/project4.pdf&#34;&gt;Project 4&lt;/a&gt;, worth 40% of your (project) grade, is due at 11:59:59pm on December 11, 2018. &lt;span style=&#34;color:red&#34;&gt; &lt;/span&gt;&lt;p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;    
+
+      &lt;div class=&#34;span-24 last&#34; style=&#34;margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc&#34;&gt;
+        &lt;small&gt;&amp;copy; The design of this website is based on the work of Professor Alan Mislove &lt;/small&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;    
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taejoong.github.io/courses/csci-351/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/courses/csci-351/</guid>
+      <description>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;CSCI-351 // Data Communication and Networks&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/mine.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;	
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/screen.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/print.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;	
+          
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://use.typekit.com/cix2tql.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;try{Typekit.load();}catch(e){}&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+      function switchSlide(num) {
+        for (i=1; i&lt;=5; i++) {
+          var ele = document.getElementById(&#34;slide-&#34; + i);
+          if (ele) {
+            ele.style.display=&#34;none&#34;;          
+          }
+        }
+        
+        var ele = document.getElementById(&#34;slide-&#34; + num);
+        ele.style.display=&#34;block&#34;;
+      }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+    &lt;div class=&#34;container&#34; style=&#34;padding-top: 10px&#34;&gt;
+      &lt;div class=&#34;span-24 last shortdesc&#34; align=&#34;right&#34; style=&#34;margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc&#34;&gt;
+        &lt;div onClick=&#34;javascript:switchSlide(1);&#34;&gt;CSCI-351 // Data Communication and Networks &lt;br/&gt;Fall 2019&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;span-2 prepend-13 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(1);&#34; href=&#34;#&#34;&gt;Description&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(2);&#34; href=&#34;#&#34;&gt;Schedule&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(3);&#34; href=&#34;#&#34;&gt;Quizzes&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 last&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(4);&#34; href=&#34;#&#34;&gt;Projects&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      
+      &lt;div class=&#34;span-7&#34; &gt;
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course details&lt;/div&gt;
+          &lt;div class=&#34;type&#34;&gt;Instructor&lt;/div&gt;
+          Prof. Taejoong Chung&lt;br&gt;
+          Office: GOL-3525&lt;br&gt;
+          &lt;a href=&#34;mailto:tjc@cs.rit.edu?subject=[CSCI-351]&amp;nbsp&#34;&gt;tjc@cs.rit.edu&lt;/a&gt;&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Location&lt;/div&gt;
+          Gollisano Hall (GOL)-1455&lt;br&gt;
+          9:30&lt;small&gt;am&lt;/small&gt;&amp;ndash;10:45&lt;small&gt;am&lt;/small&gt;&lt;br&gt;
+          Tuesday, Thursdays&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Office hours&lt;/div&gt;
+          2:00&lt;small&gt;pm&lt;/small&gt;&amp;ndash;3:30&lt;small&gt;pm&lt;/small&gt; Tuesday &lt;small&gt;(instructor, GOL-3525)&lt;/small&gt;&lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Discussion Forum&lt;/div&gt;
+          &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/767561/discussions/List&#34;&gt;On Mycourses&lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;textbooks&lt;/div&gt;
+          &lt;a href=&#34;https://rit.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&amp;item=N&amp;langId=-1&amp;productId=600000683062&amp;storeId=35554&#34;&gt;Computer Networks: A Systems Approach&lt;/a&gt;&lt;br&gt;
+          5th Edition&lt;br&gt;
+          Peterson and Davie&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Handouts&lt;/div&gt;
+          &lt;a href=&#34;handouts/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;br&gt;
+        &lt;/div&gt;      
+          
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Grading&lt;/div&gt;
+          &lt;table border=0&gt;
+            &lt;tr&gt;&lt;td&gt;40%&lt;/td&gt;&lt;td&gt;Projects &lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;60%&lt;/td&gt;&lt;td&gt;Exams &lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;      
+
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; id=&#34;slide-1&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course description&lt;/div&gt;
+
+This course is an in-depth study of data communications and networks. The course covers design of, and algorithms and protocols used in, the physical, data link, network, transport, and application layers in the Internet; methods for modeling and analyzing networks and an introduction to network security. Programming projects will be required.
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;attendance and participation&lt;/div&gt;
+          This is a junior-level course; I will not mandate you to come to class (you are still responsible for all the material covered in class).  The class projects are a major part of this course, and please be aware that you will be working in groups of two.&lt;/p&gt;
+          
+          We will be using &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/767561/discussions/List&#34;&gt;Mycourses&lt;/a&gt; as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others&#39; questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
+        &lt;/div&gt;      
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-2&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Schedule&lt;/div&gt;
+          Below is a rough schedule for the lectures in CSCI-351.  This is subject to change; please check back often. Acknowledgement: lecture slides are built with the help of Prof. &lt;a href=&#34;http://mislove.org&#34;&gt;Alan Mislove&lt;/a&gt;, &lt;a href=&#34;http://cbw.sh&#34;&gt;Christo Wilson&lt;/a&gt;, and &lt;a href=&#34;http://david.choffnes.com&#34;&gt; David Choffnes&lt;/a&gt;&#39;s class.
+
+&lt;p&gt;
+          &amp;nbsp;
+          &lt;table border=0&gt;
+            &lt;the&gt;&lt;td&gt;&lt;b&gt;Lecture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Topic and slides&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Due Date(s)&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/27 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/1-Intro.key&#34;&gt;Intro and Course Overview&lt;/a&gt;, &lt;a href=&#34;handouts/2-History.key&#34;&gt;History of the Internet&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/29 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/3-Architecture.key&#34;&gt;Networking Architecture&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/3-Architecture.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/3-Architecture.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;03&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/03 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/4-C-Sockets.key&#34;&gt;Socket Programming&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/4-C-Sockets.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/4-C-Sockets.pdf&#34;&gt;(PDF)&lt;/a&gt; &lt;a href=&#34;handouts/5-Physical.key&#34;&gt;Physical Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/5-Physical.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/5-Physical.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;04&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/05 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/6-Data-Link.key&#34;&gt;Link Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 1 Released&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;05&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/10 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/6-Data-Link.key&#34;&gt;Link Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/6-Data-Link.pdf&#34;&gt;(PDF)&lt;/a&gt; &lt;a href=&#34;handouts/7-Bridging.key&#34;&gt;Bridging&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/7-Bridging.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/7-Bridging.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;06&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/12 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/8-Network.key&#34;&gt;Internet Protocol&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;07&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/17 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/8-Network.key&#34;&gt;Internet Protocol&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/8-Network.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;08&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/19 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/9-Intra-Domain-Routing.key&#34;&gt;Intra-domain Routing&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/9-Intra-Domain-Routing.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/9-Intra-Domain-Routing.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 1 Deadline&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;09&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/24 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/10-Inter-Domain-Routing.key&#34;&gt;Inter-domain Routing&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/10-Inter-Domain-Routing.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/10-Inter-Domain-Routing.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;10&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/26 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/11-NAT.key&#34;&gt;NAT&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/11-NAT.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/11-NAT.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;11&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/01 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/12-DNS.key&#34;&gt;DNS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;12&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/03 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/12-DNS.key&#34;&gt;DNS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/12-DNS.pdf&#34;&gt;(PDF)&lt;/a&gt; and &lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;13&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/08 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer 1&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;14&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/10 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/13-Transport-1.key&#34;&gt;Transport Layer 2&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/13-Transport-1.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 2 Released&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/15 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No class&amp;mdash;October Break&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;15&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/17 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt; Midterm reviews&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;16&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/22 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt; Midterm&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;17&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/24 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/16-CDN.key&#34;&gt;Application Layer: CDN&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;18&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/29 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/14-P2P.key&#34;&gt;Client-Server and P2P&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/14-P2P.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/14-P2P.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;(Prof. Zhao)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;19&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/31 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/16-CDN.key&#34;&gt;Application Layer: CDN&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Project 2 Deadline&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;20&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/05 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/15-HTTP.key&#34;&gt;Application Layer: HTTP&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/15-HTTP.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;(Prof. Kwon)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;21&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/07 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/16-CDN.key&#34;&gt;Other Application Layers (Tentative)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/16-CDN.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;22&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/12 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/17-Security-Basics.key&#34;&gt;Network Security Basics&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/17-Security-Basics.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/17-Security-Basics.pdf&#34;&gt;(PDF)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/14 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No class&amp;mdash;CCS Travel &lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;23&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/19 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;24&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/21 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/18-DNSSEC.key&#34;&gt;DNSSEC&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/18-DNSSEC.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&amp;nbsp; &lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;25&lt;/small&gt;&amp;nbsp;&amp;nbsp;11/26 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;10/28 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No class&amp;mdash;Thanksgiving Holiday&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;26&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/03 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/19-TLS.key&#34;&gt;HTTPS&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pptx&#34;&gt;(pptx)&lt;/a&gt;&amp;nbsp;&lt;a href=&#34;handouts/19-TLS.pdf&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;27&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/05 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Final Reviews&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/10 &lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;No Class&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;12/12 &lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Final Exam&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-3&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Quizzes&lt;/div&gt;
+          Quizzes and answers will be posted here as they become available.&lt;p&gt;&amp;nbsp;&lt;p&gt;
+                  &lt;a href=&#34;handouts/quiz1.pdf&#34;&gt;Quiz 1&lt;/a&gt; is available.&lt;p&gt;
+        &lt;a href=&#34;handouts/quiz2.pdf&#34;&gt;Quiz 2&lt;/a&gt; is available.&lt;p&gt;
+        &lt;a href=&#34;handouts/quiz3.pdf&#34;&gt;Quiz 3&lt;/a&gt; is available.&lt;p&gt;
+        &lt;a href=&#34;handouts/quiz4.pdf&#34;&gt;Quiz 4&lt;/a&gt; is available.&lt;p&gt;
+        &lt;a href=&#34;handouts/quiz5.pdf&#34;&gt;Quiz 5&lt;/a&gt; is available.&lt;p&gt;
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-4&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Projects&lt;/div&gt;
+          Project descriptions will be posted here as they become available.&lt;p&gt;&amp;nbsp;&lt;p&gt;
+          &lt;a href=&#34;handouts/project1.pdf&#34;&gt;Project 1&lt;/a&gt;, worth 15% of your (project) grade, is due at 11:59:59pm on September 19, 2019.&lt;/p&gt;
+          &lt;a href=&#34;handouts/project2.pdf&#34;&gt;Project 2&lt;/a&gt;, worth 45% of your (project) grade, is due at 11:59:59pm on October 31, 2019.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;    
+
+      &lt;div class=&#34;span-24 last&#34; style=&#34;margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc&#34;&gt;
+        &lt;small&gt;&amp;copy; The design of this website is based on the work of Professor Alan Mislove &lt;/small&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;    
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taejoong.github.io/courses/csci-759-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/courses/csci-759-2018/</guid>
+      <description>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security &lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/mine.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;	
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/screen.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/print.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;	
+    
+          
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://use.typekit.com/cix2tql.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;try{Typekit.load();}catch(e){}&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+      function switchSlide(num) {
+        for (i=1; i&lt;=5; i++) {
+          var ele = document.getElementById(&#34;slide-&#34; + i);
+          if (ele) {
+            ele.style.display=&#34;none&#34;;          
+          }
+        }
+        
+        var ele = document.getElementById(&#34;slide-&#34; + num);
+        ele.style.display=&#34;block&#34;;
+      }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+    &lt;div class=&#34;container&#34; style=&#34;padding-top: 10px&#34;&gt;
+      &lt;div class=&#34;span-24 last shortdesc&#34; align=&#34;right&#34; style=&#34;margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc&#34;&gt;
+        &lt;div onClick=&#34;javascript:switchSlide(1);&#34;&gt;CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security &lt;br/&gt;Spring 2019&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;span-2 prepend-13 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(1);&#34; href=&#34;#&#34;&gt;Description&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(2);&#34; href=&#34;#&#34;&gt;Schedule&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(3);&#34; href=&#34;#&#34;&gt;Papers&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 last&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(4);&#34; href=&#34;#&#34;&gt;Projects&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      
+      &lt;div class=&#34;span-7&#34; &gt;
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course details&lt;/div&gt;
+          &lt;div class=&#34;type&#34;&gt;Instructor&lt;/div&gt;
+          Prof. Taejoong Chung&lt;br&gt;
+          Office: GOL-3525&lt;br&gt;
+          &lt;a href=&#34;mailto:tjc@cs.rit.edu?subject=[CSCI-759]&amp;nbsp&#34;&gt;tjc@cs.rit.edu&lt;/a&gt;&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Location&lt;/div&gt;
+          Gollisano Hall (GOL)-3435&lt;br&gt;
+          8:00&lt;small&gt;am&lt;/small&gt;&amp;ndash;09:15&lt;small&gt;am&lt;/small&gt;&lt;br&gt;
+          Tuesday, Thursdays&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Office hours&lt;/div&gt;
+          Tuesday 9:15–10:30pm, GOL-3525 and email me to schedule an appointment
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Discussion Forum&lt;/div&gt;
+          &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/739080/discussions/List&#34;&gt;On Mycourses&lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;textbooks &lt;/div&gt;
+          Introduction to Public Key Infrastructures  &lt;br&gt;
+          By Johannes A. Buchmann, Evangelos Karatsiolis, Alexander Wiesmaier &lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          &lt;br&gt;
+          &lt;a href=&#34;https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf&#34;&gt;Engineering Security&lt;/a&gt;&lt;br&gt;
+          By Peter Gutmann &lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Handouts&lt;/div&gt;
+          &lt;a href=&#34;handouts/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;br&gt;
+        &lt;/div&gt;      
+          
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Grading&lt;/div&gt;
+          &lt;table border=0&gt;
+              &lt;tr&gt;&lt;td&gt;35%&lt;/td&gt;&lt;td&gt;Paper Presentation&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Paper Discussion&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Research Projects&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;25%&lt;/td&gt;&lt;td&gt;Participation&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;      
+
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; id=&#34;slide-1&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course description&lt;/div&gt;
+          A public key infrastructure (PKI) provides secure communications between two different entities over an untrusted network. Due to this ability, PKIs are now central to security on the Internet: there are a number of large-scale PKIs in use today such as DNSSEC, HTTPS, and the RPKI.
+ This course examines basic network security models and public key infrastructure that entwines multiple layers of the network stack: application, transport, and network layer.
+Topics include concepts in basic threat models in networking, public key infrastructure, data-driven approach for securing Internet, etc. Students are required to write critiques on assigned papers, propose and complete a research project individually or in teams, and give presentations on a related topic.
+This course instance belongs to the Distributed Systems cluster and Security cluster.
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;attendance and participation&lt;/div&gt;
+          All students are requred to read the paper before the class and actively participate the in-class discussion. The class projects are a major part of this course.&lt;/p&gt;
+          
+          We will be using &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/739080/discussions/List&#34;&gt;Mycourses&lt;/a&gt; as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others&#39; questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
+        &lt;/div&gt;       
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-2&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Schedule&lt;/div&gt;
+          Below is a rough schedule for the lectures in CSCI-759.  This is subject to change; please check back often. 
+
+&lt;p&gt;
+          &amp;nbsp;
+          &lt;table border=0&gt;
+      &lt;td&gt;&lt;b&gt;Lecture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Topic&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Paper&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presenter&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/15&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-01.pdf&#34;&gt;Intro and Course Overview&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/17&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-02-intro.pdf&#34;&gt;Network Protocols with PKI&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;03&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/22&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;04&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/24&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Sanchitha, Aniruddha Govind, Bharath Suresh&lt;br&gt;(-) Kunal, Ruta, Peter (L)&lt;br&gt;(Org.) Jesal &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;05&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/29&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 03&lt;/td&gt;&lt;td&gt;Thomas, Peter (C) &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;06&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/31&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 03&lt;/td&gt;&lt;td&gt;(+) Rupa, Giovanni, Tanay Pramod&lt;br&gt;(-) Thomas, Peter (C), Sanchitha&lt;br&gt;(Org.) Aniruddha Govind &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;07&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/05&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-07-TLS.pdf&#34;&gt;HTTPS&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intro + 11&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;08&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/07&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;(+) Thomas, Peter (C), Giovanni &lt;br&gt;(-) Tanay Pramod, Rupa, Peter (L) &lt;br&gt;(Org.) Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;09&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/12&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;10&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/14&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Sanchitha, Aniruddha Govind, Thomas &lt;br&gt;(-) Peter (C), Giovanni, Tanay Pramod &lt;br&gt;(Org.) Rupa &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;11&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/19&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Aniruddha Govind, Rupa&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;12&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/21&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Peter (L), Bharath Suresh, Sanchitha &lt;br&gt;(-) Aniruddha Govind, Thomas, Peter (C) &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/26&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (NDSS Travel)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;13&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/28&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;05, 06&lt;/td&gt;&lt;td&gt;Peter (C), Sanchitha&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;14&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/05&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;07, 08&lt;/td&gt;&lt;td&gt;Bharath Suresh, Thomas&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;15&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/07&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;05, 06, 07, 08&lt;/td&gt;&lt;td&gt;(+) Aniruddha Govind, Tanay Pramod, Bharath Suresh &lt;br&gt;(-) Sanchitha, Giovanni, Thomas&lt;br&gt;(Org.) Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/12&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (Spring Break)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/14&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (Spring Break)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;16&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/19&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;09, 10&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;17&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/21&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;09, 10&lt;/td&gt;&lt;td&gt;(+) Rupa, Giovanni, Tanay Pramod &lt;br&gt;(-) Sanchitha, Aniruddha Govind, Thomas &lt;br&gt;(Org.) Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;-&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/26&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;No Class &lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;18-19&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/28&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Offline/Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;12, 13&lt;/td&gt;&lt;td&gt;Presenter: Rupa, Sanchitha &lt;br&gt; (+) Bharath Suresh, Rupa, Tanay Pramod &lt;br&gt;(-) Aniruddha Govind, Sanchitha, Peter (C)&lt;br&gt; (Org.) Giovanni&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;20&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/02&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Bharath Suresh, Aniruddha Govind&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;21&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/04&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Giovanni, Tanay Pramod, Rupa, &lt;br&gt;(-) Bharath Suresh, Sanchitha, Aniruddha Govind &lt;br&gt;(Org.) Thomas&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;22&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/09&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Thomas, Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;23&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/11&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Peter C, Giovanni, Tanay Pramod, &lt;br&gt;(-) Rupa, Bharath Suresh, Sanchitha, &lt;br&gt;(Org.) Aniruddha Govind&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;24&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/16&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;25&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/18&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Thomas, Peter C, Giovani &lt;br&gt;(-) Aniruddha Govind, Rupa, Bharath Suresh, &lt;br&gt;(Org.) Sanchitha&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;26&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/23&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Rupa, Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;27&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/25&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Aniruddha Govind, Thomas, Sanchitha, &lt;br&gt;(-) Giovanni, Tanay Pramod, Rupa &lt;br&gt; (Org.) Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+        
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-3&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Papers&lt;/div&gt;
+          Below is a list of papers, which will be discussed at the class.
+          &amp;nbsp;
+          &lt;table border=0&gt;
+          &lt;td&gt;&lt;b&gt;Topic&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Paper&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+      &lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2017-dnssec.pdf &#34;&gt; A Longitudinal, End-to-End View of the DNSSEC Ecosystem [Security’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2017-registrar.pdf &#34;&gt; Understanding the Role of Registrars in DNSSEC Deployment [IMC’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://conferences2.sigcomm.org/imc/2014/papers/p449.pdf &#34;&gt; DNSSEC and Its Potential for DDoS Attacks [IMC’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://censys.io/static/censys.pdf &#34;&gt; Censys: A Search Engine Backed by Internet-Wide Scanning [CCS’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/SSLClient-IMC.pdf &#34;&gt; An End-to-End Measurement of Certificate Revocation in the Web&#39;s PKI [IMC’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/Invalid-IMC.pdf &#34;&gt; Measuring and Applying Invalid SSL Certificates: The Silent Majority [IMC’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/KeySharing-CCS.pdf &#34;&gt; Measurement and Analysis of Private Key Sharing in the HTTPS Ecosystem [CCS’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 05 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/Heartbleed-IMC.pdf&#34;&gt; Analysis of SSL certificate reissues and revocations in the wake of Heartbleed [IMC’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 06 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://kumarde.com/papers/misissuance.pdf &#34;&gt; Tracking Certificate Misissuance in the Wild [Oakland’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 07 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://jhalderm.com/pub/papers/interception-ndss17.pdf &#34;&gt; The Security Impact of HTTPS Interception [NDSS17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 08 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://arxiv.org/pdf/1809.08325 &#34;&gt; The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem [IMC’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 09 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/quirin-2018-caa.pdf &#34;&gt; A First Look at Certification Authority Authorization (CAA) [CCR’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 10 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://storage.googleapis.com/pub-tools-public-publication-data/pdf/314fca4308f1dd1faeeb975bf25f6904af0264f9.pdf &#34;&gt; Does Certificate Transparency Break the Web? Measuring Adoption and Error Rate [Oakland’19] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 11 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2018-ocsp.pdf &#34;&gt; Is the Web Ready for OCSP Must Staple? [IMC’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 12 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.icir.org/johanna/papers/imc17httpssecurity.pdf &#34;&gt; Mission Accomplished? HTTPS Security after DigiNotar [IMC’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 13 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; http://www.ccs.neu.edu/home/amislove/publications/CRLite-Oakland.pdf &#34;&gt; CRLite: a Scalable System for Pushing all TLS Revocations to All Browsers [Oakland’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://cseweb.ucsd.edu/~klevchen/flmssl-ccs15.pdf &#34;&gt; Security by Any Other Name: On the Effectiveness of Provider Based Email Security [CCS’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://conferences2.sigcomm.org/imc/2015/papers/p27.pdf &#34;&gt; Neither Snow Nor Rain Nor MITM... An Empirical Analysis of Email Delivery Security [IMC’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://tools.ietf.org/html/rfc7671 &#34;&gt; RFC7671 &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.isi.edu/~johnh/PAPERS/Zhu15a.pdf &#34;&gt; Measuring DANE TLSA Deployment [TMA’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://queue.acm.org/detail.cfm?id=2668966&#34; &gt; Why Is It Taking So Long to Secure Internet Routing [ACMQueue’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://tools.ietf.org/html/rfc6480 &#34;&gt; RFC6480 &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.cs.bu.edu/~goldbe/papers/hotRPKI.pdf &#34;&gt; On the Risk of Misbehaving RPKI Authorities [hotnets’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://eprint.iacr.org/2016/1015.pdf &#34;&gt; MaxLength Considered Harmful to the RPKI  [CoNEXT’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+      &lt;/table&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-4&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Projects&lt;/div&gt;
+          The description of project logistics is here &lt;a href=&#34;handouts/csci-759-04-project.pdf&#34;&gt;here&lt;/a&gt;
+          Students need to submit their project to Mycourses.
+        &lt;/div&gt;
+      &lt;/div&gt;    
+
+      &lt;div class=&#34;span-24 last&#34; style=&#34;margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc&#34;&gt;
+        &lt;small&gt;&amp;copy; The design of this website is based on the work of Professor Alan Mislove &lt;/small&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;    
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taejoong.github.io/courses/csci-759/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/courses/csci-759/</guid>
+      <description>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security &lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/mine.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;	
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/screen.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/print.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;	
+    &lt;!--[if lt IE 8]&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;css/blueprint/ie.css&#34; type=&#34;text/css&#34; media=&#34;screen, projection&#34;&gt;&lt;![endif]--&gt;
+          
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://use.typekit.com/cix2tql.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;try{Typekit.load();}catch(e){}&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+      function switchSlide(num) {
+        for (i=1; i&lt;=5; i++) {
+          var ele = document.getElementById(&#34;slide-&#34; + i);
+          if (ele) {
+            ele.style.display=&#34;none&#34;;          
+          }
+        }
+        
+        var ele = document.getElementById(&#34;slide-&#34; + num);
+        ele.style.display=&#34;block&#34;;
+      }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+    &lt;div class=&#34;container&#34; style=&#34;padding-top: 10px&#34;&gt;
+      &lt;div class=&#34;span-24 last shortdesc&#34; align=&#34;right&#34; style=&#34;margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc&#34;&gt;
+        &lt;div onClick=&#34;javascript:switchSlide(1);&#34;&gt;CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security &lt;br/&gt;Spring 2019&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;span-2 prepend-13 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(1);&#34; href=&#34;#&#34;&gt;Description&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(2);&#34; href=&#34;#&#34;&gt;Schedule&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 append-1&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(3);&#34; href=&#34;#&#34;&gt;Papers&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&#34;span-2 last&#34;&gt;&lt;div class=&#34;section&#34;&gt;&lt;a onClick=&#34;javascript:switchSlide(4);&#34; href=&#34;#&#34;&gt;Projects&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+      
+      &lt;div class=&#34;span-7&#34; &gt;
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course details&lt;/div&gt;
+          &lt;div class=&#34;type&#34;&gt;Instructor&lt;/div&gt;
+          Prof. Taejoong Chung&lt;br&gt;
+          Office: GOL-3525&lt;br&gt;
+          &lt;a href=&#34;mailto:tjc@cs.rit.edu?subject=[CSCI-759]&amp;nbsp&#34;&gt;tjc@cs.rit.edu&lt;/a&gt;&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Location&lt;/div&gt;
+          Gollisano Hall (GOL)-3435&lt;br&gt;
+          8:00&lt;small&gt;am&lt;/small&gt;&amp;ndash;09:15&lt;small&gt;am&lt;/small&gt;&lt;br&gt;
+          Tuesday, Thursdays&lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          
+          &lt;div class=&#34;type&#34;&gt;Office hours&lt;/div&gt;
+          Tuesday 9:15–10:30pm, GOL-3525 and email me to schedule an appointment
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Discussion Forum&lt;/div&gt;
+          &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/739080/discussions/List&#34;&gt;On Mycourses&lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;textbooks &lt;/div&gt;
+          Introduction to Public Key Infrastructures  &lt;br&gt;
+          By Johannes A. Buchmann, Evangelos Karatsiolis, Alexander Wiesmaier &lt;br&gt;
+          &amp;nbsp;&lt;br&gt;
+          &lt;br&gt;
+          &lt;a href=&#34;https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf&#34;&gt;Engineering Security&lt;/a&gt;&lt;br&gt;
+          By Peter Gutmann &lt;br&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Handouts&lt;/div&gt;
+          &lt;a href=&#34;handouts/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;br&gt;
+        &lt;/div&gt;      
+          
+        &lt;div class=&#34;title&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Grading&lt;/div&gt;
+          &lt;table border=0&gt;
+              &lt;tr&gt;&lt;td&gt;35%&lt;/td&gt;&lt;td&gt;Paper Presentation&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Paper Discussion&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Research Projects&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;25%&lt;/td&gt;&lt;td&gt;Participation&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;      
+
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; id=&#34;slide-1&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Course description&lt;/div&gt;
+          A public key infrastructure (PKI) provides secure communications between two different entities over an untrusted network. Due to this ability, PKIs are now central to security on the Internet: there are a number of large-scale PKIs in use today such as DNSSEC, HTTPS, and the RPKI.
+ This course examines basic network security models and public key infrastructure that entwines multiple layers of the network stack: application, transport, and network layer.
+Topics include concepts in basic threat models in networking, public key infrastructure, data-driven approach for securing Internet, etc. Students are required to write critiques on assigned papers, propose and complete a research project individually or in teams, and give presentations on a related topic.
+This course instance belongs to the Distributed Systems cluster and Security cluster.
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;attendance and participation&lt;/div&gt;
+          All students are requred to read the paper before the class and actively participate the in-class discussion. The class projects are a major part of this course.&lt;/p&gt;
+          
+          We will be using &lt;a href=&#34;https://mycourses.rit.edu/d2l/le/739080/discussions/List&#34;&gt;Mycourses&lt;/a&gt; as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others&#39; questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
+        &lt;/div&gt;       
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-2&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Schedule&lt;/div&gt;
+          Below is a rough schedule for the lectures in CSCI-759.  This is subject to change; please check back often. 
+
+&lt;p&gt;
+          &amp;nbsp;
+          &lt;table border=0&gt;
+      &lt;td&gt;&lt;b&gt;Lecture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Topic&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Paper&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presenter&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/15&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-01.pdf&#34;&gt;Intro and Course Overview&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/17&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-02-intro.pdf&#34;&gt;Network Protocols with PKI&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;03&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/22&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;04&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/24&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Sanchitha, Aniruddha Govind, Bharath Suresh&lt;br&gt;(-) Kunal, Ruta, Peter (L)&lt;br&gt;(Org.) Jesal &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;05&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/29&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 03&lt;/td&gt;&lt;td&gt;Thomas, Peter (C) &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;06&lt;/small&gt;&amp;nbsp;&amp;nbsp;01/31&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;01, 03&lt;/td&gt;&lt;td&gt;(+) Rupa, Giovanni, Tanay Pramod&lt;br&gt;(-) Thomas, Peter (C), Sanchitha&lt;br&gt;(Org.) Aniruddha Govind &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;07&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/05&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-07-TLS.pdf&#34;&gt;HTTPS&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intro + 11&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;08&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/07&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;(+) Thomas, Peter (C), Giovanni &lt;br&gt;(-) Tanay Pramod, Rupa, Peter (L) &lt;br&gt;(Org.) Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;09&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/12&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;10&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/14&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Sanchitha, Aniruddha Govind, Thomas &lt;br&gt;(-) Peter (C), Giovanni, Tanay Pramod &lt;br&gt;(Org.) Rupa &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;11&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/19&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Aniruddha Govind, Rupa&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;12&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/21&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Peter (L), Bharath Suresh, Sanchitha &lt;br&gt;(-) Aniruddha Govind, Thomas, Peter (C) &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/26&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (NDSS Travel)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;13&lt;/small&gt;&amp;nbsp;&amp;nbsp;02/28&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;05, 06&lt;/td&gt;&lt;td&gt;Peter (C), Sanchitha&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;14&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/05&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;07, 08&lt;/td&gt;&lt;td&gt;Bharath Suresh, Thomas&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;15&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/07&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;05, 06, 07, 08&lt;/td&gt;&lt;td&gt;(+) Aniruddha Govind, Tanay Pramod, Bharath Suresh &lt;br&gt;(-) Sanchitha, Giovanni, Thomas&lt;br&gt;(Org.) Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/12&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (Spring Break)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/14&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;No Class (Spring Break)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;16&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/19&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;09, 10&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;17&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/21&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;09, 10&lt;/td&gt;&lt;td&gt;(+) Rupa, Giovanni, Tanay Pramod &lt;br&gt;(-) Sanchitha, Aniruddha Govind, Thomas &lt;br&gt;(Org.) Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;-&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/26&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;No Class &lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;18-19&lt;/small&gt;&amp;nbsp;&amp;nbsp;03/28&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Offline/Online&lt;/td&gt;&lt;td&gt;HTTPS&lt;/td&gt;&lt;td&gt;12, 13&lt;/td&gt;&lt;td&gt;Presenter: Rupa, Sanchitha &lt;br&gt; (+) Bharath Suresh, Rupa, Tanay Pramod &lt;br&gt;(-) Aniruddha Govind, Sanchitha, Peter (C)&lt;br&gt; (Org.) Giovanni&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;20&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/02&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Bharath Suresh, Aniruddha Govind&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;21&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/04&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Giovanni, Tanay Pramod, Rupa, &lt;br&gt;(-) Bharath Suresh, Sanchitha, Aniruddha Govind &lt;br&gt;(Org.) Thomas&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;22&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/09&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Thomas, Peter (C)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;23&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/11&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;RPKI&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Peter C, Giovanni, Tanay Pramod, &lt;br&gt;(-) Rupa, Bharath Suresh, Sanchitha, &lt;br&gt;(Org.) Aniruddha Govind&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;24&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/16&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;Giovanni, Tanay Pramod&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;25&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/18&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;01, 02&lt;/td&gt;&lt;td&gt;(+) Thomas, Peter C, Giovani &lt;br&gt;(-) Aniruddha Govind, Rupa, Bharath Suresh, &lt;br&gt;(Org.) Sanchitha&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;26&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/23&lt;small&gt;Tue&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Offline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;Rupa, Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;small&gt;27&lt;/small&gt;&amp;nbsp;&amp;nbsp;04/25&lt;small&gt;Thu&lt;/small&gt;&lt;/td&gt;&lt;td&gt;Online&lt;/td&gt;&lt;td&gt;Email Security&lt;/td&gt;&lt;td&gt;03, 04&lt;/td&gt;&lt;td&gt;(+) Aniruddha Govind, Thomas, Sanchitha, &lt;br&gt;(-) Giovanni, Tanay Pramod, Rupa &lt;br&gt; (Org.) Bharath Suresh&lt;/td&gt;&lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+        &lt;!-- 
+            Queue (round robin):
+            v Thomas 
+            v Peter (C) 
+            V Giovanni
+            V Tanay Pramod
+            V Rupa 
+            Peter (L) - Dropped
+            Bharath Suresh 
+            Sanchitha 
+            V Aniruddha Govind 
+        --&gt;
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-3&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Papers&lt;/div&gt;
+          Below is a list of papers, which will be discussed at the class.
+          &amp;nbsp;
+          &lt;table border=0&gt;
+          &lt;td&gt;&lt;b&gt;Topic&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Paper&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
+      &lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2017-dnssec.pdf &#34;&gt; A Longitudinal, End-to-End View of the DNSSEC Ecosystem [Security’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2017-registrar.pdf &#34;&gt; Understanding the Role of Registrars in DNSSEC Deployment [IMC’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; DNSSEC &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://conferences2.sigcomm.org/imc/2014/papers/p449.pdf &#34;&gt; DNSSEC and Its Potential for DDoS Attacks [IMC’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://censys.io/static/censys.pdf &#34;&gt; Censys: A Search Engine Backed by Internet-Wide Scanning [CCS’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/SSLClient-IMC.pdf &#34;&gt; An End-to-End Measurement of Certificate Revocation in the Web&#39;s PKI [IMC’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/Invalid-IMC.pdf &#34;&gt; Measuring and Applying Invalid SSL Certificates: The Silent Majority [IMC’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/KeySharing-CCS.pdf &#34;&gt; Measurement and Analysis of Private Key Sharing in the HTTPS Ecosystem [CCS’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 05 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://mislove.org/publications/Heartbleed-IMC.pdf&#34;&gt; Analysis of SSL certificate reissues and revocations in the wake of Heartbleed [IMC’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 06 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://kumarde.com/papers/misissuance.pdf &#34;&gt; Tracking Certificate Misissuance in the Wild [Oakland’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 07 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://jhalderm.com/pub/papers/interception-ndss17.pdf &#34;&gt; The Security Impact of HTTPS Interception [NDSS17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 08 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://arxiv.org/pdf/1809.08325 &#34;&gt; The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem [IMC’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 09 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/quirin-2018-caa.pdf &#34;&gt; A First Look at Certification Authority Authorization (CAA) [CCR’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 10 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://storage.googleapis.com/pub-tools-public-publication-data/pdf/314fca4308f1dd1faeeb975bf25f6904af0264f9.pdf &#34;&gt; Does Certificate Transparency Break the Web? Measuring Adoption and Error Rate [Oakland’19] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 11 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://taejoong.github.io/publications/chung-2018-ocsp.pdf &#34;&gt; Is the Web Ready for OCSP Must Staple? [IMC’18] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 12 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.icir.org/johanna/papers/imc17httpssecurity.pdf &#34;&gt; Mission Accomplished? HTTPS Security after DigiNotar [IMC’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; HTTPS &lt;/td&gt;&lt;td&gt; 13 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; http://www.ccs.neu.edu/home/amislove/publications/CRLite-Oakland.pdf &#34;&gt; CRLite: a Scalable System for Pushing all TLS Revocations to All Browsers [Oakland’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://cseweb.ucsd.edu/~klevchen/flmssl-ccs15.pdf &#34;&gt; Security by Any Other Name: On the Effectiveness of Provider Based Email Security [CCS’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://conferences2.sigcomm.org/imc/2015/papers/p27.pdf &#34;&gt; Neither Snow Nor Rain Nor MITM... An Empirical Analysis of Email Delivery Security [IMC’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://tools.ietf.org/html/rfc7671 &#34;&gt; RFC7671 &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; Email &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.isi.edu/~johnh/PAPERS/Zhu15a.pdf &#34;&gt; Measuring DANE TLSA Deployment [TMA’15] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 01 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://queue.acm.org/detail.cfm?id=2668966&#34; &gt; Why Is It Taking So Long to Secure Internet Routing [ACMQueue’14] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 02 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://tools.ietf.org/html/rfc6480 &#34;&gt; RFC6480 &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 03 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://www.cs.bu.edu/~goldbe/papers/hotRPKI.pdf &#34;&gt; On the Risk of Misbehaving RPKI Authorities [hotnets’16] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt; RPKI &lt;/td&gt;&lt;td&gt; 04 &lt;/td&gt;&lt;td&gt; &lt;a href=&#34; https://eprint.iacr.org/2016/1015.pdf &#34;&gt; MaxLength Considered Harmful to the RPKI  [CoNEXT’17] &lt;/a&gt;&lt;/td&gt;&lt;/th&gt;
+      &lt;/table&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;span-17 last&#34; style=&#34;display: none;&#34; id=&#34;slide-4&#34;&gt;
+        &lt;div class=&#34;title-lowercase&#34;&gt;
+          &lt;div class=&#34;heading&#34;&gt;Projects&lt;/div&gt;
+          The description of project logistics is here &lt;a href=&#34;handouts/csci-759-04-project.pdf&#34;&gt;here&lt;/a&gt;
+          Students need to submit their project to Mycourses.
+        &lt;/div&gt;
+      &lt;/div&gt;    
+
+      &lt;div class=&#34;span-24 last&#34; style=&#34;margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc&#34;&gt;
+        &lt;small&gt;&amp;copy; The design of this website is based on the work of Professor Alan Mislove &lt;/small&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;    
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
