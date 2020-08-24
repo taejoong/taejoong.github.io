@@ -774,7 +774,8 @@ Topics include concepts in basic threat models in networking, public key infrast
 
         &lt;div class=&#34;title-lowercase&#34;&gt;
           &lt;div class=&#34;heading&#34;&gt;Synchronous vs. Asynchornous lecture &lt;/div&gt;
-          &lt;span style=&#34;color:red&#34;&gt;If you are interested in taking the course, but you can&#39;t due to the time conflict (it starts at 5:30pm on Mondays and Wednesdays), please feel free to email me. I can use mix of sync/async course delivery.&lt;/span&gt;
+          &lt;!--&lt;span style=&#34;color:red&#34;&gt;If you are interested in taking the course, but you can&#39;t due to the time conflict (it starts at 5:30pm on Mondays and Wednesdays), please feel free to email me. I can use mix of sync/async course delivery.&lt;/span&gt; --&gt;
+          &lt;span style=&#34;color:red&#34;&gt;This course will be delivered in both asynhronous and synchronous ways; all lectures and discussions will be recorded and posted on Canvas so that you can follow up if you happen to miss the class. Thus, this class does not consider your attendance when it comes to grading. However, you are still required to do a presentation every 4~5 weeks in a synchronous way for active discussion. If you cannot make it on your presentation date, please reach out to me earlier so that I can schedule it accordingly in advance.&lt;/span&gt;
           &lt;/div&gt;
 
 
