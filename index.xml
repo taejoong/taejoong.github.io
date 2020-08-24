@@ -752,9 +752,8 @@ $$&lt;/p&gt;
           &lt;div class=&#34;heading&#34;&gt;Grading&lt;/div&gt;
           &lt;table border=0&gt;
               &lt;tr&gt;&lt;td&gt;35%&lt;/td&gt;&lt;td&gt;Paper Presentation&lt;/td&gt;&lt;/tr&gt;
-              &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Paper Discussion&lt;/td&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;45%&lt;/td&gt;&lt;td&gt;Paper Discussion&lt;/td&gt;&lt;/tr&gt;
               &lt;tr&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;Research Projects&lt;/td&gt;&lt;/tr&gt;
-              &lt;tr&gt;&lt;td&gt;25%&lt;/td&gt;&lt;td&gt;Participation&lt;/td&gt;&lt;/tr&gt;
           &lt;/table&gt;
         &lt;/div&gt;      
 
@@ -797,8 +796,8 @@ Topics include concepts in basic threat models in networking, public key infrast
           &amp;nbsp;
           &lt;table border=0&gt;
       &lt;td&gt;&lt;b&gt;Lecture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Topic&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Paper&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presenter&lt;/b&gt;&lt;/td&gt;&lt;/th&gt;
-  &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/24&lt;small&gt;Mon&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-01.pdf&#34;&gt;Intro and Course Overview&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung &lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/26&lt;small&gt;Wed&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/csci-759-02-intro.pdf&#34;&gt;Network Protocols with PKI&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;01&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/24&lt;small&gt;Mon&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;handouts/cs6204-1.pdf&#34;&gt;Intro and Course Overview&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;small&gt;02&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/26&lt;small&gt;Wed&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;&#34;&gt;Network Protocols with PKI&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;small&gt;03&lt;/small&gt;&amp;nbsp;&amp;nbsp;08/31&lt;small&gt;Mon&lt;/small&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;small&gt;04&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/02&lt;small&gt;Wed&lt;/small&gt;&lt;/td&gt;&lt;td&gt;DNSSEC&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Prof. Chung&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;small&gt;&amp;mdash;&lt;/small&gt;&amp;nbsp;&amp;nbsp;09/07&lt;small&gt;Mon&lt;/small&gt;&lt;/td&gt;&lt;td&gt;No Class (Labor day)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
