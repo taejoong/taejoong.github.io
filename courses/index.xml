@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taejoong (Tijay) Chung</title>
@@ -9,96 +9,6 @@
     
 	<atom:link href="https://taejoong.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/courses/cs6204/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/courses/cs6204/</guid>
-      <description>CS 6204 Public Key Infrastructure and Network Security   try{Typekit.load();}catch(e){} function switchSlide(num) { for (i=1; i  CS 6204 Public Key Infrastructure and Network Security Fall 2020  Description Schedule Papers Projects Course details Instructor Prof. Taejoong Chung
-Office: 2228 tijay@vt.edu
-&amp;nbsp;
-Location Zoom (https://virginiatech.zoom.us/j/96951450434) 05:30pm&amp;ndash;06:45pm
-Mondays, Wednesdays
-&amp;nbsp;
-Office hours 03:00pm&amp;ndash;04:30pm
-on Wednesdays (Virtual) (Link is available on Canvas)  Discussion Forum https://canvas.vt.edu/courses/115628  textbooks  Introduction to Public Key Infrastructures By Johannes A.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/courses/csci-351-2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/courses/csci-351-2018/</guid>
-      <description>CSCI-351 // Data Communication and Networks  try{Typekit.load();}catch(e){} function switchSlide(num) { for (i=1; i  CSCI-351 // Data Communication and Networks Fall 2018  Description Schedule Quizzes Projects Course details Instructor Prof. Taejoong Chung
-Office: GOL-3525
-tjc@cs.rit.edu
-&amp;nbsp;
-Location Gollisano Hall (GOL)-1455
-9:30am&amp;ndash;10:45am
-Tuesday, Thursdays
-&amp;nbsp;
-Office hours 2:00pm&amp;ndash;3:30pm Tuesday (instructor, GOL-3525)
- Discussion Forum On Mycourses  textbooks Computer Networks: A Systems Approach
-5th Edition
-Peterson and Davie</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/courses/csci-351/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/courses/csci-351/</guid>
-      <description>CSCI-351 // Data Communication and Networks  try{Typekit.load();}catch(e){} function switchSlide(num) { for (i=1; i  CSCI-351 // Data Communication and Networks Fall 2019  Description Schedule Quizzes Projects Course details Instructor Prof. Taejoong Chung
-Office: GOL-3525
-tjc@cs.rit.edu
-&amp;nbsp;
-Location Gollisano Hall (GOL)-1445
-9:30am&amp;ndash;10:45am
-Tuesday, Thursdays
-&amp;nbsp;
-Office hours 2:00pm&amp;ndash;3:30pm Tuesday (instructor, GOL-3525)
- Discussion Forum On Mycourses  textbooks Computer Networks: A Systems Approach
-5th Edition
-Peterson and Davie</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/courses/csci-759-2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/courses/csci-759-2019/</guid>
-      <description>CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security   try{Typekit.load();}catch(e){} function switchSlide(num) { for (i=1; i  CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security Spring 2019  Description Schedule Papers Projects Course details Instructor Prof. Taejoong Chung
-Office: GOL-3525
-tjc@cs.rit.edu
-&amp;nbsp;
-Location Gollisano Hall (GOL)-3435
-8:00am&amp;ndash;09:15am
-Tuesday, Thursdays
-&amp;nbsp;
-Office hours Tuesday 9:15–10:30pm, GOL-3525 and email me to schedule an appointment  Discussion Forum On Mycourses  textbooks  Introduction to Public Key Infrastructures By Johannes A.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/courses/csci-759/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/courses/csci-759/</guid>
-      <description>CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security   try{Typekit.load();}catch(e){} function switchSlide(num) { for (i=1; i  CSCI-759 // Topics In Systems: Public Key Infrastructure and Network Security Spring 2019  Description Schedule Papers Projects Course details Instructor Prof. Taejoong Chung
-Office: GOL-3525
-tjc@cs.rit.edu
-&amp;nbsp;
-Location Gollisano Hall (GOL)-3435
-8:00am&amp;ndash;09:15am
-Tuesday, Thursdays
-&amp;nbsp;
-Office hours Tuesday 9:15–10:30pm, GOL-3525 and email me to schedule an appointment  Discussion Forum On Mycourses  textbooks  Introduction to Public Key Infrastructures By Johannes A.</description>
-    </item>
     
   </channel>
 </rss>

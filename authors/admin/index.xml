@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taejoong (Tijay) Chung</title>
@@ -45,15 +45,6 @@
       
       <guid>https://taejoong.github.io/pubs/conference-paper/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 -0400</pubDate>
-      
-      <guid>https://taejoong.github.io/authors/admin/</guid>
-      <description>My research lies at the intersection of Internet security and privacy, and measurement var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101097193);</description>
     </item>
     
   </channel>
