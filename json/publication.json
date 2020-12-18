@@ -1,5 +1,18 @@
 [
 {
+    "year":"2021",
+    "key":"omolola-2021-automated",
+    "booktitle_type":"conference",
+    "country":"Virtual",
+    "month":"Mar",
+    "city":"",
+    "booktitle_long":"Passive and Active Measurement Conference",
+    "type":"inproceedings",
+    "booktitle_short":"PAM",
+    "author":["Olamide Omolola","Richard Roberts","Ishtiaq Ashiq","Taejoong Chung","Dave Levin","Alan Mislove"],
+    "title":"Measurement and Analysis of Automated Certificate Reissuance"
+},
+{
 	"country":"United States",
 	"title":"The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle",
 	"author":["Moritz Mueller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
