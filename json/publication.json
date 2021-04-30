@@ -9,7 +9,7 @@
     "booktitle_long":"ACM SIGCOMM",
     "type":"inproceedings",
     "booktitle_short":"SIGCOMM",
-    "author":["Marwan Fayed", "Vasileios Giotsas ", "Lorenz Bauer ", "Sami Kerola ", "Marek Majkowski", "Pavel Odintsov ", "Jakub Sitnicki ", "Taejoong Chung ", "Dave Levin ", "Alan Mislove", "Nick Sullivan ", "Chris Wood"],
+    "author":["Marwan Fayed", "Vasileios Giotsas", "Lorenz Bauer", "Sami Kerola", "Marek Majkowski", "Pavel Odintsov", "Jakub Sitnicki", "Taejoong Chung", "Dave Levin", "Alan Mislove", "Nick Sullivan", "Chris Wood"],
     "title":"IP Unbound: Robust, Responsive CDN-scale service without CDN-Scale Addresses"
 },
 {
