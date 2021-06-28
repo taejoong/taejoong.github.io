@@ -28,7 +28,7 @@
 {
 	"country":"United States",
 	"title":"The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle",
-	"author":["Moritz Müller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
+	"author":["Moritz Mueller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
 	"booktitle_long":"ACM Internet Measurement Conference",
 	"city":"Pittsburgh",
 	"year":"2020",
