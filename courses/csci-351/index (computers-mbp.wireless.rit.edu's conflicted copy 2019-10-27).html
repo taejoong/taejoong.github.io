@@ -1,0 +1,172 @@
+<html>
+  <head>
+    <title>CSCI-351 // Data Communication and Networks</title>
+    <link rel="stylesheet" href="css/mine.css" type="text/css" media="screen, projection">	
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">	
+          
+    <script type="text/javascript" src="http://use.typekit.com/cix2tql.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+      function switchSlide(num) {
+        for (i=1; i<=5; i++) {
+          var ele = document.getElementById("slide-" + i);
+          if (ele) {
+            ele.style.display="none";          
+          }
+        }
+        
+        var ele = document.getElementById("slide-" + num);
+        ele.style.display="block";
+      }
+    </script>
+  </head>
+  
+  <body>
+    <div class="container" style="padding-top: 10px">
+      <div class="span-24 last shortdesc" align="right" style="margin-top: 19px; padding-bottom: 19px; border-bottom: 1px solid #ccc">
+        <div onClick="javascript:switchSlide(1);">CSCI-351 // Data Communication and Networks <br/>Fall 2019</div>
+      </div>
+      <div class="span-2 prepend-13 append-1"><div class="section"><a onClick="javascript:switchSlide(1);" href="#">Description</a></div></div>
+      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(2);" href="#">Schedule</a></div></div>
+      <div class="span-2 append-1"><div class="section"><a onClick="javascript:switchSlide(3);" href="#">Quizzes</a></div></div>
+      <div class="span-2 last"><div class="section"><a onClick="javascript:switchSlide(4);" href="#">Projects</a></div></div>
+      
+      <div class="span-7" >
+        <div class="title">
+          <div class="heading">Course details</div>
+          <div class="type">Instructor</div>
+          Prof. Taejoong Chung<br>
+          Office: GOL-3525<br>
+          <a href="mailto:tjc@cs.rit.edu?subject=[CSCI-351]&nbsp">tjc@cs.rit.edu</a><br>
+          &nbsp;<br>
+          
+          <div class="type">Location</div>
+          Gollisano Hall (GOL)-1455<br>
+          9:30<small>am</small>&ndash;10:45<small>am</small><br>
+          Tuesday, Thursdays<br>
+          &nbsp;<br>
+          
+          <div class="type">Office hours</div>
+          2:00<small>pm</small>&ndash;3:30<small>pm</small> Tuesday <small>(instructor, GOL-3525)</small><br>
+        </div>
+        
+        <div class="title">
+          <div class="heading">Discussion Forum</div>
+          <a href="https://mycourses.rit.edu/d2l/le/767561/discussions/List">On Mycourses</a>
+        </div>
+        
+        <div class="title">
+          <div class="heading">textbooks</div>
+          <a href="https://rit.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600000683062&storeId=35554">Computer Networks: A Systems Approach</a><br>
+          5th Edition<br>
+          Peterson and Davie<br>
+          &nbsp;<br>
+        </div>
+        
+        <div class="title">
+          <div class="heading">Handouts</div>
+          <a href="handouts/syllabus.pdf">Syllabus</a><br>
+        </div>      
+          
+        <div class="title">
+          <div class="heading">Grading</div>
+          <table border=0>
+            <tr><td>40%</td><td>Projects </td></tr>
+            <tr><td>60%</td><td>Exams </td></tr>
+          </table>
+        </div>      
+
+      </div>
+      
+      <div class="span-17 last" id="slide-1">
+        <div class="title-lowercase">
+          <div class="heading">Course description</div>
+
+This course is an in-depth study of data communications and networks. The course covers design of, and algorithms and protocols used in, the physical, data link, network, transport, and application layers in the Internet; methods for modeling and analyzing networks and an introduction to network security. Programming projects will be required.
+
+        </div>
+
+        <div class="title-lowercase">
+          <div class="heading">attendance and participation</div>
+          This is a junior-level course; I will not mandate you to come to class (you are still responsible for all the material covered in class).  The class projects are a major part of this course, and please be aware that you will be working in groups of two.</p>
+          
+          We will be using <a href="https://mycourses.rit.edu/d2l/le/767561/discussions/List">Mycourses</a> as a course discussion/bulletin board.  You are expected to check it at least once every few days, use it as the first place to ask questions, and answer others' questions.  The professor will regularly monitor the board, and your participation will count towards your grade.
+        </div>      
+        <div class="title-lowercase">
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-2">
+        <div class="title-lowercase">
+          <div class="heading">Schedule</div>
+          Below is a rough schedule for the lectures in CSCI-351.  This is subject to change; please check back often. Acknowledgement: lecture slides are built with the help of Prof. <a href="http://mislove.org">Alan Mislove</a>, <a href="http://cbw.sh">Christo Wilson</a>, and <a href="http://david.choffnes.com"> David Choffnes</a>'s class.
+
+<p>
+          &nbsp;
+          <table border=0>
+            <the><td><b>Lecture</b></td><td><b>Topic and slides</b></td><td><b>Due Date(s)</b></td></th>
+            <tr><td><small>01</small>&nbsp;&nbsp;08/27 <small>Tue</small></td><td><a href="handouts/1-Intro.key">Intro and Course Overview</a>, <a href="handouts/2-History.key">History of the Internet</a></td><td></td></tr>
+            <tr><td><small>02</small>&nbsp;&nbsp;08/29 <small>Thu</small></td><td><a href="handouts/3-Architecture.key">Networking Architecture</a>&nbsp;<a href="handouts/3-Architecture.pptx">(pptx)</a>&nbsp;<a href="handouts/3-Architecture.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>03</small>&nbsp;&nbsp;09/03 <small>Tue</small></td><td><a href="handouts/4-C-Sockets.key">Socket Programming</a>&nbsp;<a href="handouts/4-C-Sockets.pptx">(pptx)</a>&nbsp;<a href="handouts/4-C-Sockets.pdf">(PDF)</a> <a href="handouts/5-Physical.key">Physical Layer</a>&nbsp;<a href="handouts/5-Physical.pptx">(pptx)</a>&nbsp;<a href="handouts/5-Physical.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>04</small>&nbsp;&nbsp;09/05 <small>Thu</small></td><td><a href="handouts/6-Data-Link.key">Link Layer</a>&nbsp;<a href="handouts/6-Data-Link.pptx">(pptx)</a>&nbsp;<a href="handouts/6-Data-Link.pdf">(PDF)</a></td><td>Project 1 Released</td></tr>
+            <tr><td><small>05</small>&nbsp;&nbsp;09/10 <small>Tue</small></td><td><a href="handouts/6-Data-Link.key">Link Layer</a>&nbsp;<a href="handouts/6-Data-Link.pptx">(pptx)</a>&nbsp;<a href="handouts/6-Data-Link.pdf">(PDF)</a> <a href="handouts/7-Bridging.key">Bridging</a>&nbsp;<a href="handouts/7-Bridging.pptx">(pptx)</a>&nbsp;<a href="handouts/7-Bridging.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>06</small>&nbsp;&nbsp;09/12 <small>Thu</small></td><td><a href="handouts/8-Network.key">Internet Protocol</a>&nbsp;<a href="handouts/8-Network.pptx">(pptx)</a>&nbsp;<a href="handouts/8-Network.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>07</small>&nbsp;&nbsp;09/17 <small>Tue</small></td><td><a href="handouts/8-Network.key">Internet Protocol</a>&nbsp;<a href="handouts/8-Network.pptx">(pptx)</a>&nbsp;<a href="handouts/8-Network.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>08</small>&nbsp;&nbsp;09/19 <small>Thu</small></td><td><a href="handouts/9-Intra-Domain-Routing.key">Intra-domain Routing</a>&nbsp;<a href="handouts/9-Intra-Domain-Routing.pptx">(pptx)</a>&nbsp;<a href="handouts/9-Intra-Domain-Routing.pdf">(PDF)</a></td><td>Project 1 Deadline</td></tr>
+            <tr><td><small>09</small>&nbsp;&nbsp;09/24 <small>Tue</small></td><td><a href="handouts/10-Inter-Domain-Routing.key">Inter-domain Routing</a>&nbsp;<a href="handouts/10-Inter-Domain-Routing.pptx">(pptx)</a>&nbsp;<a href="handouts/10-Inter-Domain-Routing.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>10</small>&nbsp;&nbsp;09/26 <small>Thu</small></td><td><a href="handouts/11-NAT.key">NAT</a>&nbsp;<a href="handouts/11-NAT.pptx">(pptx)</a>&nbsp;<a href="handouts/11-NAT.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>11</small>&nbsp;&nbsp;10/01 <small>Tue</small></td><td><a href="handouts/12-DNS.key">DNS</a>&nbsp;<a href="handouts/12-DNS.pptx">(pptx)</a>&nbsp;<a href="handouts/12-DNS.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>12</small>&nbsp;&nbsp;10/03 <small>Thu</small></td><td><a href="handouts/12-DNS.key">DNS</a>&nbsp;<a href="handouts/12-DNS.pptx">(pptx)</a>&nbsp;<a href="handouts/12-DNS.pdf">(PDF)</a> and <a href="handouts/13-Transport-1.key">Transport Layer</a>&nbsp;<a href="handouts/13-Transport-1.pptx">(pptx)</a>&nbsp;<a href="handouts/13-Transport-1.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>13</small>&nbsp;&nbsp;10/08 <small>Tue</small></td><td><a href="handouts/13-Transport-1.key">Transport Layer 1</a>&nbsp;<a href="handouts/13-Transport-1.pptx">(pptx)</a>&nbsp;<a href="handouts/13-Transport-1.pdf">(PDF)</a></a></td><td></td></tr>
+            <tr><td><small>14</small>&nbsp;&nbsp;10/10 <small>Thu</small></td><td><a href="handouts/13-Transport-1.key">Transport Layer 2</a>&nbsp;<a href="handouts/13-Transport-1.pptx">(pptx)</a>&nbsp;<a href="handouts/13-Transport-1.pdf">(PDF)</a></a></td><td>Project 2 Released</td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;10/15 <small>Tue</small></td><td><i>No class&mdash;October Break</i></td><td></td></tr>
+            <tr><td><small>15</small>&nbsp;&nbsp;10/17 <small>Thu</small></td><td> Midterm reviews</td><td></td></tr>
+            <tr><td><small>16</small>&nbsp;&nbsp;10/22 <small>Tue</small></td><td> Midterm</td><td></td></tr>
+            <tr><td><small>17</small>&nbsp;&nbsp;10/24 <small>Thu</small></td><td><a href="handouts/16-CDN.key">Application Layer: CDN</a>&nbsp;<a href="handouts/16-CDN.pptx">(pptx)</a>&nbsp;<a href="handouts/16-CDN.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>18</small>&nbsp;&nbsp;10/29 <small>Tue</small></td><td><a href="handouts/14-P2P.key">Client-Server and P2P</a>&nbsp;<a href="handouts/14-P2P.pptx">(pptx)</a>&nbsp;<a href="handouts/14-P2P.pdf">(PDF)</a></td><td>(Prof. Zhao)</td></tr>
+            <tr><td><small>19</small>&nbsp;&nbsp;10/31 <small>Thu</small></td><td><a href="handouts/16-CDN.key">Application Layer: CDN</a>&nbsp;<a href="handouts/16-CDN.pptx">(pptx)</a>&nbsp;<a href="handouts/16-CDN.pdf">(PDF)</a></td><td>Project 2 Deadline</td></tr>
+            <tr><td><small>20</small>&nbsp;&nbsp;11/05 <small>Tue</small></td><td><a href="handouts/15-HTTP.key">Application Layer: HTTP</a>&nbsp;<a href="handouts/15-HTTP.pptx">(pptx)</a>&nbsp;<a href="handouts/15-HTTP.pdf">(PDF)</a></td><td>(Prof. Kwon)</td></tr>
+            <tr><td><small>21</small>&nbsp;&nbsp;11/07 <small>Thu</small></td><td><a href="handouts/16-CDN.key">Other Application Layers (Tentative)</a>&nbsp;<a href="handouts/16-CDN.pptx">(pptx)</a>&nbsp;<a href="handouts/16-CDN.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>22</small>&nbsp;&nbsp;11/12 <small>Tue</small></td><td><a href="handouts/17-Security-Basics.key">Network Security Basics</a>&nbsp;<a href="handouts/17-Security-Basics.pptx">(pptx)</a>&nbsp;<a href="handouts/17-Security-Basics.pdf">(PDF)</a>&nbsp;<a href="handouts/18-DNSSEC.key">DNSSEC</a>&nbsp;<a href="handouts/18-DNSSEC.pptx">(pptx)</a>&nbsp;<a href="handouts/18-DNSSEC.pdf">(PDF)</a>&nbsp;</td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;11/14 <small>Tue</small></td><td><i>No class&mdash;CCS Travel </i></td><td></td></tr>
+            <tr><td><small>23</small>&nbsp;&nbsp;11/19 <small>Tue</small></td><td><a href="handouts/18-DNSSEC.key">DNSSEC</a>&nbsp;<a href="handouts/18-DNSSEC.pptx">(pptx)</a>&nbsp;<a href="handouts/18-DNSSEC.pdf">(PDF)</a></a></td><td></td></tr>
+            <tr><td><small>24</small>&nbsp;&nbsp;11/21 <small>Thu</small></td><td><a href="handouts/18-DNSSEC.key">DNSSEC</a>&nbsp;<a href="handouts/18-DNSSEC.pptx">(pptx)</a>&nbsp;<a href="handouts/18-DNSSEC.pdf">(PDF)</a></a>&nbsp; <a href="handouts/19-TLS.key">HTTPS</a>&nbsp;<a href="handouts/19-TLS.pptx">(pptx)</a>&nbsp;<a href="handouts/19-TLS.pdf">(PDF)</a></a></td><td></td></tr>
+            <tr><td><small>25</small>&nbsp;&nbsp;11/26 <small>Tue</small></td><td><a href="handouts/19-TLS.key">HTTPS</a>&nbsp;<a href="handouts/19-TLS.pptx">(pptx)</a>&nbsp;<a href="handouts/19-TLS.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;10/28 <small>Thu</small></td><td><i>No class&mdash;Thanksgiving Holiday</i></td><td></td></tr>
+            <tr><td><small>26</small>&nbsp;&nbsp;12/03 <small>Tue</small></td><td><a href="handouts/19-TLS.key">HTTPS</a>&nbsp;<a href="handouts/19-TLS.pptx">(pptx)</a>&nbsp;<a href="handouts/19-TLS.pdf">(PDF)</a></td><td></td></tr>
+            <tr><td><small>27</small>&nbsp;&nbsp;12/05 <small>Thu</small></td><td>Final Reviews</td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;12/10 <small>Tue</small></td><td><i>No Class</i></td><td></td></tr>
+            <tr><td><small>&mdash;</small>&nbsp;&nbsp;12/12 <small>Thu</small></td><td>Final Exam</td><td></td></tr>
+          </table>
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-3">
+        <div class="title-lowercase">
+          <div class="heading">Quizzes</div>
+          Quizzes and answers will be posted here as they become available.<p>&nbsp;<p>
+                  <a href="handouts/quiz1.pdf">Quiz 1</a> is available.<p>
+        <a href="handouts/quiz2.pdf">Quiz 2</a> is available.<p>
+        <a href="handouts/quiz3.pdf">Quiz 3</a> is available.<p>
+        <a href="handouts/quiz4.pdf">Quiz 4</a> is available.<p>
+        <a href="handouts/quiz5.pdf">Quiz 5</a> is available.<p>
+          
+        </div>
+      </div>
+      
+      <div class="span-17 last" style="display: none;" id="slide-4">
+        <div class="title-lowercase">
+          <div class="heading">Projects</div>
+          Project descriptions will be posted here as they become available.<p>&nbsp;<p>
+          <a href="handouts/project1.pdf">Project 1</a>, worth 15% of your (project) grade, is due at 11:59:59pm on September 19, 2019.</p>
+          <a href="handouts/project2.pdf">Project 2</a>, worth 45% of your (project) grade, is due at 11:59:59pm on October 31, 2019.</p>
+        </div>
+      </div>    
+
+      <div class="span-24 last" style="margin-top: 10px; padding-top: 10px; margin-bottom: 10px; border-top: 1px solid #ccc">
+        <small>&copy; The design of this website is based on the work of Professor Alan Mislove </small>
+      </div>
+    </div>    
+  </body>
+</html>

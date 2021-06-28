@@ -1,0 +1,8 @@
+[
+  {"type": "grant", "agency": "Commonwealth Cyber Initiative", "number": "", "title": "Enhancing the Privacy and Reliability of Massive-scale Bluetooth Low Energy Contact Tracing", "role": "Co-Primary Investigator", "pis": ["Daphne Yao", "Carol Fung"], "amount_total": 150000, "amount": 100000, "start": "06/2021", "end":"05/2022", "link":""},
+  {"type": "grant", "agency": "National Science Foundation", "number": "CNS-2053363", "title": "CNS Core: Large: Collaborative Research: Towards an Evolvable Public Key Infrastructure", "role": "Primary Investigator", "pis": ["Christo Wilson", "Dave Levin", "Alan Mislove", "Bryan Parno", "Bruce Maggs"], "amount_total": 2000000, "amount": 300000, "start": "06/2019", "end":"05/2022", "link":"http://www.nsf.gov/awardsearch/showAward?AWD_ID=1901090"},
+  {"type": "grant", "agency": "National Science Foundation", "number": "CNS-2051166", "title": "CRII: SaTC: Measuring and Improving the Management of Resource Public Key Infrastructure (RPKI)", "role": "Primary Investigator", "amount": 166561, "start": "10/2019", "end":"09/2021", "link":"http://www.nsf.gov/awardsearch/showAward?AWD_ID=1850465"},
+  {"type": "grant", "agency": "National Research Foundation of Korea", "number": "NRF-2016018668", "title": "Personal Recommendation System and Privacy Protection through Big Data Analysis on Online Social Networks", "role": "Primary Investigator", "amount": 44000, "start": "03/2015", "end":"02/2016", "link":""},
+  {"type": "award", "agency": "Microsoft", "number": "", "title": "Microsoft Azure Research 'Award Program: Microsoft Azure for Research Supports", "role": "Primary Investigator", "amount": 20000, "start": "06/2015", "end":"05/2016", "link":""}
+]
+
