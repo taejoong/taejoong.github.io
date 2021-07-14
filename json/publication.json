@@ -1,41 +1,42 @@
 [
 {
-    "year":"2021",
-    "key":"fayed-2021-randomization",
-    "booktitle_type":"conference",
     "country":"Virtual",
-    "month":"Aug",
-    "city":"",
-    "booktitle_long":"ACM SIGCOMM",
-    "type":"inproceedings",
-    "booktitle_short":"SIGCOMM",
+    "title":"IP Unbound: Robust, Responsive CDN-scale service without CDN-Scale Addresses",
     "author":["Marwan Fayed", "Vasileios Giotsas", "Lorenz Bauer", "Sami Kerola", "Marek Majkowski", "Pavel Odintsov", "Jakub Sitnicki", "Taejoong Chung", "Dave Levin", "Alan Mislove", "Nick Sullivan", "Chris Wood"],
-    "title":"IP Unbound: Robust, Responsive CDN-scale service without CDN-Scale Addresses"
+    "booktitle_long":"ACM SIGCOMM",
+    "city":"Virtual",
+    "year":"2021",
+    "booktitle_type":"conference",
+    "month":"August",
+    "type":"inproceedings",
+    "file":"fayed-2021-ipunbound",
+    "booktitle_short":"SIGCOMM"
 },
 {
-    "year":"2021",
-    "key":"omolola-2021-automated",
-    "booktitle_type":"conference",
     "country":"Virtual",
-    "month":"Mar",
-    "city":"",
-    "booktitle_long":"Passive and Active Measurement Conference",
-    "type":"inproceedings",
-    "booktitle_short":"PAM",
+    "title":"Measurement and Analysis of Automated Certificate Reissuance",
     "author":["Olamide Omolola","Richard Roberts","Ishtiaq Ashiq","Taejoong Chung","Dave Levin","Alan Mislove"],
-    "title":"Measurement and Analysis of Automated Certificate Reissuance"
+    "booktitle_long":"Passive and Active Measurement Conference",
+    "city":"Virtual",
+    "year":"2021",
+    "booktitle_tychpe":"conference",
+    "month":"March",
+    "booktitle_short":"PAM",
+    "type":"inproceedings",
+    "file":"omolola-2020-reissuance"
 },
 {
 	"country":"United States",
 	"title":"The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle",
-	"author":["Moritz Mueller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
+	"author":["Moritz Muller","Willem Toorop", "Taejoong Chung", "Jelte Janssen", "Roland van Rijswijk-Deij"],
 	"booktitle_long":"ACM Internet Measurement Conference",
 	"city":"Pittsburgh",
 	"year":"2020",
 	"booktitle_short":"IMC",
 	"month":"October",
 	"booktitle_type":"conference",
-	"type":"inproceedings"
+	"type":"inproceedings",
+    "file":"muller-2020-algorithm"
 },
 {
     "country":"USA",
@@ -45,7 +46,7 @@
     "city":"Boston",
     "year":"2020",
     "booktitle_short":"FCS",
-    "month":"Jun",
+    "month":"June",
     "booktitle_type":"workshop",
     "file":"aqeel-2020-accs",
     "type":"inproceedings"
