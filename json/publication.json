@@ -1,7 +1,7 @@
 [
 {
     "country":"Virtual",
-    "title":"IP Unbound: Robust, Responsive CDN-scale service without CDN-Scale Addresses",
+    "title":"The Ties that un-Bind: Decoupling IP from web services and sockets for robust addressing agility at CDN-scale",
     "author":["Marwan Fayed", "Vasileios Giotsas", "Lorenz Bauer", "Sami Kerola", "Marek Majkowski", "Pavel Odintsov", "Jakub Sitnicki", "Taejoong Chung", "Dave Levin", "Alan Mislove", "Nick Sullivan", "Chris Wood"],
     "booktitle_long":"ACM SIGCOMM",
     "city":"Virtual",
