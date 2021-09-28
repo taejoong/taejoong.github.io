@@ -1,7 +1,7 @@
 [
 {
     "country":"United States",
-    "title":"Under the Hood of DANE Mismanagement in SMTP",
+    "title":"Under the Hood of DANE Mismanagement in SMTP (to be appeared)",
     "author":["Hyeonmin Lee", "Md. Ishtiaq Ashiq", "Moritz Muller", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
     "city":"Boston",
@@ -9,7 +9,7 @@
     "booktitle_type":"conference",
     "month":"August",
     "type":"inproceedings",
-    "file":"lee-2022-dane",
+    "file":"",
     "booktitle_short":"Security"
 },
 {
