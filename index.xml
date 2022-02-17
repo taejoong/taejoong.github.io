@@ -13,8 +13,150 @@
     
     <item>
       <title></title>
+      <link>https://taejoong.github.io/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/bio/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;bio&#34;&gt;Bio&lt;/h1&gt;
+&lt;h3 id=&#34;taejoong-tijay-chung-is-an-assistant-professor-at-the-computer-science-department-at-virginia-tech-before-joining-virginia-tech-he-spent-2-years-at-rit-as-an-assistant-professor-and-3-years-at-northeastern-university-as-a-postdoc-working-with-a--hrefhttpsmisloveorgprof-alan-mislovea-a-hrefhttpdavidchoffnescomdavid-choffnesa-and-a-hrefhttpcbwshchristo-wilsona-he-received-his-phd-in-computer-science-and-engineering-from-seoul-national-university-in-2015-his-work-focuses-on-internet-security-privacy-implications-and-internet-measurement-he-received-the-a-hrefhttpsirtforganrpirtf-applied-networking-research-prizea-2019-a-hrefhttpsconferencessigcommorgimc2019awardsacm-imc-distinguished-paper-awarda-2019-a-hrefhttpswwwnsfgovawardsearchshowawardawd_id1850465nsf-crii-awarda-2019-a-hrefhttpswwwusenixorgconferencesbest-papersusenix-security-distinguished-paper-awarda-2017-and-best-paper-award-at-ieee-computer-society-comsoc-seoul-chapter-2010&#34;&gt;Taejoong (Tijay) Chung is an Assistant Professor at the Computer Science department at Virginia Tech. Before joining Virginia Tech, he spent 2 years at RIT as an Assistant Professor and 3 years at Northeastern university as a postdoc working with &lt;!-- raw HTML omitted --&gt;Prof. Alan Mislove&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;David Choffnes&lt;!-- raw HTML omitted --&gt;, and &lt;!-- raw HTML omitted --&gt;Christo Wilson&lt;!-- raw HTML omitted --&gt;. He received his Ph.D. in Computer Science and Engineering from Seoul National University in 2015. His work focuses on Internet security, privacy implications, and Internet measurement. He received the &lt;!-- raw HTML omitted --&gt;IRTF Applied Networking Research Prize&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;ACM IMC Distinguished Paper Award&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;NSF CRII Award&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;USENIX Security Distinguished Paper Award&lt;!-- raw HTML omitted --&gt; (2017), and Best Paper Award at IEEE Computer Society (ComSoc) Seoul Chapter (2010).&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taejoong.github.io/fundings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taejoong.github.io/fundings/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;fundings&#34;&gt;Fundings&lt;/h1&gt;
+&lt;h3 id=&#34;my-research-has-been-generously-supported-by-several-sources&#34;&gt;My research has been generously supported by several sources.&lt;/h3&gt;
+    
+&lt;div class=&#34;&#34;&gt;
+    &lt;div class=&#34;panel-body&#34; id=&#39;funding&#39;&gt;
+        &lt;ul id=&#34;fundinglist&#34; class=&#34;fundinglist&#34;&gt;
+        &lt;/ul&gt;
+
+        
+    
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
+
+    &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&#34; integrity=&#34;sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&#34; integrity=&#34;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&#34; crossorigin=&#34;anonymous&#34;&gt;
+
+    &lt;script&gt;
+    function oxford(arr) {
+
+        for (i = 0;i &lt; arr.length; i++){
+            if(arr[i] == &#34;Taejoong Chung&#34;){
+                arr[i] = &#34;&lt;span style=&#39;color:#223fbb&#39;&gt;Taejoong Chung&lt;/span&gt;&#34;
+            }
+        }
+            return (arr.length &gt; 2 ? arr.slice(0, arr.length-1).join(&#34;, &#34;) + &#34;, and &#34; + arr[arr.length-1] : arr.join(&#34; and &#34;));
+    }
+    function formatnumber(d) {
+     return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, &#34;,&#34;);
+    }
+
+    function formatdate(d) {
+      return d.toDateString().substr(4);
+    }
+
+    var funding_sort_key = &#34;agency&#34;;
+    var funding = &#34;&#34;;
+
+    $(document).ready(function () {
+      queue()
+      .defer(d3.json, &#34;json/fundings.json&#34;)
+      .await(function(error, p) {
+        funding = p;
+        funding.forEach(function (d) { d[&#34;year&#34;] = d[&#34;start&#34;].substring(3,7);});
+        renderfundings();
+      });
+
+      $(&#39;#funding-sort-date&#39;).on(&#39;click&#39;, function (e) {
+        funding_sort_key = &#34;year&#34;;
+        renderfundings();
+      });
+
+      $(&#39;#funding-sort-funder&#39;).on(&#39;click&#39;, function (e) {
+        funding_sort_key = &#34;agency&#34;;
+        renderfundings();
+      });
+
+      $(&#39;#funding-sort-type&#39;).on(&#39;click&#39;, function (e) {
+        funding_sort_key = &#34;type&#34;;
+        renderfundings();
+      });
+    });
+
+    function renderfundings() {
+      d3.select(&#34;#fundinglist&#34;)
+       .html(&#34;&#34;);
+
+      var sorted = d3.nest()
+        .key(function(d) { return d[funding_sort_key];})
+        .rollup(function(d) {
+           return d;
+         }).entries(funding);
+
+      d3.select(&#34;#fundinglist&#34;)
+       .selectAll(&#34;li&#34;)
+         .data(sorted)
+       .enter().append(&#34;li&#34;)
+         .attr(&#34;class&#34;, &#34;pubs-heading&#34;)
+         .html(function (d) { return &#34;&lt;h4&gt;&#34; + d.key + &#34;&lt;/h4&gt;&#34;; })
+         .append(&#34;ul&#34;)
+         .attr(&#34;class&#34;, &#34;pubs-elementlist&#34;)
+       .selectAll(&#34;li&#34;)
+         .data(function (d) { return d.values; })
+       .enter().append(&#34;li&#34;)
+         .attr(&#34;class&#34;, &#34;pubs-element&#34;)
+         .html(renderfunding);
+
+      d3.select(&#34;#fundinglist&#34;)
+        .selectAll(&#34;.pubs-heading&#34;)
+        .sort(function (a,b) { return (funding_sort_key == &#34;year&#34; ? d3.descending(a.key, b.key) : d3.ascending(a.key, b.key)); })
+     }
+
+     function renderfunding(d) {
+       var result = &#34;&#34;;
+
+       if (funding_sort_key != &#34;agency&#34;) { result = d[&#34;agency&#34;] + &#34;. &#34;; }
+
+       result += (d[&#34;link&#34;] ? &#34;&lt;a href=&#39;&#34; + d[&#34;link&#34;] + &#34;&#39;&gt;&#34; : &#34;&#34;) + &#34;&lt;i&gt;&#34; + d[&#34;title&#34;] + &#34;&lt;/i&gt;&#34; + (d[&#34;link&#34;] ? &#34;&lt;/a&gt;&#34; : &#34;&#34;) + &#34;, &#34; + (d[&#34;number&#34;] ? d[&#34;number&#34;] + &#34;, &#34; : &#34;&#34;) + d[&#34;start&#34;] + (d[&#34;end&#34;] ? &#34;&amp;ndash;&#34; + d[&#34;end&#34;] : &#34;&#34;) + &#34;. &#34; + d[&#34;role&#34;];
+       if (d[&#34;pis&#34;]) {
+          result += &#34;, joint with &#34; + oxford(d[&#34;pis&#34;]);
+       }
+
+       result += &#34;. &#34; + (d[&#34;currency&#34;] ? d[&#34;currency&#34;] : &#34;$&#34;) + formatnumber(d[&#34;amount&#34;]);
+
+       if (d[&#34;amount_total&#34;]) {
+         result += &#34; (VT), &#34; + (d[&#34;currency&#34;] ? d[&#34;currency&#34;] : &#34;$&#34;) + formatnumber(d[&#34;amount_total&#34;]) + &#34; (total)&#34;;
+       }
+
+       result += &#34;.&#34;;
+
+       if (! d[&#34;hide&#34;])
+         return result;
+     }
+  &lt;/script&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://taejoong.github.io/pubs/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://taejoong.github.io/pubs/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
@@ -178,148 +320,6 @@
          }
 
         &lt;/script&gt;
-    &lt;/div&gt;
-
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/bio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/bio/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h1 id=&#34;bio&#34;&gt;Bio&lt;/h1&gt;
-&lt;h3 id=&#34;taejoong-tijay-chung-is-an-assistant-professor-at-the-computer-science-department-at-virginia-tech-before-joining-virginia-tech-he-spent-2-years-at-rit-as-an-assistant-professor-and-3-years-at-northeastern-university-as-a-postdoc-working-with-a--hrefhttpsmisloveorgprof-alan-mislovea-a-hrefhttpdavidchoffnescomdavid-choffnesa-and-a-hrefhttpcbwshchristo-wilsona-he-received-his-phd-in-computer-science-and-engineering-from-seoul-national-university-in-2015-his-work-focuses-on-internet-security-privacy-implications-and-internet-measurement-he-received-the-a-hrefhttpsirtforganrpirtf-applied-networking-research-prizea-2019-a-hrefhttpsconferencessigcommorgimc2019awardsacm-imc-distinguished-paper-awarda-2019-a-hrefhttpswwwnsfgovawardsearchshowawardawd_id1850465nsf-crii-awarda-2019-a-hrefhttpswwwusenixorgconferencesbest-papersusenix-security-distinguished-paper-awarda-2017-and-best-paper-award-at-ieee-computer-society-comsoc-seoul-chapter-2010&#34;&gt;Taejoong (Tijay) Chung is an Assistant Professor at the Computer Science department at Virginia Tech. Before joining Virginia Tech, he spent 2 years at RIT as an Assistant Professor and 3 years at Northeastern university as a postdoc working with &lt;!-- raw HTML omitted --&gt;Prof. Alan Mislove&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;David Choffnes&lt;!-- raw HTML omitted --&gt;, and &lt;!-- raw HTML omitted --&gt;Christo Wilson&lt;!-- raw HTML omitted --&gt;. He received his Ph.D. in Computer Science and Engineering from Seoul National University in 2015. His work focuses on Internet security, privacy implications, and Internet measurement. He received the &lt;!-- raw HTML omitted --&gt;IRTF Applied Networking Research Prize&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;ACM IMC Distinguished Paper Award&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;NSF CRII Award&lt;!-- raw HTML omitted --&gt; (2019), &lt;!-- raw HTML omitted --&gt;USENIX Security Distinguished Paper Award&lt;!-- raw HTML omitted --&gt; (2017), and Best Paper Award at IEEE Computer Society (ComSoc) Seoul Chapter (2010).&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://taejoong.github.io/fundings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://taejoong.github.io/fundings/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h1 id=&#34;fundings&#34;&gt;Fundings&lt;/h1&gt;
-&lt;h3 id=&#34;my-research-has-been-generously-supported-by-several-sources&#34;&gt;My research has been generously supported by several sources.&lt;/h3&gt;
-    
-&lt;div class=&#34;&#34;&gt;
-    &lt;div class=&#34;panel-body&#34; id=&#39;funding&#39;&gt;
-        &lt;ul id=&#34;fundinglist&#34; class=&#34;fundinglist&#34;&gt;
-        &lt;/ul&gt;
-
-        
-    
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-
-    &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js&#34;&gt;&lt;/script&gt;
-    &lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&#34; integrity=&#34;sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&#34; integrity=&#34;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&#34; crossorigin=&#34;anonymous&#34;&gt;
-
-    &lt;script&gt;
-    function oxford(arr) {
-
-        for (i = 0;i &lt; arr.length; i++){
-            if(arr[i] == &#34;Taejoong Chung&#34;){
-                arr[i] = &#34;&lt;span style=&#39;color:#223fbb&#39;&gt;Taejoong Chung&lt;/span&gt;&#34;
-            }
-        }
-            return (arr.length &gt; 2 ? arr.slice(0, arr.length-1).join(&#34;, &#34;) + &#34;, and &#34; + arr[arr.length-1] : arr.join(&#34; and &#34;));
-    }
-    function formatnumber(d) {
-     return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, &#34;,&#34;);
-    }
-
-    function formatdate(d) {
-      return d.toDateString().substr(4);
-    }
-
-    var funding_sort_key = &#34;agency&#34;;
-    var funding = &#34;&#34;;
-
-    $(document).ready(function () {
-      queue()
-      .defer(d3.json, &#34;json/fundings.json&#34;)
-      .await(function(error, p) {
-        funding = p;
-        funding.forEach(function (d) { d[&#34;year&#34;] = d[&#34;start&#34;].substring(3,7);});
-        renderfundings();
-      });
-
-      $(&#39;#funding-sort-date&#39;).on(&#39;click&#39;, function (e) {
-        funding_sort_key = &#34;year&#34;;
-        renderfundings();
-      });
-
-      $(&#39;#funding-sort-funder&#39;).on(&#39;click&#39;, function (e) {
-        funding_sort_key = &#34;agency&#34;;
-        renderfundings();
-      });
-
-      $(&#39;#funding-sort-type&#39;).on(&#39;click&#39;, function (e) {
-        funding_sort_key = &#34;type&#34;;
-        renderfundings();
-      });
-    });
-
-    function renderfundings() {
-      d3.select(&#34;#fundinglist&#34;)
-       .html(&#34;&#34;);
-
-      var sorted = d3.nest()
-        .key(function(d) { return d[funding_sort_key];})
-        .rollup(function(d) {
-           return d;
-         }).entries(funding);
-
-      d3.select(&#34;#fundinglist&#34;)
-       .selectAll(&#34;li&#34;)
-         .data(sorted)
-       .enter().append(&#34;li&#34;)
-         .attr(&#34;class&#34;, &#34;pubs-heading&#34;)
-         .html(function (d) { return &#34;&lt;h4&gt;&#34; + d.key + &#34;&lt;/h4&gt;&#34;; })
-         .append(&#34;ul&#34;)
-         .attr(&#34;class&#34;, &#34;pubs-elementlist&#34;)
-       .selectAll(&#34;li&#34;)
-         .data(function (d) { return d.values; })
-       .enter().append(&#34;li&#34;)
-         .attr(&#34;class&#34;, &#34;pubs-element&#34;)
-         .html(renderfunding);
-
-      d3.select(&#34;#fundinglist&#34;)
-        .selectAll(&#34;.pubs-heading&#34;)
-        .sort(function (a,b) { return (funding_sort_key == &#34;year&#34; ? d3.descending(a.key, b.key) : d3.ascending(a.key, b.key)); })
-     }
-
-     function renderfunding(d) {
-       var result = &#34;&#34;;
-
-       if (funding_sort_key != &#34;agency&#34;) { result = d[&#34;agency&#34;] + &#34;. &#34;; }
-
-       result += (d[&#34;link&#34;] ? &#34;&lt;a href=&#39;&#34; + d[&#34;link&#34;] + &#34;&#39;&gt;&#34; : &#34;&#34;) + &#34;&lt;i&gt;&#34; + d[&#34;title&#34;] + &#34;&lt;/i&gt;&#34; + (d[&#34;link&#34;] ? &#34;&lt;/a&gt;&#34; : &#34;&#34;) + &#34;, &#34; + (d[&#34;number&#34;] ? d[&#34;number&#34;] + &#34;, &#34; : &#34;&#34;) + d[&#34;start&#34;] + (d[&#34;end&#34;] ? &#34;&amp;ndash;&#34; + d[&#34;end&#34;] : &#34;&#34;) + &#34;. &#34; + d[&#34;role&#34;];
-       if (d[&#34;pis&#34;]) {
-          result += &#34;, joint with &#34; + oxford(d[&#34;pis&#34;]);
-       }
-
-       result += &#34;. &#34; + (d[&#34;currency&#34;] ? d[&#34;currency&#34;] : &#34;$&#34;) + formatnumber(d[&#34;amount&#34;]);
-
-       if (d[&#34;amount_total&#34;]) {
-         result += &#34; (VT), &#34; + (d[&#34;currency&#34;] ? d[&#34;currency&#34;] : &#34;$&#34;) + formatnumber(d[&#34;amount_total&#34;]) + &#34; (total)&#34;;
-       }
-
-       result += &#34;.&#34;;
-
-       if (! d[&#34;hide&#34;])
-         return result;
-     }
-  &lt;/script&gt;
     &lt;/div&gt;
 
 &lt;/div&gt;
