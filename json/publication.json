@@ -26,6 +26,17 @@
     "booktitle_short":"SIGCOMM"
 },
 {
+	"title":"Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE",
+	"author":["Salman Ahmed", "Ya Xiao", "Taejoong Chung", "Carol Fung", "Moti Yung", "Danfeng (Daphne) Yao"],
+	"journal_short":"IEEE ComSoc",
+	"year":"2022",
+	"journal_long":"IEEE Computer Society",
+	"type":"article",
+	"month":"Feb",
+	"vol":"55",
+	"pp":"54"
+},
+{
     "country":"Virtual",
     "title":"Measurement and Analysis of Automated Certificate Reissuance",
     "author":["Olamide Omolola","Richard Roberts","Ishtiaq Ashiq","Taejoong Chung","Dave Levin","Alan Mislove"],
