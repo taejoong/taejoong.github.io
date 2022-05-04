@@ -5,10 +5,6 @@
     <link>https://taejoong.github.io/bio/</link>
     <description>Recent content on Taejoong (Tijay) Chung</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://taejoong.github.io/bio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://taejoong.github.io/bio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
