@@ -1,7 +1,19 @@
 [
+    {"country":"United States",
+    "title":"Hammurabi: A Framework for Pluggable, Logic-based X.509 Certificate Validation Policies",
+    "author":["James Larisch","Waqar Aqeel","Christo Wilson","Alan Mislove","Taejoong Chung","Dave Levin","Bryan Parno","Bruce Maggs"],
+    "booktitle_long":"The ACM Conference on Computer and Communications Security",
+    "city":"Los Angeles",
+    "year":"2022",
+    "booktitle_type":"conference",
+    "month":"November",
+    "type":"inproceedings",
+    "file":"",
+    "booktitle_short":"CCS"
+},
 {
     "country":"United States",
-    "title":"Under the Hood of DANE Mismanagement in SMTP (to appear)",
+    "title":"Under the Hood of DANE Mismanagement in SMTP",
     "author":["Hyeonmin Lee", "Md. Ishtiaq Ashiq", "Moritz Muller", "Roland van Rijswijk-Deij", "Taekyoung Kwon", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
     "city":"Boston",
