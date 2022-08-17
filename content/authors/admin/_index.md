@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Taejoong (Tijay) Chung
+name: Taejoong "Tijay" Chung
 
 # Username (this should match the folder name)
 authors:
