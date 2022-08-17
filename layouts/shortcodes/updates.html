@@ -1,0 +1,59 @@
+
+<div class="">
+    <div class="panel-heading">
+      <h3 class="panel-title">Updates</h3>
+    </div>
+   <link rel="stylesheet" type="text/css" href="css/tj.css">
+    <div class="panel-body" id='update'>
+        <ul class="updates" id="updatelist"> </ul>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" type="text/javascript"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js" type="text/javascript"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script>
+        function formatnumber(d) {
+         return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        function formatdate(d) {
+          return d.toDateString().substr(4);
+        }
+        var updates = "";
+        var num_updates = 10;
+
+        $(document).ready(function () {
+          queue()
+          .defer(d3.json, "json/updates.json")
+          .await(function(error, p) {
+            updates = p;
+            updates.forEach(function (d) { d["date"] = new Date(d["date"]); });
+            updates = updates.filter(function (d) { return d["date"] <= new Date(); });
+            updates.sort(function (a,b) { return d3.descending(a["date"], b["date"]); })
+            
+            if (updates.length > num_updates) {
+              updates = updates.slice(0, num_updates);
+            }
+            
+            renderupdates();
+          });
+        });
+
+        function renderupdates() {
+          d3.select("#updatelist")
+           .selectAll("li")
+           .data(updates)
+           .enter().append("li")
+           .html(renderupdate);
+         }
+
+         function renderupdate(d) {
+             return "<span class='date'>" + formatdate(d["date"]) + "</span> " + "<span style='font-size:1.0em'>" + d["text"] + " </span>";
+         }
+
+        </script>
+    </div>
+</div>
+
