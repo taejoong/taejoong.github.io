@@ -183,7 +183,7 @@
 
             for (i = 0;i &lt; arr.length; i++){
                 if(arr[i] == &#34;Taejoong Chung&#34;){
-                    arr[i] = &#34;&lt;span style=&#39;color:#223fbb&#39;&gt;Taejoong Chung&lt;/span&gt;&#34;
+                    arr[i] = &#34;&lt;span style=&#39;color:#000000&#39;&gt;Taejoong Chung&lt;/span&gt;&#34;
                 }
             }
                 return (arr.length &gt; 2 ? arr.slice(0, arr.length-1).join(&#34;, &#34;) + &#34;, and &#34; + arr[arr.length-1] : arr.join(&#34; and &#34;));
