@@ -1,4 +1,16 @@
 [
+    {"country":"France",
+    "title":"A Comparative Analysis of Certificate Pinning in Android & iOS",
+    "author":["Amogh Pradeep", "Muhammad Talha Paracha", "Protick Bhowmick", "Ali Davanian", "Abbas Razaghpanah", "Taejoong Chung", "Martina Lindorfer", "Narseo Vallina-Rodriguez", "Dave Levin", "David Choffnes"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+    "city":"Nice",
+    "year":"2022",
+    "booktitle_type":"conference",
+    "month":"October",
+    "type":"inproceedings",
+    "file":"",
+    "booktitle_short":"IMC"
+},
     {"country":"United States",
     "title":"Hammurabi: A Framework for Pluggable, Logic-based X.509 Certificate Validation Policies",
     "author":["James Larisch","Waqar Aqeel","Christo Wilson","Alan Mislove","Taejoong Chung","Dave Levin","Bryan Parno","Bruce Maggs"],
