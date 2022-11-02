@@ -52,13 +52,14 @@
 {
 	"title":"Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE",
 	"author":["Salman Ahmed", "Ya Xiao", "Taejoong Chung", "Carol Fung", "Moti Yung", "Danfeng (Daphne) Yao"],
-	"journal_short":"IEEE ComSoc",
-	"year":"2022",
-	"journal_long":"IEEE Computer Society",
-	"type":"article",
-	"month":"Feb",
-	"vol":"55",
-	"pp":"54"
+    "booktitle_long":"ACM ASIACCS",
+    "city":"Nagasaki",
+    "year":"2022",
+    "booktitle_type":"conference",
+    "month":"June",
+    "type":"inproceedings",
+    "file":"",
+    "booktitle_short":"ASIACCS"
 },
 {
     "country":"Virtual",
