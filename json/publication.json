@@ -50,6 +50,7 @@
     "booktitle_short":"SIGCOMM"
 },
 {
+    "country":"Japan",
 	"title":"Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE",
 	"author":["Salman Ahmed", "Ya Xiao", "Taejoong Chung", "Carol Fung", "Moti Yung", "Danfeng (Daphne) Yao"],
     "booktitle_long":"ACM ASIACCS",
