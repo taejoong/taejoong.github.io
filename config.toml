@@ -1,0 +1,9 @@
+baseurl = "https://taejoong.github.io"
+title = "Tijay Chung "  
+languageCode = "en-us"
+publishDir = "docs"
+disableKinds=["RSS"]
+enableGitInfo = "True"
+[markup.goldmark.renderer]
+unsafe = true
+

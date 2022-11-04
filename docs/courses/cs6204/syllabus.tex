@@ -1,0 +1,203 @@
+\documentclass[11pt]{article}
+\usepackage[syllabus]{tijay}
+
+\def\title{Course Syllabus}
+
+\definecolor{BrickRed}{rgb}{0.55,0.08,0.08}
+\newcommand{\heading}[2]{{\bigskip\pdfbookmark{#1}{#1}\noindent\textcolor{BrickRed}{\Large\textsc{\lowercase{#1}}
+{\footnotesize{#2}}}}\medskip\\}
+
+\begin{document} \header
+
+\begin{tabular}{rl} {\bf Location} & Online Class (Zoom link is avialable on Canvas) \\
+    {\bf Time} & Mondays and Wednesdays 05:30\textsc{pm}--06:45\textsc{pm}\\
+    {\bf Forum} & https://canvas.vt.edu/courses/115628 \\ 
+    {\bf Instructor} & Prof.\ Taejoong (Tijay) Chung\\
+    {\bf Contact} & {\tt tijay@vt.edu} (put ``[\course]'' in the subject line)\\ 
+    {\bf Office hours} & Mon/Weds at 9am -- 10am (Virtual, the link is available on Canvas)
+\\ \\ \end{tabular}
+
+
+%\vskip0.2in \heading{Description}{(from the Registrar)} 
+%This course examines current topics in Systems. This is intended to allow faculty to pilot potential new graduate offerings. Specific course details (such as prerequisites, course topics, format, learning outcomes, assessment methods, and resource needs) will be determined by the faculty member(s) who propose a specific topics course in this area. Specific course instances will be identified as belonging to the Distributed Systems cluster, the Architecture and Operating Systems cluster, the Security cluster, or some combination of these three clusters.
+
+\heading{prerequisite}{}
+CS4254: Computer Network Architecture and Programming {\em or} an equivalent course in computer networks at the senior or graduate level.
+
+\heading{Description}{(from me)} 
+A public key infrastructure (PKI) provides secure communications between two different entities over an untrusted network. Due to this ability, PKIs are now central to security on the Internet: there are a number of large-scale PKIs in use today such as DNSSEC, HTTPS, and the RPKI. This course examines basic network security models and public key infrastructure that entwines multiple layers of the network stack: application, transport, and network layer. 
+Topics include concepts in basic threat models in networking, public key infrastructure, data-driven approach for securing Internet, etc. Students are required to write critiques on assigned papers, propose and complete a research project individually or in teams, write a research manuscript, and give presentations on a related topic. 
+This course instance belongs to the Distributed Systems cluster and Security cluster. 
+
+
+\heading{Logistics}{} The class will twice per week online for 75-minute sessions. 
+The course will be mostly based on research papers. Each student is
+expected to present a research paper throughout the semester and all
+students are requred to read the paper before the class and actively
+participate the in-class discussion. Students are also required to pick
+the research topic related to the class, and perform their own research
+project.
+
+
+
+\heading{Textbook}{} The recommended (but not required) textbooks for
+the course is 
+
+\begin{description} \item[\hskip0.3in] Peter Gutmann. {\em Engineering
+            Security} {\url
+            (https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)}
+            
+            Johannes A. Buchmann, Evangelos Karatsiolis, Alexander
+            Wiesmaier. {\em Introduction to Public Key Infrastructures}
+
+\end{description}
+
+
+\if 0
+\heading{Online Discussion}{} 
+To encourage more in-depth discussion beyond the class, students need to
+discuss the pros and cons of the paper discussed at the offline class.
+Every week, there are 7 students (3 students for the pros, 3 students for the cons
+of the paper, and the other student for organizing and summarizing the
+discussion) are assigned to discuss two papers.
+The deadline of the discussion is at the end of date of the online
+class (e.g, 11:59:59pm on Thursday); please find the schedule on the
+course webpage regularly.
+To give enough time for organizers to summarize the discussion by the
+deadline, it is {\em strongly} encouraged for the other students to
+finish their discussion by the noon.
+
+The below is an example of the discussion for the paper [DNSSEC 01]:
+
+\begin{description}
+\footnotesize 
+\item[] Reviewer A: \\
+
+This is a very well written measurement study that reveals the difficult
+        path towards widespread DNSSEC adoption.
+
+The paper starts with a good introduction to DNSSEC that is at the same
+        time sufficiently high-level to be understood by readers who are
+        familiar with DNS but not with its security extensions, and
+        sufficiently detailed to allow the reader to follow the more
+        technical measurements presented in the paper.
+
+The paper also does a good job at summarizing previous work in this
+        area, and to differentiate the methods and findings of this
+        paper compared to related results presented by others. However,
+        I did not see the SecSpider project (secspider.verisignlabs.com)
+        mentioned or in the references.
+
+Not surprisingly, DNSSEC deployment for second-level domains is still
+        tiny (around 1\%). This is in line with previous findings. What
+        is somewhat surprising, is that the deployment for the top 10K
+        Alexa sites is also very small, and that a large fraction of
+        these DNSSEC-enabled domains publish keys that cannot be
+        validated.
+
+On the server side, the daily and hourly scan approach seem a very
+        reasonable trade off between detailed information gathering and
+        scalability of the solution. One question I had is why the scans
+        are limited to checking only the SOA, DNSKEY, and related
+        signatures. I wonder if it would be useful to also check A
+        records for <domain> or www.<domain>.
+
+I'm also wondering if the finding about ``Domain Monster, bulk-signing
+        over 37,000 new domains without placing the proper DS records''
+        is due to IT people forgetting to communicate the DS records to
+        the TLDs, or if some blame should be put on the TLDs themselves,
+        perhaps because they don't provide an automated/convenient way
+        to do bulk updates of DS records?
+
+The resolver-side measurements are the most interesting, in my view. I
+        particularly like the way the authors leveraged the Luminati
+        network to perform large-scale measurements on a very diverse
+        set of resolvers.
+
+The results are very interesting, and show that even large ISPs and DNS
+        operators (e.g., Level3 and Dyn) seem to have a hard time
+        correctly managing DNSSEC operations.
+
+It is also surprising (and somewhat concerning) to find that even the
+        BIND developers may have misinterpreted the RFCs, when it comes
+        to sining both the KSK and ZSK.
+\end{description}
+
+
+\fi
+
+\heading{Exams}{} There will be no exams for this class. 
+
+\heading{Grading}{} The breakdown of the grades in this course is \\
+\medskip \begin{tabular}{crl} \ \hbox{\ \ \ \ } 
+    & 35\% & Paper presentation \\ 
+    & 20\% & Paper discussions \\ 
+    & 20\% & Research Project \\ 
+    & 25\% & Participation \\
+\end{tabular} \medskip
+
+\heading{Paper lists (can be added more)}{}
+\begin{enumerate}
+\item{Censys: A Search Engine Backed by Internet-Wide Scanning [CCS15]}
+\item{An End-to-End Measurement of Certificate Revocation in the Web's PKI [IMC15]}
+\item{Measuring and Applying Invalid SSL Certificates: The Silent Majority [IMC16]}
+\item{Measurement and Analysis of Private Key Sharing in the HTTPS Ecosystem [CCS16]}
+\item{Analysis of SSL certificate reissues and revocations in the wake of Heartbleed [IMC14]}
+\item{Tracking Certificate Misissuance in the Wild [Oakland18]}
+\item{The Security Impact of HTTPS Interception [NDSS17]}
+\item{The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem [IMC18]}
+\item{A First Look at Certification Authority Authorization (CAA) [CCR18]}
+\item{Does Certificate Transparency Break the Web? Measuring Adoption and Error Rate [Oakland19]}
+\item{Is the Web Ready for OCSP Must Staple? [IMC18]}
+\item{Mission Accomplished? HTTPS Security after DigiNotar [IMC17]}
+\item{CRLite: a Scalable System for Pushing all TLS Revocations to All Browsers [Oakland17]}
+\item{A Longitudinal, End-to-End View of the DNSSEC Ecosystem [Security17]}
+\item{Understanding the Role of Registrars in DNSSEC Deployment [IMC17]}
+\item{DNSSEC and Its Potential for DDoS Attacks [IMC14]}
+\item{Roll, Roll, Roll your Root: A Comprehensive Analysis of the First Ever DNSSEC Root KSK Rollover[IMC19]}
+\item{Security by Any Other Name: On the Effectiveness of Provider Based Email Security [CCS15]}
+\item{You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates [CCS19]}
+\item{RFC7671 (https://tools.ietf.org/html/rfc7671)}
+\item{Neither Snow Nor Rain Nor MITM... An Empirical Analysis of Email Delivery Security [IMC15]}
+\item{Measuring DANE TLSA Deployment [TMA15]}
+\item{Why Is It Taking So Long to Secure Internet Routing [ACMQueue14]}
+\item{RFC6480 (https://tools.ietf.org/html/rfc6480)}
+\item{On the Risk of Misbehaving RPKI Authorities [Hotnets16]}
+\item{MaxLength Considered Harmful to the RPKI  [CoNEXT17]}
+\item{RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+ [IMC19]}
+\end{enumerate}
+
+%All students are subject to the Northeastern University Academic
+%Integrity Policy, available at
+%\url{http://www.northeastern.edu/osccr/academichonesty.html}.  All
+%cases of suspected plagiarism or other academic dishonesty will be
+%referred to the Office of Student Conduct and Conflict Resolution
+%(\textsc{osccr}).  
+
+%\heading{Accommodations for students with disabilities}{} If you have a
+%disability-related need for reasonable academic accommodations in this
+%course and have not yet met with a Disability  Specialist, please visit
+%\url{http://www.northeastern.edu/drc} and follow the outlined procedure
+%to request services.
+
+%If the Disability Resource Center has formally approved you for  an
+%academic accommodation in this class, please present the instructor
+%with your ``Professor Notification Letter'' during the first week of
+%the  semester, so that we can address your specific needs as early as
+%possible.  
+
+%\heading{Advice}{} As the course is difficult, it is {\bf absolutely
+%essential} to start early on homeworks and projects.  The projects
+%require substantial design, implementation, and testing effort,
+%especially for students who are unfamiliar with network and systems
+%programming.  Students are encouraged to drop by the instructor's or
+%teaching assistant's office hours (or set up a separate appointment via
+%email) if they run into problems while completing the assignments.
+
+%Finally, computer use during class is allowed but expected to be for
+%class purposes (e.g. note-taking, reference) only.  Please avoid
+%non-class-related computer use so that I do not have to revisit this
+%policy.  
+
+\end{document}
