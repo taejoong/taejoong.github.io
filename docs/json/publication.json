@@ -21,7 +21,8 @@
     "month":"November",
     "type":"inproceedings",
     "file":"",
-    "booktitle_short":"CCS"
+    "booktitle_short":"CCS",
+	"award":"Best Paper Honorable Mention"
 },
 {
     "country":"United States",
@@ -159,7 +160,7 @@
 },
 {
 	"country":"Netherlands",
-	"title":"Tracking Registrar Support for DNSSEC: It's Slowly Getting Better",
+	"title":"Tracking Registrar Support for DNSSEC: It's Slowly Getting Better (Poster Paper)",
 	"author":["Spencer Roth", "Roland Van Rijswijk-Deij", "Taejoong Chung"],
 	"booktitle_long":"ACM Internet Measurement Conference",
 	"city":"Amsterdam",
@@ -168,7 +169,7 @@
 	"month":"October",
 	"booktitle_type":"conference",
     "file":"roth-2019-registrar",
-	"type":"poster"
+	"type":"inproceedings"
 },
 {
 	"title":"Rolling with Confidence: Managing the Complexity of DNSSEC Operations",
