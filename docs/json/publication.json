@@ -13,7 +13,7 @@
 },
     {"country":"United States",
     "title":"Hammurabi: A Framework for Pluggable, Logic-based X.509 Certificate Validation Policies",
-    "author":["James Larisch","Waqar Aqeel","Christo Wilson","Alan Mislove","Taejoong Chung","Dave Levin","Bryan Parno","Bruce Maggs"],
+    "author":["James Larisch", "Waqar Aqeel", "Michael Lum", "Yaelle Goldschlag", "Kasra Torshizi", "Leah Kannan", "Yujie Wang", "Taejoong Chung", "Dave Levin", "Bruce M. Maggs", "Alan Mislove", "Bryan Parno", "Christo Wilson"],
     "booktitle_long":"The ACM Conference on Computer and Communications Security",
     "city":"Los Angeles",
     "year":"2022",
