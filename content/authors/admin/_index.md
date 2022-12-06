@@ -53,7 +53,7 @@ email: "tijay@vt.edu"
 #   Set this to `[]` or comment out if you are not using People widget.  
 #user_groups: - Researchers - Visitors
 ---
-<span style="font-size:1.4em">My research lies at the intersection of Internet security and privacy, and measurement</span>
+<span style="font-size:1.4em">My research goal is to secure the Internet.</span>
 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101097193);</script>
 <script async src="//static.getclicky.com/js"></script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101097193ns.gif" /></p></noscript>
