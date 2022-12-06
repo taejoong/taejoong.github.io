@@ -8,7 +8,7 @@
     "booktitle_type":"conference",
     "month":"October",
     "type":"inproceedings",
-    "file":"",
+    "file":"pradeep-2022-keypinning",
     "booktitle_short":"IMC"
 },
     {"country":"United States",
@@ -20,7 +20,7 @@
     "booktitle_type":"conference",
     "month":"November",
     "type":"inproceedings",
-    "file":"",
+    "file":"larisch-2022-hammurabi",
     "booktitle_short":"CCS",
 	"award":"Best Paper Honorable Mention"
 },
@@ -34,7 +34,7 @@
     "booktitle_type":"conference",
     "month":"August",
     "type":"inproceedings",
-    "file":"",
+    "file":"lee-2022-dane",
     "booktitle_short":"Security"
 },
 {
@@ -52,7 +52,7 @@
 },
 {
     "country":"Japan",
-	"title":"Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE",
+	"title":"Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE (Poster Paper)",
 	"author":["Salman Ahmed", "Ya Xiao", "Taejoong Chung", "Carol Fung", "Moti Yung", "Danfeng (Daphne) Yao"],
     "booktitle_long":"ACM ASIACCS",
     "city":"Nagasaki",
