@@ -1,4 +1,28 @@
 [
+{
+    "country":"Virtual",
+    "title":"Exploring the evolution of the TLS certificate ecosystem",
+    "author":["Syed Muhammad Farhan", "Taejoong Chung"],
+    "booktitle_long":"Passive and Active Measurement Conference",
+    "city":"Virtual",
+    "year":"2023",
+    "booktitle_tychpe":"conference",
+    "month":"March",
+    "booktitle_short":"PAM",
+    "type":"inproceedings"
+},
+{
+    "country":"Virtual",
+    "title":"Measuring TTL Violation of DNS Resolvers at scale",
+    "author":["Protick Bhowmick", "Mohammad Ishtiaq Ashiq Khan", "Casey Deccio", "Taejoong Chung"],
+    "booktitle_long":"Passive and Active Measurement Conference",
+    "city":"Virtual",
+    "year":"2023",
+    "booktitle_tychpe":"conference",
+    "month":"March",
+    "booktitle_short":"PAM",
+    "type":"inproceedings"
+},
     {"country":"France",
     "title":"A Comparative Analysis of Certificate Pinning in Android & iOS",
     "author":["Amogh Pradeep", "Muhammad Talha Paracha", "Protick Bhowmick", "Ali Davanian", "Abbas Razaghpanah", "Taejoong Chung", "Martina Lindorfer", "Narseo Vallina-Rodriguez", "Dave Levin", "David Choffnes"],
