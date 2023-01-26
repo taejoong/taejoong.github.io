@@ -1,7 +1,7 @@
 [
 {
     "country":"Virtual",
-    "title":"Exploring the evolution of the TLS certificate ecosystem",
+    "title":"Exploring the Evolution of the TLS Certificate Ecosystem",
     "author":["Syed Muhammad Farhan", "Taejoong Chung"],
     "booktitle_long":"Passive and Active Measurement Conference",
     "city":"Virtual",
@@ -9,11 +9,12 @@
     "booktitle_tychpe":"conference",
     "month":"March",
     "booktitle_short":"PAM",
-    "type":"inproceedings"
+    "type":"inproceedings",
+    "file":"farhan-2023-tls"
 },
 {
     "country":"Virtual",
-    "title":"Measuring TTL Violation of DNS Resolvers at scale",
+    "title":"Measuring TTL Violation of DNS Resolvers in the Wild",
     "author":["Protick Bhowmick", "Mohammad Ishtiaq Ashiq Khan", "Casey Deccio", "Taejoong Chung"],
     "booktitle_long":"Passive and Active Measurement Conference",
     "city":"Virtual",
@@ -21,6 +22,7 @@
     "booktitle_tychpe":"conference",
     "month":"March",
     "booktitle_short":"PAM",
+    "file":"bhowmick-2023-dns",
     "type":"inproceedings"
 },
     {"country":"France",
