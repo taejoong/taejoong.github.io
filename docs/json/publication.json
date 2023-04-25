@@ -1,5 +1,18 @@
 [
 {
+    "country":"USA",
+    "title":"Scaling the Performance of Modern TLS Traffic Monitoring without Compromising the Security (Poster Paper)" ,
+    "author":["Junghan Yoon", "Seunghyun Do", "Duckwoo Kim", "Taejoong Chung", "KyoungSoo Park"],
+    "booktitle_long":"USENIX Symposium on Networked Systems Design and Implementation",
+    "city":"Boston",
+    "year":"2023",
+    "booktitle_tychpe":"conference",
+    "month":"April",
+    "booktitle_short":"NSDI",
+    "type":"inproceedings",
+    "file":"yoon-2023-tls"
+},
+{
     "country":"Virtual",
     "title":"Exploring the Evolution of the TLS Certificate Ecosystem",
     "author":["Syed Muhammad Farhan", "Taejoong Chung"],
