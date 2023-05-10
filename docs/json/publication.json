@@ -3,7 +3,7 @@
     "country":"USA",
     "title":"You’ve Got Report: Measurement and Security Implications of DMARC Reporting(Accepted with Major Revision)",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Tobias Fiebig", "Taejoong Chung"],
-    "booktitle_long":"USENIX Symposium on Networked Systems Design and Implementation",
+    "booktitle_long":"USENIX Security Symposium",
     "city":"Anaheim",
     "year":"2023",
     "booktitle_tychpe":"conference",
