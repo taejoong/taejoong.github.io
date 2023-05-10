@@ -1,6 +1,6 @@
 [
 {
-    "country":"USA",
+    "country":"USA ",
     "title":"You’ve Got Report: Measurement and Security Implications of DMARC Reporting (Accepted with Major Revision)",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Tobias Fiebig", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
