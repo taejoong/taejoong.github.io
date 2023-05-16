@@ -53,3 +53,4 @@ subtitle = ""
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
 -->
 {{< updates >}}
+{{< publications >}}
