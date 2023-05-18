@@ -12,9 +12,9 @@ header:
 
 * Mohammad Ishtiaq Ashiq Khan (VT 2021)
 
-* Protick Bhowmick (VT 2021)
+* Protick Bhowmick (VT 2021), currently doing summer internship at [ThousandEyes](https://www.thousandeyes.com/)
 
-* Weitong Li (VT 2021)
+* Weitong Li (VT 2021), currently doing summer internship at [Cloudflare](https://cloudflare.com/)
 
 * [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (SNU 2016, co-advised with Ted Kwon)
 
