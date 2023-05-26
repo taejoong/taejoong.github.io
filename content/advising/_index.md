@@ -16,8 +16,6 @@ header:
 
 * Weitong Li (VT 2021), currently doing summer internship at [Cloudflare](https://cloudflare.com/)
 
-* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (SNU 2016, co-advised with Ted Kwon)
-
 * [Minhyeok Kang](https://mmlab.snu.ac.kr/~mhkang/) (SNU 2017, co-advised with Ted Kwon)
 
 ## Master's Students
@@ -33,3 +31,4 @@ header:
 
 * Anna Kwon (High School, now at MIT)
 
+* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D, now at SNU as a postdoc)
