@@ -14,7 +14,7 @@
   weight = 30
 
 [[main]]
-  name = "Advising"
+  name = "Students"
   url = "advising/"
   weight = 40
 
