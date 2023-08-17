@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":"Delegation of TLS Authentication to CDNs using Revocable Delegated Credentials",
+    "author":["Daegeun Yoon", "Taejoong Chung", "Yongdae Kim"],
+    "booktitle_long":"Annual Computer Security Applications Conference",
+    "city":"Austin",
+    "year":"2023",
+    "booktitle_tychpe":"conference",
+    "month":"December",
+    "booktitle_short":"ACSAC",
+    "type":"inproceedings"
+},
+{
+    "country":"USA",
     "title":"You’ve Got Report: Measurement and Security Implications of DMARC Reporting",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Tobias Fiebig", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
