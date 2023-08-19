@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":""RoVista: Measuring and Understanding the Route Origin Validation (ROV) in RPKI",
+    "author":["Weitong Li", "Zhexiao Lin", "Mohammad Ishtiaq Ashiq Khan", "Emile Aben", "Romain Fontugne", "Amreesh Phokeer", "Taejoong Chung"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+    "city":"Montreal",
+    "year":"2023",
+    "booktitle_tychpe":"conference",
+    "month":"October",
+    "booktitle_short":"IMC",
+    "type":"inproceedings"
+},
+{
+    "country":"USA",
     "title":"Delegation of TLS Authentication to CDNs using Revocable Delegated Credentials",
     "author":["Daegeun Yoon", "Taejoong Chung", "Yongdae Kim"],
     "booktitle_long":"Annual Computer Security Applications Conference",
