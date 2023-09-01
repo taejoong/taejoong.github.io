@@ -21,6 +21,7 @@ header:
 
 #### Master's Students
 
+* Mahesh Maddhuru (VT 2022)
 
 #### Alumni and Interns
 
