@@ -1,5 +1,17 @@
 [
 {
+    "country":"USA",
+    "title":"No Root Store Left Behind",
+    "author":["James Larisch", "Waqar Aqeel", "Taejoong Chung", "Eddie Kohler", "Dave Levin", "Bruce M. Maggs", "Bryan Parno", "Christo Wilson"],
+	"booktitle_long":"ACM Workshop on Hot Topics in Networks",
+    "city":"Cambridge",
+    "year":"2023",
+	"booktitle_type":"workshop",
+    "month":"November",
+    "booktitle_short":"HotNets",
+    "type":"inproceedings"
+},
+{
     "country":"Canada",
     "title":"RoVista: Measuring and Understanding the Route Origin Validation (ROV) in RPKI",
     "author":["Weitong Li", "Zhexiao Lin", "Mohammad Ishtiaq Ashiq Khan", "Emile Aben", "Romain Fontugne", "Amreesh Phokeer", "Taejoong Chung"],

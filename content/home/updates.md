@@ -41,7 +41,7 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- #css_style = "css/tj.css"
+ css_style = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.ccs"
  
  # CSS class.
  css_class = ""
