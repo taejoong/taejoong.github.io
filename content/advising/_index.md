@@ -17,6 +17,8 @@ header:
 
 * Weitong Li (VT 2021), currently doing summer internship at [Cloudflare](https://cloudflare.com/)
 
+* Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
+
 * [Minhyeok Kang](https://mmlab.snu.ac.kr/~mhkang/) (SNU 2017, co-advised with Ted Kwon)
 
 #### Master's Students
