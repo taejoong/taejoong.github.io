@@ -13,10 +13,6 @@
   url = "fundings/"
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url = "pubs/"
-  weight = 35
 
 [[main]]
   name = "Students"
