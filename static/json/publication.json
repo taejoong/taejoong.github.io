@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":"Research Agenda for a Post-Quantum DNSSEC",
+    "author":["A.M. Fregly", "Roland van Rijswijk-Deij", "Mortiz Muller", "Peter Thomassen", "Casper Schutijser", "Taejoong Chung"],
+	"booktitle_long":"Internet Draft",
+    "year":"2023",
+	"howpublished":"IETF Network Working Group, Internet Draft",
+    "month":"September",
+    "booktitle_short":"Internet Draft",
+    "type":"misc",
+	"note":"https://www.ietf.org/archive/id/draft-fregly-research-agenda-for-pqc-dnssec-00.txt"
+},
+{
+    "country":"USA",
     "title":"No Root Store Left Behind",
     "author":["James Larisch", "Waqar Aqeel", "Taejoong Chung", "Eddie Kohler", "Dave Levin", "Bruce M. Maggs", "Bryan Parno", "Christo Wilson"],
 	"booktitle_long":"ACM Workshop on Hot Topics in Networks",
