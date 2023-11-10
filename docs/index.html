@@ -550,8 +550,7 @@
 **Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
 -->
-<p>
-<div class="">
+<p><div class="">
     <div class="panel-heading">
       <h3 class="panel-title">Updates</h3>
     </div>
@@ -743,8 +742,23 @@
              labels.push("<a href='" + d["note"] + "'><span class='label label-danger'>Link</span></a>");
            }
 
-           labels.push("<span class='label label-default' data-toggle='modal' data-target='#bibtex-" + d["file"] + "'>BibTeX</span><div class='modal fade' id='bibtex-" + d["file"] + "' role='dialog'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>BibTeX</h4></div><div class='modal-body'><pre>" + bibtex + "</pre></div></div></div></div>");
-           
+          labels.push(`
+    <span class='label label-default' data-toggle='modal' data-target='#bibtex-${d["file"]}'>BibTeX</span>
+    <div class='modal fade' id='bibtex-${d["file"]}' role='dialog'>
+        <div class='modal-dialog'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                    <h4 class='modal-title'>BibTeX</h4>
+                </div>
+                <div class='modal-body'>
+                    <pre>${bibtex}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+ 
            if (d["slides"]) {
              labels.push("<a href='slides/" + d["slides"] + "'><span class='label label-default'>Slides</span></a>");
            } 

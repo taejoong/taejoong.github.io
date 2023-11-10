@@ -20,6 +20,7 @@
     "year":"2023",
 	"booktitle_type":"workshop",
     "month":"November",
+	"file":"larisch-2023-roots",
     "booktitle_short":"HotNets",
     "type":"inproceedings"
 },
@@ -46,6 +47,7 @@
     "year":"2023",
     "booktitle_type":"conference",
     "month":"December",
+	"file":"yoon-2023-dotls",
     "booktitle_short":"ACSAC",
     "type":"inproceedings"
 },
