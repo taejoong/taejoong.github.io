@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":"IRRedicator: Pruning IRR with RPKI-Valid BGP Insights",
+    "author":["Minhyeock Kang", "Weitong Li", "Roland van Rijswijk-Deij", "Ted \"Taekyoung\" Kwon", "Taejoong Chung"],
+	"booktitle_long":"Network and Distributed System Security Symposium",
+	"city":"San Diego",
+	"year":"2024",
+	"booktitle_short":"NDSS",
+	"month":"February",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
+    "country":"USA",
     "title":"Research Agenda for a Post-Quantum DNSSEC",
     "author":["A.M. Fregly", "Roland van Rijswijk-Deij", "Mortiz Muller", "Peter Thomassen", "Casper Schutijser", "Taejoong Chung"],
 	"booktitle_long":"Internet Draft",
