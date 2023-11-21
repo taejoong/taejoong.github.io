@@ -21,6 +21,8 @@ header:
 
 * [Minhyeok Kang](https://mmlab.snu.ac.kr/~mhkang/) (SNU 2017, co-advised with Ted Kwon)
 
+* Hoang Tran (VT 2024)
+
 #### Master's Students
 
 * Mahesh Maddhuru (VT 2022)
