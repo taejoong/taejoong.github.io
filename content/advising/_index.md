@@ -13,9 +13,7 @@ header:
 
 * Mohammad Ishtiaq Ashiq Khan (VT 2021)
 
-* Protick Bhowmick (VT 2021), currently doing summer internship at [ThousandEyes](https://www.thousandeyes.com/)
-
-* Weitong Li (VT 2021), currently doing summer internship at [Cloudflare](https://cloudflare.com/)
+* Weitong Li (VT 2021)
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
@@ -24,6 +22,8 @@ header:
 * Hoang Tran (VT 2024)
 
 #### Master's Students
+
+* Protick Bhowmick (VT 2021)
 
 * Mahesh Maddhuru (VT 2022)
 
