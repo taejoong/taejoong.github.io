@@ -37,7 +37,7 @@ header:
 
 * Anna Kwon (High School, now at MIT)
 
-* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D, now at SNU as a postdoc)
+* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D, now at UVA as a postdoc)
 
 
 <br>
