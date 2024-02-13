@@ -48,7 +48,8 @@
     "booktitle_short":"IMC",
 	"dataset":"https://rovista.netsecurelab.org",
     "type":"inproceedings",
-	"file":"li-2023-rov"
+	"file":"li-2023-rov",
+	"award":"NANOG90 Presented"
 },
 {
     "country":"USA",
