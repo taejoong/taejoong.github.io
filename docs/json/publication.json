@@ -9,7 +9,9 @@
 	"booktitle_short":"NDSS",
 	"month":"February",
 	"booktitle_type":"conference",
+	"dataset":"https://irredicator.netsecurelab.org",
 	"type":"inproceedings"
+	"file":"kang-2023-irredicator"
 },
 {
     "country":"USA",
