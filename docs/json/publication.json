@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":"An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape", 
+    "author":["Sifat Muhammad Abdullah", "Aravind Cheruvu", "Shravya Kanchi", "Taejoong Chung", "Peng Gao", "Murtuza Jadliwala", "Bimal Viswanath"],
+	"booktitle_long":"IEEE Symposium on Security and Privacy",
+	"city":"San Francisco",
+	"year":"2024",
+	"booktitle_short":"Oakland",
+	"month":"May",
+	"booktitle_type":"conference",
+	"type":"inproceedings"
+},
+{
+    "country":"USA",
     "title":"IRRedicator: Pruning IRR with RPKI-Valid BGP Insights",
     "author":["Minhyeock Kang", "Weitong Li", "Roland van Rijswijk-Deij", "Ted \"Taekyoung\" Kwon", "Taejoong Chung"],
 	"booktitle_long":"Network and Distributed System Security Symposium",
