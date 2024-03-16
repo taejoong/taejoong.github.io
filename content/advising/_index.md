@@ -11,9 +11,9 @@ header:
 
 #### Ph.D. Students
 
-* Mohammad Ishtiaq Ashiq Khan (VT 2021)
+* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT 2021)
 
-* Weitong Li (VT 2021)
+* [Weitong Li](https://www.weitongli.com/) (VT 2021)
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
@@ -23,21 +23,22 @@ header:
 
 #### Master's Students
 
-* Protick Bhowmick (VT 2021)
 
 * Mahesh Maddhuru (VT 2022)
 
 #### Alumni and Interns
 
-* Syed Muhammad Farhan (MS, now at Amazon)
+* Protick Bhowmick (M.S. 2023, at Yale University)
 
-* Spencer Roth (BS, RIT)
+* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D. 2022, at UVA)
 
-* Aniketh Girish (BS, now at IMDEA Networks)
+* Syed Muhammad Farhan (M.S. 2022, First employed at Amazon)
 
-* Anna Kwon (High School, now at MIT)
+* Spencer Roth (intern 2018, at RIT)
 
-* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D, now at UVA as a postdoc)
+* Aniketh Girish (intern 2018, at IMDEA Networks)
+
+* Anna Kwon (intern 2019, at MIT)
 
 
 <br>
