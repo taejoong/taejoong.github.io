@@ -11,9 +11,9 @@ header:
 
 #### Ph.D. Students
 
-* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT 2021)
+* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT 2021, intern at Meta)
 
-* [Weitong Li](https://www.weitongli.com/) (VT 2021)
+* [Weitong Li](https://www.weitongli.com/) (VT 2021, intern at Cloudflare)
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
@@ -28,7 +28,7 @@ header:
 
 #### Alumni and Interns
 
-* Protick Bhowmick (M.S. 2023, at Yale University)
+* Protick Bhowmick (M.S. 2023, at Yale University, intern at Thousandeyes)
 
 * [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D. 2022, at UVA)
 
