@@ -1,5 +1,5 @@
 [
-    {"date": "04/02/2024", "text": "I am honored to be awarded the Outstanding New Assistant Professor at the College of Engineering, Virginia Tech."},
+    {"date": "04/02/2024", "text": "I am honored to be awarded the <a href='https://eng.vt.edu/about/faculty-awards-and-distinctions/deans-awards.html'>Outstanding New Assistant Professor at the College of Engineering, Virginia Tech.</a>"},
     {"date": "03/25/2024", "text": "<span style='color:red'>I have multiple funded openings for Ph.D and Masters students. Please take a look at <a href='/advising'>this</a> and feel free to email me."},
     {"date": "03/25/2024", "text": "My Ph.D. student, Ishtiaq will be working at Meta for his summer internship to work on TLS and browser."},
     {"date": "02/13/2024", "text": "I gave a talk at <a href='https://www.youtube.com/watch?v=6i9pYDv0tNQ'>NANOG 90</a> to present our RPKI study and RoVista"},
