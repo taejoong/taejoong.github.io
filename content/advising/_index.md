@@ -11,9 +11,9 @@ header:
 
 #### Ph.D. Students
 
-* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT 2021, intern at Meta)
+* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, intern at Meta)
 
-* [Weitong Li](https://www.weitongli.com/) (VT 2021, intern at Cloudflare)
+* [Weitong Li](https://www.weitongli.com/) (VT Spring 2021, intern at Cloudflare)
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
