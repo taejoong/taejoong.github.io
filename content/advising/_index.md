@@ -19,7 +19,9 @@ header:
 
 * [Minhyeok Kang](https://mmlab.snu.ac.kr/~mhkang/) (SNU 2017, co-advised with Ted Kwon)
 
-* Hoang Tran (VT 2024)
+* Hoang Tran (VT Spring 2024)
+
+* Muhammad Hamza (VT Fall 2024)
 
 #### Master's Students
 
