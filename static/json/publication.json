@@ -1,6 +1,18 @@
 [
 {
     "country":"USA",
+    "title":"mmTLS: Scaling the Performance of Encrypted Network Traffic Inspection",
+    "author":["Junghan Yoon", "Seunghyun Do", "Duckwoo Kim", "Taejoong Chung", "KyoungSoo Park"],
+    "booktitle_long":"USENIX Annual Technical Conference",
+    "city":"Santa Clara",
+    "year":"2024",
+    "booktitle_type":"conference",
+    "month":"July",
+    "booktitle_short":"ATC",
+    "type":"inproceedings"
+},
+{
+    "country":"USA",
     "title":"SPF Beyond the Standard: Management and Operational Challenges in Practice and Practical Recommendations",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Tobias Fiebig", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
