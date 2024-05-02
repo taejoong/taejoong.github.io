@@ -713,20 +713,20 @@
              bibtex += "  booktitle = {" + conference + "},\n  address = {" + address + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
 
            } else if (d["type"] == "article") {
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["journal_long"] + (d["journal_short"] ? " (" + d["journal_short"] + ")" : "") + "</i>" + (d["volume"] ? " " + d["volume"] + (d["number"] ? "(" + d["number"] + ")" : "") : "") + ", " + d["month"] + " " + d["year"]; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["journal_long"] + (d["journal_short"] ? " (" + d["journal_short"] + ")" : "") + "</i>" + (d["volume"] ? " " + d["volume"] + (d["number"] ? "(" + d["number"] + ")" : "") : "") + ", " + d["month"] + " " + d["year"]; 
              bibtex += "  journal = {" + d["journal_long"] + "},\n" + (d["volume"] ? "  volume = {" + d["volume"] + "},\n" + (d["number"] ? "  number = {" + d["number"] + "},\n" : "") : "") + "  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "incollection") {
              var editors = oxford(d["editor"]);
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Chapter in <i>" + d["booktitle"] + "</i>, " + d["publisher"] + ", " + editors + ", Eds., " + d["month"] + " " + d["year"]; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Chapter in <i>" + d["booktitle"] + "</i>, " + d["publisher"] + ", " + editors + ", Eds., " + d["month"] + " " + d["year"]; 
              bibtex += "  booktitle = {" + d["booktitle"] + "},\n  publisher = {" + d["publisher"] + "},\n  editor = {" + d["editor"].join(" and ") + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "phdthesis") {
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Doctor of Philosophy Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Doctor of Philosophy Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
              bibtex += "  school = {" + d["school"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "mastersthesis") {
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Master of Science Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Master of Science Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
              bibtex += "  school = {" + d["school"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "techreport") {
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>Technical Report " + d["number"] + "</i>, " + d["institution"] + ", " + d["month"] + " " + d["year"]; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>Technical Report " + d["number"] + "</i>, " + d["institution"] + ", " + d["month"] + " " + d["year"]; 
              bibtex += "  institution = {" + d["institution"] + "},\n  number = {" + d["number"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "misc") {
              result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["howpublished"] + "</i>"; 
