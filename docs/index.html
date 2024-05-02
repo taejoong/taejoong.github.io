@@ -700,12 +700,15 @@
            var authors = oxford(d["author"]);
            var bibtex = '@' + d['type'] + '\{' + d['file'] + ',\n  author = \{' + d['author'].join(' and ') + '\},\n  title = \{\{' + d['title'] + '\}\},\n'
          
+		   if (d["category"]){
+			   result += "<strong><span style='color:#4E788F'> { " + d["category"] + " } </span>" + "</strong>" ;
+		   }
            if (d["type"] == "inproceedings") {
              var conference_abbr = d["booktitle_short"] + "'" + d["year"].substring(2,4);
              var conference = "Proceedings of the " + d["booktitle_long"] + " (" + conference_abbr + ")";
              var address = d["city"] + ", " + (d["state"] ? d["state"] + ", " : "") + d["country"]
-
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br>In <i>" + conference + "</i>, " + address + ", " + d["month"] + " " + d["year"]; 
+	
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>In <i>" + conference + "</i>, " + address + ", " + d["month"] + " " + d["year"]; 
              
              bibtex += "  booktitle = {" + conference + "},\n  address = {" + address + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
 
@@ -726,7 +729,7 @@
              result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>Technical Report " + d["number"] + "</i>, " + d["institution"] + ", " + d["month"] + " " + d["year"]; 
              bibtex += "  institution = {" + d["institution"] + "},\n  number = {" + d["number"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
            } else if (d["type"] == "misc") {
-             result = "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["howpublished"] + "</i>"; 
+             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["howpublished"] + "</i>"; 
              bibtex += "  howpublished = {" + d["howpublished"] + "}\n}\n";
            } else {
              result = d["type"];
