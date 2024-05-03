@@ -134,22 +134,24 @@
              labels.push("<a href='" + d["note"] + "'><span class='label label-danger'>Link</span></a>");
            }
 
+
           labels.push(`
     <span class='label label-default' data-toggle='modal' data-target='#bibtex-${d["file"]}'>BibTeX</span>
-    <div class='modal fade' id='bibtex-${d["file"]}' role='dialog'>
-        <div class='modal-dialog'>
-            <div class='modal-content'>
+    <div class='modal fade' id='bibtex-${d["file"]}' role='dialog' data-backdrop='false'>
+        <div class='modal-dialog' >
+            <div class='modal-content' >
                 <div class='modal-header'>
                     <button type='button' class='close' data-dismiss='modal'>&times;</button>
                     <h4 class='modal-title'>BibTeX</h4>
                 </div>
                 <div class='modal-body'>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
                     <pre>${bibtex}</pre>
                 </div>
             </div>
         </div>
     </div>
-`);
+	`);
  
            if (d["slides"]) {
              labels.push("<a href='slides/" + d["slides"] + "'><span class='label label-default'>Slides</span></a>");
