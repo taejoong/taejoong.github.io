@@ -90,7 +90,7 @@
            var bibtex = '@' + d['type'] + '\{' + d['file'] + ',\n  author = \{' + d['author'].join(' and ') + '\},\n  title = \{\{' + d['title'] + '\}\},\n'
          
 		   if (d["category"]){
-			   result += "<strong><span style='color:#4E788F'> { " + d["category"] + " } </span>" + "</strong>" ;
+			   result += "<strong><span style='color:#e5751f'> { " + d["category"] + " } </span>" + "</strong>" ;
 		   }
            if (d["type"] == "inproceedings") {
              var conference_abbr = d["booktitle_short"] + "'" + d["year"].substring(2,4);

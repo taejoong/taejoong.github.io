@@ -502,7 +502,8 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
-        "file":"chung-2016-middlebox",
+	"category": "DNS, TLS",
+	"file":"chung-2016-middlebox",
 	"dataset":"http://tft.ccs.neu.edu"
 },
 {
