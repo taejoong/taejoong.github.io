@@ -26,9 +26,9 @@ header:
 #### Master's Students
 
 
-* Mahesh Maddhuru (VT 2022)
-
 #### Alumni and Interns
+
+* Mahesh Maddhuru (M.S. 2024, First employed at Akamai Technologies)
 
 * Protick Bhowmick (M.S. 2023, at Yale University, interned at Cisco Thousandeyes)
 
