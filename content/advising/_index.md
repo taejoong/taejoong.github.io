@@ -32,7 +32,7 @@ header:
 
 * Protick Bhowmick (M.S. 2023, at Yale University, interned at Cisco Thousandeyes)
 
-* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (Ph.D. 2022, at UVA)
+* [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (SNU Ph.D. 2022, at UVA as a postdoc)
 
 * Syed Muhammad Farhan (M.S. 2022, First employed at Amazon)
 
