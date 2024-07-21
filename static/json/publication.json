@@ -10,6 +10,7 @@
     "month":"July",
     "booktitle_short":"ATC",
     "type":"inproceedings",
+	"file":"yoon-2024-mmtls",
 	"category":"TLS"
 },
 {
@@ -35,6 +36,7 @@
 	"city":"San Francisco",
 	"year":"2024",
 	"booktitle_short":"Oakland",
+	"file":"abdullah-2024-deepfake",
 	"month":"May",
 	"booktitle_type":"conference",
 	"type":"inproceedings"
