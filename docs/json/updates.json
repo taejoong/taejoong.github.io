@@ -1,10 +1,10 @@
 [
+    {"date": "09/10/2024", "text": "<span style='color:#e5751f'>I have funded openings for (1) a Ph.D student who will be working on DNS, TLS, or RPKI and (2) an MEng student as a web developer position. Please take a look at <a href='/prospective'>this</a> and feel free to email me."},
 	{"date": "07/18/2024", "text": "NTIA published <a href='https://www.ntia.gov/fcc-filing/2024/ntia-comments-reporting-border-gateway-protocol-risk-mitigation-project'>comments</a> regarding the Reporting on Border Gateway Protocol (BGP) Risk Mitigation Progress Notice of Proposed Rulemaking (NPRM). RoVista is used to measure the Route Origin Validation (ROV) status in the United States."},
     {"date": "05/16/2024", "text": "FCC recently proposed <a href='https://docs.fcc.gov/public/attachments/DOC-402579A1.pdf'>Internet Routing Security Reporting Requirements</a>. In the accompanying <a href='https://docs.fcc.gov/public/attachments/DOC-402609A1.pdf'> fact sheet</a>, RoVista is mentioned as an example approach for understanding ROV!"},
     {"date": "04/13/2024", "text": "I am honored to be awarded <a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=2339378'>the NSF CAREER Award</a>; this proposal aims to enhance security protocols for Internet Routing and Naming."},
     {"date": "04/02/2024", "text": "I am honored to be awarded <a href='https://eng.vt.edu/about/faculty-awards-and-distinctions/deans-awards.html'>the Outstanding New Assistant Professor at the College of Engineering, Virginia Tech.</a>"},
     {"date": "04/02/2024", "text": "My Ph.D. student, Weitong, will be working at CableLabs for his summer internship to work on RPKI."},
-    {"date": "03/25/2024", "text": "<span style='color:#e5751f'>I have multiple funded openings for Ph.D and Masters students. Please take a look at <a href='/advising'>this</a> and feel free to email me."},
     {"date": "03/25/2024", "text": "My Ph.D. student, Ishtiaq will be working at Meta for his summer internship to work on TLS and browser."},
     {"date": "02/13/2024", "text": "I gave a talk at <a href='https://www.youtube.com/watch?v=6i9pYDv0tNQ'>NANOG 90</a> to present our RPKI study and RoVista"},
     {"date": "11/21/2023", "text": "I am truly honored to be selected for the <a href='https://www.dns-oarc.net/'>2024 DNS-OARC Programme Committee</a>."},
