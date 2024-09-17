@@ -11,7 +11,7 @@ header:
 
 #### Ph.D. Students
 
-* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, intern at Meta)
+* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
 
 * [Weitong Li](https://www.weitong.me/) (VT Spring 2021, interned at Cloudflare and Cablelabs)
 
@@ -28,13 +28,13 @@ header:
 
 #### Alumni and Interns
 
-* Mahesh Maddhuru (M.S. 2024, First employed at Akamai Technologies)
+* Mahesh Maddhuru (MEng. 2024, at Akamai Technologies)
 
-* Protick Bhowmick (M.S. 2023, at Yale University, interned at Cisco Thousandeyes)
+* Protick Bhowmick (M.S. 2023, at Meta and interned at Cisco Thousandeyes)
 
 * [Hyeonmin Lee](https://hyeonmin-lee.github.io/) (SNU Ph.D. 2022, at UVA as a postdoc)
 
-* Syed Muhammad Farhan (M.S. 2022, First employed at Amazon)
+* Syed Muhammad Farhan (M.S. 2022, at Amazon)
 
 * Spencer Roth (intern 2018, at RIT)
 
