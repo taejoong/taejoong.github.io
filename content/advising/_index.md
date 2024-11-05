@@ -23,6 +23,8 @@ header:
 
 * Muhammad Hamza (VT Fall 2024)
 
+* Yongzhe Xu (VT Spring 2025)
+
 #### Master's Students
 
 
