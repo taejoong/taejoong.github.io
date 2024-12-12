@@ -1,6 +1,19 @@
 [
 {
     "country":"USA",
+    "title":"ImpROV: Measuring and Mitigating Collateral Damage of Route Origin Validation in RPKI",
+    "author":["Weitong Li", "Yuze Li", "Taejoong Chung"],
+    "booktitle_long":"USENIX Security Symposium",
+    "city":"Seattle",
+    "year":"2025",
+    "booktitle_type":"conference",
+    "month":"August",
+    "booktitle_short":"Security",
+    "type":"inproceedings",
+	"category":"Routing"
+},
+{
+    "country":"USA",
     "title":"mmTLS: Scaling the Performance of Encrypted Network Traffic Inspection",
     "author":["Junghan Yoon", "Seunghyun Do", "Duckwoo Kim", "Taejoong Chung", "KyoungSoo Park"],
     "booktitle_long":"USENIX Annual Technical Conference",
