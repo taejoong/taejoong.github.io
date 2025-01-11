@@ -13,7 +13,7 @@ header:
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
 
-* [Weitong Li](https://www.weitong.me/) (VT Spring 2021, interned at Cloudflare and Cablelabs)
+* [Weitong Li](https://www.weitongli.com/) (VT Fall 2021, interned at Cloudflare and Cablelabs)
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
