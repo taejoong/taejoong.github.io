@@ -1,7 +1,7 @@
 [
 {
     "country":"USA",
-    "title":"ImpROV: Measuring and Mitigating Collateral Damage of Route Origin Validation in RPKI",
+    "title":"ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation",
     "author":["Weitong Li", "Yuze Li", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
     "city":"Seattle",
