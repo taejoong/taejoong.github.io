@@ -17,8 +17,6 @@ header:
 
 * Munshi Rejwan Ala Muid (VT 2023, co-advised with Thang Hoang)
 
-* [Minhyeok Kang](https://mmlab.snu.ac.kr/~mhkang/) (SNU 2017, co-advised with Ted Kwon)
-
 * Hoang Tran (VT Spring 2024)
 
 * Muhammad Hamza (VT Fall 2024)
