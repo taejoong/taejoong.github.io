@@ -9,6 +9,10 @@ header:
 ### Students Advised
 ---- 
 
+#### Postdocs
+
+* [Olivier Hureau](https://hureau.com/) 
+
 #### Ph.D. Students
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
