@@ -17,11 +17,17 @@
 
         <script>
         function oxford(arr) {
+			  const advisee = ["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Munshi Rejwan Ala Muid", "Hoang Tran", "Muhammad Hamza", "Yongzhe Xu", "Protick Bhowmick", "Syed Muhammad Farhan", "Hyeonmin Lee", "Minhyeock Kang"]
+
 
             for (i = 0;i < arr.length; i++){
                 if(arr[i] == "Taejoong Chung"){
                     arr[i] = "<span style='color:#000000'>Taejoong Chung</span>"
                 }
+				   if (advisee.includes(arr[i].replace(/<[^>]+>/g, ''))) {
+            // Apply underscore, even if the name is wrapped in a span
+            arr[i] = `<u>${arr[i]}</u>`;
+        }
             }
                 return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
         }
