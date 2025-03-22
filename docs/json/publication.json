@@ -1,6 +1,19 @@
 [
 {
     "country":"USA",
+    "title":"Unraveling the Complexities of MTA-STS Deployment and Management in Email",
+    "author":["Mohammad Ishtiaq Ashiq Khan", "Tobias Fiebig", "Taejoong Chung"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+    "city":"Madison",
+    "year":"2025",
+	"booktitle_type":"conference",
+    "month":"October",
+    "booktitle_short":"IMC",
+    "type":"inproceedings",
+	"category":"Email"
+},
+{
+    "country":"USA",
     "title":"AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators (To Appear)",
     "author":["Munshi Rejwan Ala Muid", "Taejoong Chung", "Thang Hoang"],
 	"booktitle_long":"IEEE Symposium on Security and Privacy",
