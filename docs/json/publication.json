@@ -1,7 +1,7 @@
 [
 {
     "country":"USA",
-    "title":"Unraveling the Complexities of MTA-STS Deployment and Management in Email",
+    "title":"Unraveling the Complexities of MTA-STS Deployment and Management in Email (To appear)",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Tobias Fiebig", "Taejoong Chung"],
 	"booktitle_long":"ACM Internet Measurement Conference",
     "city":"Madison",
@@ -14,7 +14,7 @@
 },
 {
     "country":"USA",
-    "title":"AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators (To Appear)",
+    "title":"AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators (To appear)",
     "author":["Munshi Rejwan Ala Muid", "Taejoong Chung", "Thang Hoang"],
 	"booktitle_long":"IEEE Symposium on Security and Privacy",
 	"city":"San Francisco",
@@ -27,7 +27,7 @@
 },
 {
     "country":"USA",
-    "title":"ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation",
+    "title":"ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation (To appear)",
     "author":["Weitong Li", "Yuze Li", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
     "city":"Seattle",
