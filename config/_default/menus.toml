@@ -9,10 +9,10 @@
   weight = 10
 
 
-#[[main]]
-  #name = "Fundings"
-  #url = "fundings/"
-  #weight = 20
+[[main]]
+  name = "Publications"
+  url = "pubs/"
+  weight = 20
 
 
 [[main]]
