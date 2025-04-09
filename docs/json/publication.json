@@ -23,7 +23,9 @@
 	"month":"May",
 	"booktitle_type":"conference",
 	"category":"TLS",
-	"type":"inproceedings"
+	"type":"inproceedings",
+	"file":"muid-2025-acc",
+	"software":"https://accurevoke.netsecurelab.org"
 },
 {
     "country":"USA",
