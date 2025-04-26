@@ -1,5 +1,18 @@
 [
 {
+    "country":"Portugal",
+    "title":"Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS (To appear)",
+    "author":["Protick Bhowmick", "Dave Levin", "Taejoong Chung"],
+	"booktitle_long":"ACM SIGCOMM",
+    "city":"Coimbra",
+    "year":"2025",
+	"booktitle_type":"conference",
+    "month":"September",
+    "booktitle_short":"SIGCOMM",
+    "type":"inproceedings",
+	"category":"TLS"
+},
+{
     "country":"USA",
     "title":"Unraveling the Complexities of MTA-STS Deployment and Management in Email (To appear)",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Tobias Fiebig", "Taejoong Chung"],
