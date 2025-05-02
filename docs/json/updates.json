@@ -1,4 +1,5 @@
 [
+    {"date": "04/23/2025", "text": "Weitong received a travel grant from the IRTF to attend the IETF-123 meetings in Madrid, Spain."},
     {"date": "03/11/2025", "text": "My Ph.D. students, Hoang and Ishtiaq, will be working at Verisign and Facebook for their summer internship to work on DNSSEC and TLS."},
 	{"date": "07/18/2024", "text": "NTIA published <a href='https://www.ntia.gov/fcc-filing/2024/ntia-comments-reporting-border-gateway-protocol-risk-mitigation-project'>comments</a> regarding the Reporting on Border Gateway Protocol (BGP) Risk Mitigation Progress Notice of Proposed Rulemaking (NPRM). RoVista is used to measure the Route Origin Validation (ROV) status in the United States."},
     {"date": "05/16/2024", "text": "FCC recently proposed <a href='https://docs.fcc.gov/public/attachments/DOC-402579A1.pdf'>Internet Routing Security Reporting Requirements</a>. In the accompanying <a href='https://docs.fcc.gov/public/attachments/DOC-402609A1.pdf'> fact sheet</a>, RoVista is mentioned as an example approach for understanding ROV!"},
