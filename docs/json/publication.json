@@ -28,7 +28,7 @@
 },
 {
     "country":"USA",
-    "title":"AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators (To appear)",
+    "title":"AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators",
     "author":["Munshi Rejwan Ala Muid", "Taejoong Chung", "Thang Hoang"],
 	"booktitle_long":"IEEE Symposium on Security and Privacy",
 	"city":"San Francisco",
@@ -43,7 +43,7 @@
 },
 {
     "country":"USA",
-    "title":"ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation (To appear)",
+    "title":"ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation",
     "author":["Weitong Li", "Yuze Li", "Taejoong Chung"],
     "booktitle_long":"USENIX Security Symposium",
     "city":"Seattle",
