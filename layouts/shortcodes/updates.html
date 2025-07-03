@@ -24,20 +24,36 @@
         var num_updates = 10;
 
         $(document).ready(function () {
-          queue()
-          .defer(d3.json, "json/updates.json")
-          .await(function(error, p) {
-            updates = p;
-            updates.forEach(function (d) { d["date"] = new Date(d["date"]); });
-            updates = updates.filter(function (d) { return d["date"] <= new Date(); });
-            updates.sort(function (a,b) { return d3.descending(a["date"], b["date"]); })
-            
-            if (updates.length > num_updates) {
-              updates = updates.slice(0, num_updates);
-            }
-            
-            renderupdates();
-          });
+			queue()
+			  .defer(d3.json, "json/updates.json")
+			  .await(function (error, p) {
+				updates = p;
+				updates.forEach(function (d) {
+				  d.date = new Date(d.date);          // normalise the date string
+				  d.top  = !!d.top;                   // coerce undefined → false
+				});
+
+				updates = updates.filter(function (d) {
+				  return d.date <= new Date();        // future-dated items are ignored
+				});
+
+				/* ---------- NEW SORT ---------- *
+				 * 1.  All entries with top:true first
+				 * 2.  Within each group, newest date first
+				 */
+				updates.sort(function (a, b) {
+				  if (a.top && !b.top)  return -1;    // pin to the top
+				  if (!a.top && b.top)  return  1;
+				  return d3.descending(a.date, b.date);
+				});
+
+				// keep only the first N after reordering
+				if (updates.length > num_updates) {
+				  updates = updates.slice(0, num_updates);
+				}
+
+				renderupdates();
+			  });
         });
 
         function renderupdates() {

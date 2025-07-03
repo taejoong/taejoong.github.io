@@ -602,20 +602,34 @@
         var num_updates = 10;
 
         $(document).ready(function () {
-          queue()
-          .defer(d3.json, "json/updates.json")
-          .await(function(error, p) {
-            updates = p;
-            updates.forEach(function (d) { d["date"] = new Date(d["date"]); });
-            updates = updates.filter(function (d) { return d["date"] <= new Date(); });
-            updates.sort(function (a,b) { return d3.descending(a["date"], b["date"]); })
-            
-            if (updates.length > num_updates) {
-              updates = updates.slice(0, num_updates);
-            }
-            
-            renderupdates();
-          });
+			queue()
+			  .defer(d3.json, "json/updates.json")
+			  .await(function (error, p) {
+				updates = p;
+				updates.forEach(function (d) {
+				  d.date = new Date(d.date);          
+				  d.top  = !!d.top;                   
+				});
+
+				updates = updates.filter(function (d) {
+				  return d.date <= new Date();        
+				});
+
+				
+
+				updates.sort(function (a, b) {
+				  if (a.top && !b.top)  return -1;    
+				  if (!a.top && b.top)  return  1;
+				  return d3.descending(a.date, b.date);
+				});
+
+				
+				if (updates.length > num_updates) {
+				  updates = updates.slice(0, num_updates);
+				}
+
+				renderupdates();
+			  });
         });
 
         function renderupdates() {
