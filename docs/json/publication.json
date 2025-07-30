@@ -1,7 +1,7 @@
 [
 {
     "country":"Portugal",
-    "title":"Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS (To appear)",
+    "title":"Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS",
     "author":["Protick Bhowmick", "Dave Levin", "Taejoong Chung"],
 	"booktitle_long":"ACM SIGCOMM",
     "city":"Coimbra",
@@ -10,7 +10,8 @@
     "month":"September",
     "booktitle_short":"SIGCOMM",
     "type":"inproceedings",
-	"category":"TLS, DNS"
+	"category":"TLS, DNS",
+	"file":"bhowmick-2025-ocsp"
 },
 {
     "country":"USA",
