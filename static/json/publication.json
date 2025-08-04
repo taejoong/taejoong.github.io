@@ -1,5 +1,18 @@
 [
 {
+    "country":"United States",
+    "title":"Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks",
+    "author":["Weitong Li", "Tao Wan", "Taejoong Chung"],
+	"booktitle_long":"Network and Distributed System Security Symposium",
+    "city":"San Diego",
+    "year":"2026",
+	"booktitle_type":"conference",
+    "month":"February",
+    "booktitle_short":"NDSS",
+    "type":"inproceedings",
+	"category":"RPKI"
+},
+{
     "country":"Portugal",
     "title":"Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS",
     "author":["Protick Bhowmick", "Dave Levin", "Taejoong Chung"],
