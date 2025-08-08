@@ -14,6 +14,10 @@
   url = "pubs/"
   weight = 20
 
+[[main]]
+  name = "Fundings"
+  url = "fundings/"
+  weight = 30
 
 [[main]]
   name = "Students"
