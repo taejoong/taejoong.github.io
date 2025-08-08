@@ -23,14 +23,9 @@ header:
 
 * Hoang Tran (VT Spring 2024, interned at Verisign)
 
-* Muhammad Hamza (VT Fall 2024)
-
 * Yongzhe Xu (VT Spring 2025)
 
 #### Master's Students
-
-* Eeshan Umrani (VT Fall 2024)
-
 
 #### Alumni and Interns
 
