@@ -1,192 +1,339 @@
-    
 <div class="">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js" type="text/javascript"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <div class="panel-heading">
-      <h3 class="panel-title">Publications</h3>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <style>
+    .pubs-controls { margin: 10px 0 20px; }
+    .pubs-heading h4 { margin-top: 0px;   margin-top: 0px; /* default Bootstrap is ~20px */
+ }
+    .pubs-elementlist { list-style: none; padding-left: 10; }
+    .pubs-element { margin-bottom: 0px; }
+    .toggle-label { margin-right: 10px; font-weight: 600; }
+    .btn-group .btn.active { box-shadow: inset 0 3px 5px rgba(0,0,0,.125); }
+    .pubs-empty { color: #777; padding: 10px 0; }
+  /* Keep heading and toggle aligned */
+  .panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Bring back the indent for the publication entries */
+  .panel-body {
+    padding-left: 20px; /* adjust this value to taste, default Bootstrap is 15px */
+  }
+
+  .pubslist {
+    padding-left: 20px; /* matches panel-body padding for consistent look */
+    margin-left: 0;
+  }
+
+  .pubslist .pubs-heading h4 {
+    margin-left: 20px;
+  }
+
+
+
+  </style>
+
+
+<div class="panel-heading" style="display:flex; justify-content:space-between; align-items:center;">
+  <h3 class="panel-title" style="margin:0;">Publications</h3>
+  <div class="pubs-controls" style="margin:0;">
+    <span class="toggle-label">Group by</span>
+    <div class="btn-group" role="group" aria-label="Group publications">
+      <button id="pubs-sort-date" type="button" class="btn btn-default active" aria-pressed="true">Year</button>
+      <button id="pubs-sort-topic" type="button" class="btn btn-default" aria-pressed="false">Topics</button>
     </div>
-    <div class="panel-body" id='publication'>
-        <ul id="pubslist" class="pubslist">
-        </ul>
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-        <script>
-        function oxford(arr) {
-			  const advisee = ["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Munshi Rejwan Ala Muid", "Hoang Tran", "Muhammad Hamza", "Yongzhe Xu", "Protick Bhowmick", "Syed Muhammad Farhan", "Hyeonmin Lee", "Minhyeock Kang", "Olivier Hureau"]
-
-
-            for (i = 0;i < arr.length; i++){
-                if(arr[i] == "Taejoong Chung"){
-                    arr[i] = "<span style='color:#000000'>Taejoong Chung</span>"
-                }
-				   if (advisee.includes(arr[i].replace(/<[^>]+>/g, ''))) {
-            // Apply underscore, even if the name is wrapped in a span
-            arr[i] = `<u>${arr[i]}</u>`;
-        }
-            }
-                return (arr.length > 2 ? arr.slice(0, arr.length-1).join(", ") + ", and " + arr[arr.length-1] : arr.join(" and "));
-        }
-
-        function formatnumber(d) {
-         return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        }
-
-        function formatdate(d) {
-          return d.toDateString().substr(4);
-        }
-        var pubs_sort_key = "year";
-        var pubs = "";
-
-        $(document).ready(function () {
-          queue()
-          .defer(d3.json, "../json/publication.json")
-          .await(function(error, p) { 
-            pubs = p; 
-            renderpubs();
-          });
-          
-          $('#pubs-sort-date').on('click', function (e) {
-            pubs_sort_key = "year";
-            renderpubs();
-          });
-
-          $('#pubs-sort-topic').on('click', function (e) {
-            pubs_sort_key = "category";
-            renderpubs();
-          });
-        });
-
-        function renderpubs() {
-          d3.select("#pubslist")
-           .html("");
-
-          var sorted = d3.nest()
-            .key(function(d) { return d[pubs_sort_key];})
-            .rollup(function(d) { 
-               return d;
-             }).entries(pubs);
-
-          d3.select("#pubslist")
-           .selectAll("li")
-             .data(sorted)
-           .enter().append("li")
-             .attr("class", "pubs-heading")
-             .html(function (d) { return "<h4>" + d.key + "</h4>"; })
-             .append("ul")
-             .attr("class", "pubs-elementlist")
-           .selectAll("li")
-             .data(function (d) { return d.values; })
-           .enter().append("li")
-             .attr("class", "pubs-element")
-             .html(renderpub);
-          
-          d3.select("#pubslist")
-            .selectAll(".pubs-heading")
-            .sort(function (a,b) { return (pubs_sort_key == "year" ? d3.descending(a.key, b.key) : d3.ascending(a.key, b.key)); })
-         }
-
-         function renderpub(d) {
-           var result = "";
-           var authors = oxford(d["author"]);
-           var bibtex = '@' + d['type'] + '\{' + d['file'] + ',\n  author = \{' + d['author'].join(' and ') + '\},\n  title = \{\{' + d['title'] + '\}\},\n'
-         
-		   if (d["category"]){
-			   result += "<strong><span style='color:#e5751f'> { " + d["category"] + " } </span>" + "</strong>" ;
-		   }
-           if (d["type"] == "inproceedings") {
-             var conference_abbr = d["booktitle_short"] + "'" + d["year"].substring(2,4);
-             var conference = "Proceedings of the " + d["booktitle_long"] + " (" + conference_abbr + ")";
-             var address = d["city"] + ", " + (d["state"] ? d["state"] + ", " : "") + d["country"]
-	
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>In <i>" + conference + "</i>, " + address + ", " + d["month"] + " " + d["year"]; 
-             
-             bibtex += "  booktitle = {" + conference + "},\n  address = {" + address + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-
-           } else if (d["type"] == "article") {
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["journal_long"] + (d["journal_short"] ? " (" + d["journal_short"] + ")" : "") + "</i>" + (d["volume"] ? " " + d["volume"] + (d["number"] ? "(" + d["number"] + ")" : "") : "") + ", " + d["month"] + " " + d["year"]; 
-             bibtex += "  journal = {" + d["journal_long"] + "},\n" + (d["volume"] ? "  volume = {" + d["volume"] + "},\n" + (d["number"] ? "  number = {" + d["number"] + "},\n" : "") : "") + "  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-           } else if (d["type"] == "incollection") {
-             var editors = oxford(d["editor"]);
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Chapter in <i>" + d["booktitle"] + "</i>, " + d["publisher"] + ", " + editors + ", Eds., " + d["month"] + " " + d["year"]; 
-             bibtex += "  booktitle = {" + d["booktitle"] + "},\n  publisher = {" + d["publisher"] + "},\n  editor = {" + d["editor"].join(" and ") + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-           } else if (d["type"] == "phdthesis") {
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Doctor of Philosophy Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
-             bibtex += "  school = {" + d["school"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-           } else if (d["type"] == "mastersthesis") {
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br>Master of Science Thesis, " + d["school"] + ", " + d["month"] + " " + d["year"]; 
-             bibtex += "  school = {" + d["school"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-           } else if (d["type"] == "techreport") {
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>Technical Report " + d["number"] + "</i>, " + d["institution"] + ", " + d["month"] + " " + d["year"]; 
-             bibtex += "  institution = {" + d["institution"] + "},\n  number = {" + d["number"] + "},\n  month = {" + d["month"] + "},\n  year = {" + d["year"] + "}\n}\n";
-           } else if (d["type"] == "misc") {
-             result += "<strong>" + d["title"] + "</strong><br>" + authors + "<br><i>" + d["howpublished"] + "</i>"; 
-             bibtex += "  howpublished = {" + d["howpublished"] + "}\n}\n";
-           } else {
-             result = d["type"];
-           }
-           
-           var labels = [];
-           
-           if (d["file"]) {
-             labels.push("<a href='/files/publications/" + d["file"] + ".pdf" + "'><span class='label label-danger'>PDF</span></a>");
-           } 
-           
-           if (d["note"]) {
-             labels.push("<a href='" + d["note"] + "'><span class='label label-danger'>Link</span></a>");
-           }
-
-
-          labels.push(`
-    <span class='label label-default' data-toggle='modal' data-target='#bibtex-${d["file"]}'>BibTeX</span>
-    <div class='modal fade' id='bibtex-${d["file"]}' role='dialog' data-backdrop='false'>
-        <div class='modal-dialog' >
-            <div class='modal-content' >
-                <div class='modal-header'>
-                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
-                    <h4 class='modal-title'>BibTeX</h4>
-                </div>
-                <div class='modal-body'>
-                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
-                    <pre>${bibtex}</pre>
-                </div>
-            </div>
-        </div>
-    </div>
-	`);
- 
-           if (d["slides"]) {
-             labels.push("<a href='slides/" + d["slides"] + "'><span class='label label-default'>Slides</span></a>");
-           } 
-
-           if (d["dataset"]) {
-             labels.push("<a href='" + d["dataset"] + "'><span class='label label-warning'>Measurement Data</span></a>");
-           }
-           
-           if (d["software"]) {
-             labels.push("<a href='" + d["software"] + "'><span class='label label-primary'>Software</span></a>");
-           }
-
-           if (d["award"]) {
-             labels.push("<span class='label label-success'>" + d["award"] + "</span>");
-           } 
-           
-           if (labels.length > 0) {
-             result = result + "<br>" + labels.join(" ");
-           }
-           
-           return result;
-         }
-
-        </script>
-    </div>
-
+  </div>
 </div>
 
+    <ul id="pubslist" class="pubslist"></ul>
+
+    <script>
+      // Resolve JSON path via Hugo
+      var PUBS_JSON_URL = "{{ "json/publication.json" | relURL }}";
+
+	  // Normalize "category" to an array of clean strings.
+// Accepts:
+//   "TLS, DNS"               -> ["TLS","DNS"]
+//   ["TLS","DNS"]            -> ["TLS","DNS"]
+//   ["TLS, DNS", "BGP"]      -> ["TLS","DNS","BGP"]
+//   undefined / empty        -> ["Others"]
+	function getCategories(d) {
+	  var cat = d && d.category;
+	  if (!cat || (Array.isArray(cat) && cat.length === 0)) return ["Others"];
+
+	  function splitComma(s) {
+		return String(s).split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+	  }
+
+	  if (Array.isArray(cat)) {
+		var out = [];
+		for (var i = 0; i < cat.length; i++) {
+		  out = out.concat(splitComma(cat[i]));
+		}
+		return out.length ? out : ["Others"];
+	  }
+
+	  if (typeof cat === "string") {
+		var parts = splitComma(cat);
+		return parts.length ? parts : ["Others"];
+	  }
+
+	  return ["Others"];
+	}
 
 
+
+      function oxford(arr) {
+        var advisee = ["Mohammad Ishtiaq Ashiq Khan", "Weitong Li", "Munshi Rejwan Ala Muid", "Hoang Tran", "Muhammad Hamza", "Yongzhe Xu", "Protick Bhowmick", "Syed Muhammad Farhan", "Hyeonmin Lee", "Minhyeock Kang", "Olivier Hureau"];
+        for (var i = 0; i < arr.length; i++) {
+          if (arr[i] === "Taejoong Chung") arr[i] = "<span style='color:#000000'>Taejoong Chung</span>";
+          if (advisee.indexOf(arr[i].replace(/<[^>]+>/g, '')) !== -1) arr[i] = "<u>" + arr[i] + "</u>";
+        }
+        return (arr.length > 2 ? arr.slice(0, arr.length - 1).join(", ") + ", and " + arr[arr.length - 1] : arr.join(" and "));
+      }
+
+      var pubs_sort_key = "year";
+      var pubs = [];
+
+      function getGroupKey(d) {
+        if (pubs_sort_key === "category") return d.category ? d.category : "Others";
+        return d.year;
+      }
+
+      function makeSafeId(d) {
+        if (d.file) return d.file;
+        var base = (d.title || "pub") + "-" + (d.year || "");
+        return base.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+      }
+
+      function showEmptyMessage(msg) {
+        var root = d3.select("#pubslist");
+        root.html("");
+        root.append("li").attr("class", "pubs-empty").text(msg || "No publications found.");
+      }
+
+      $(document).ready(function () {
+        queue()
+          .defer(d3.json, PUBS_JSON_URL)
+          .await(function (error, p) {
+            if (error) { console.error("Failed to load publications JSON:", error, "URL:", PUBS_JSON_URL); showEmptyMessage("Could not load publications."); return; }
+            if (!Array.isArray(p)) { console.warn("Publications JSON is not an array; got:", p); showEmptyMessage("No publications found."); return; }
+            pubs = p;
+            renderpubs();
+          });
+
+        $('#pubs-sort-date').on('click', function () {
+          pubs_sort_key = "year";
+          $('#pubs-sort-date').addClass('active').attr('aria-pressed', 'true');
+          $('#pubs-sort-topic').removeClass('active').attr('aria-pressed', 'false');
+          renderpubs();
+        });
+
+        $('#pubs-sort-topic').on('click', function () {
+          pubs_sort_key = "category";
+          $('#pubs-sort-topic').addClass('active').attr('aria-pressed', 'true');
+          $('#pubs-sort-date').removeClass('active').attr('aria-pressed', 'false');
+          renderpubs();
+        });
+      });
+
+function renderpubs() {
+  var root = d3.select("#pubslist");
+  root.html("");
+
+  if (!pubs || pubs.length === 0) { showEmptyMessage("No publications found."); return; }
+
+  var groups = [];
+
+  if (pubs_sort_key === "category") {
+    // Build groups where one item can appear under multiple categories
+    var cmap = {};
+    pubs.forEach(function (d) {
+      var cats = getCategories(d);
+      cats.forEach(function (c) {
+        if (!cmap[c]) cmap[c] = [];
+        cmap[c].push(d);
+      });
+    });
+    for (var c in cmap) {
+      if (Object.prototype.hasOwnProperty.call(cmap, c)) {
+        groups.push({ key: c, values: cmap[c] });
+      }
+    }
+    // Alphabetical category order
+	groups.sort(function (a, b) {
+  var aa = String(a.key).toLowerCase();
+  var bb = String(b.key).toLowerCase();
+  if (aa === "others" && bb !== "others") return 1;
+  if (bb === "others" && aa !== "others") return -1;
+  return aa < bb ? -1 : (aa > bb ? 1 : 0);
+});
+
+  } else {
+    // Group by year (single group per item)
+    var ymap = {};
+    pubs.forEach(function (d) {
+      var y = d && d.year;
+      if (!y) return;
+      if (!ymap[y]) ymap[y] = [];
+      ymap[y].push(d);
+    });
+    for (var y in ymap) {
+      if (Object.prototype.hasOwnProperty.call(ymap, y)) {
+        groups.push({ key: y, values: ymap[y] });
+      }
+    }
+    // Numeric desc for years
+    groups.sort(function (a, b) {
+      var an = parseInt(a.key, 10), bn = parseInt(b.key, 10);
+      if (!isNaN(an) && !isNaN(bn)) return d3.descending(an, bn);
+      var aa = String(a.key).toLowerCase(), bb = String(b.key).toLowerCase();
+      return aa < bb ? -1 : (aa > bb ? 1 : 0);
+    });
+  }
+
+  if (!groups.length) { showEmptyMessage("No publications to display."); return; }
+
+  // Render groups & items
+  for (var gi = 0; gi < groups.length; gi++) {
+    var g = groups[gi];
+    var li = root.append("li").attr("class", "pubs-heading");
+    li.append("h4").text(g.key);
+    var ul = li.append("ul").attr("class", "pubs-elementlist");
+
+    for (var i = 0; i < g.values.length; i++) {
+      ul.append("li").attr("class", "pubs-element").html(renderpub(g.values[i]));
+    }
+  }
+}
+
+      function renderpub(d) {
+        var result = "";
+        var authors = Array.isArray(d.author) ? oxford(d.author.slice()) : "";
+        var fileId = makeSafeId(d);
+
+        var bibtex  = '@' + d.type + '{' + fileId + ',\n';
+        bibtex     += '  author = {' + (Array.isArray(d.author) ? d.author.join(' and ') : '') + '},\n';
+        bibtex     += '  title = {' + '{' + d.title + '}' + '},\n';
+
+        if (d.type === "inproceedings") {
+          var conference_abbr = (d.booktitle_short || "") + "'" + String(d.year || "").substring(2, 4);
+          var conference = "Proceedings of the " + (d.booktitle_long || "") + " (" + conference_abbr + ")";
+          var address = (d.city || "") + ", " + (d.state ? d.state + ", " : "") + (d.country || "");
+
+          bibtex += "  booktitle = {" + conference + "},\n";
+          bibtex += "  address = {" + address + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+          result += "<strong>" + d.title + "</strong><br>" + authors +
+                    "<br>In <i>" + conference + "</i>, " + address + ", " + d.month + " " + d.year;
+
+        } else if (d.type === "article") {
+          result += "<strong>" + d.title + "</strong><br>" + authors + "<br>";
+          if (d.journal_long) {
+            result += "<i>" + d.journal_long + (d.journal_short ? " (" + d.journal_short + ")" : "") + "</i>";
+            if (d.volume) result += " " + d.volume + (d.number ? "(" + d.number + ")" : "");
+            result += ", ";
+          }
+          result += (d.month || "") + " " + (d.year || "");
+
+          if (d.journal_long) bibtex += "  journal = {" + d.journal_long + "},\n";
+          if (d.volume)       bibtex += "  volume = {" + d.volume + "},\n";
+          if (d.number)       bibtex += "  number = {" + d.number + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+        } else if (d.type === "incollection") {
+          var editors = Array.isArray(d.editor) ? oxford(d.editor.slice()) : "";
+          result += "<strong>" + d.title + "</strong><br>" + authors +
+                    "<br>Chapter in <i>" + (d.booktitle || "") + "</i>, " + (d.publisher || "") + ", " + editors + ", Eds., " + (d.month || "") + " " + (d.year || "");
+
+          bibtex += "  booktitle = {" + (d.booktitle || "") + "},\n";
+          bibtex += "  publisher = {" + (d.publisher || "") + "},\n";
+          if (Array.isArray(d.editor)) bibtex += "  editor = {" + d.editor.join(" and ") + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+        } else if (d.type === "phdthesis") {
+          result += "<strong>" + d.title + "</strong><br>" + authors + "<br>Doctor of Philosophy Thesis, " + (d.school || "") + ", " + (d.month || "") + " " + (d.year || "");
+          bibtex += "  school = {" + (d.school || "") + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+        } else if (d.type === "mastersthesis") {
+          result += "<strong>" + d.title + "</strong><br>" + authors + "<br>Master of Science Thesis, " + (d.school || "") + ", " + (d.month || "") + " " + (d.year || "");
+          bibtex += "  school = {" + (d.school || "") + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+        } else if (d.type === "techreport") {
+          result += "<strong>" + d.title + "</strong><br>" + authors + "<br><i>Technical Report " + (d.number || "") + "</i>, " + (d.institution || "") + ", " + (d.month || "") + " " + (d.year || "");
+          bibtex += "  institution = {" + (d.institution || "") + "},\n";
+          bibtex += "  number = {" + (d.number || "") + "},\n";
+          bibtex += "  month = {" + (d.month || "") + "},\n";
+          bibtex += "  year = {" + (d.year || "") + "}\n";
+          bibtex += "}\n";
+
+        } else if (d.type === "misc") {
+          result += "<strong>" + d.title + "</strong><br>" + authors + "<br><i>" + (d.howpublished || "") + "</i>";
+          bibtex += "  howpublished = {" + (d.howpublished || "") + "}\n";
+          bibtex += "}\n";
+
+        } else {
+          result = d.title || d.type || "";
+          bibtex += "}\n";
+        }
+		
+		// Show all categories (except if it's only ["Others"])
+var cats = getCategories(d);
+if (!(cats.length === 1 && cats[0] === "Others")) {
+  result = "<strong><span style='color:#e5751f'> { " + cats.join(" · ") + " } </span></strong> " + result;
+}
+
+
+
+        var labels = [];
+        if (d.file)     labels.push("<a href='/files/publications/" + d.file + ".pdf'><span class='label label-danger'>PDF</span></a>");
+        if (d.note)     labels.push("<a href='" + d.note + "'><span class='label label-danger'>Link</span></a>");
+        labels.push(
+          "<span class='label label-default' data-toggle='modal' data-target='#bibtex-" + fileId + "'>BibTeX</span>" +
+          "<div class='modal fade' id='bibtex-" + fileId + "' role='dialog' data-backdrop='false'>" +
+          "  <div class='modal-dialog'>" +
+          "    <div class='modal-content'>" +
+          "      <div class='modal-header'>" +
+          "        <button type='button' class='close' data-dismiss='modal'>&times;</button>" +
+          "        <h4 class='modal-title'>BibTeX</h4>" +
+          "      </div>" +
+          "      <div class='modal-body'>" +
+          "        <button type='button' class='close' data-dismiss='modal'>&times;</button>" +
+          "        <pre>" + bibtex.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "</pre>" +
+          "      </div>" +
+          "    </div>" +
+          "  </div>" +
+          "</div>"
+        );
+        if (d.slides)  labels.push("<a href='slides/" + d.slides + "'><span class='label label-default'>Slides</span></a>");
+        if (d.dataset) labels.push("<a href='" + d.dataset + "'><span class='label label-warning'>Measurement Data</span></a>");
+        if (d.software)labels.push("<a href='" + d.software + "'><span class='label label-primary'>Software</span></a>");
+        if (d.award)   labels.push("<span class='label label-success'>" + d.award + "</span>");
+
+        if (labels.length > 0) result += "<br>" + labels.join(" ");
+        return result;
+      }
+    </script>
+  </div>
+</div>
 

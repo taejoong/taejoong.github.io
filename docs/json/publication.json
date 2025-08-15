@@ -10,7 +10,7 @@
     "month":"February",
     "booktitle_short":"NDSS",
     "type":"inproceedings",
-	"category":"Routing"
+	"category":["Routing"]
 },
 {
     "country":"Portugal",
@@ -23,7 +23,7 @@
     "month":"September",
     "booktitle_short":"SIGCOMM",
     "type":"inproceedings",
-	"category":"TLS, DNS",
+	"category":["TLS", "DNS"],
 	"file":"bhowmick-2025-ocsp"
 },
 {
@@ -37,7 +37,7 @@
     "month":"October",
     "booktitle_short":"IMC",
     "type":"inproceedings",
-	"category":"DNS"
+	"category":["DNS"]
 },
 {
     "country":"USA",
@@ -51,7 +51,7 @@
     "booktitle_short":"IMC",
     "type":"inproceedings",
 	"file":"ashiq-2025-mtasts",
-	"category":"Email"
+	"category":["Email"]
 },
 {
     "country":"USA",
@@ -63,7 +63,7 @@
 	"booktitle_short":"Oakland",
 	"month":"May",
 	"booktitle_type":"conference",
-	"category":"TLS",
+	"category":["TLS"],
 	"type":"inproceedings",
 	"file":"muid-2025-acc",
 	"software":"https://accurevoke.netsecurelab.org"
@@ -79,7 +79,7 @@
     "month":"August",
     "booktitle_short":"Security",
     "type":"inproceedings",
-	"category":"Routing",
+	"category":["Routing"],
 	"file":"li-2025-router"
 },
 {
@@ -94,7 +94,7 @@
     "booktitle_short":"ATC",
     "type":"inproceedings",
 	"file":"yoon-2024-mmtls",
-	"category":"TLS"
+	"category":["TLS"]
 },
 {
     "country":"USA",
@@ -106,7 +106,7 @@
     "booktitle_type":"conference",
     "month":"August",
     "booktitle_short":"Security",
-	"category":"Email",
+	"category":["Email"],
 	"dataset":"https://taejoong.github.io/files/publications/ashiq-2024-spf-artifacts.pdf",
 	"file":"ashiq-2024-spf",
     "type":"inproceedings"
@@ -136,7 +136,7 @@
 	"booktitle_type":"conference",
 	"dataset":"https://irredicator.netsecurelab.org",
 	"type":"inproceedings",
-	"category":"Routing",
+	"category":["Routing"],
 	"file":"kang-2024-irredicator"
 },
 {
@@ -149,7 +149,7 @@
     "month":"September",
     "booktitle_short":"Internet Draft",
     "type":"misc",
-	"category":"DNS",
+	"category":["DNS"],
 	"note":"https://www.ietf.org/archive/id/draft-fregly-research-agenda-for-pqc-dnssec-00.txt"
 },
 {
@@ -161,7 +161,7 @@
     "year":"2023",
 	"booktitle_type":"workshop",
     "month":"November",
-	"category":"TLS",
+	"category":["TLS"],
 	"file":"larisch-2023-roots",
     "booktitle_short":"HotNets",
     "type":"inproceedings"
@@ -179,7 +179,7 @@
 	"dataset":"https://rovista.netsecurelab.org",
     "type":"inproceedings",
 	"file":"li-2023-rov",
-	"category":"Routing",
+	"category":["Routing"],
 	"award":"NANOG90 Presented"
 },
 {
@@ -192,7 +192,7 @@
     "booktitle_type":"conference",
     "month":"December",
 	"file":"yoon-2023-dotls",
-	"category":"TLS",
+	"category":["TLS"],
     "booktitle_short":"ACSAC",
     "type":"inproceedings"
 },
@@ -208,7 +208,7 @@
     "booktitle_short":"Security",
     "type":"inproceedings",
 	"file":"ashiq-2023-dmarc",
-	"category":"Email",
+	"category":["Email"],
 	"dataset":"https://dmarcstudy.github.io"
 },
 {
@@ -221,7 +221,7 @@
     "booktitle_type":"conference",
     "month":"April",
     "booktitle_short":"NSDI",
-	"category":"TLS",
+	"category":["TLS"],
     "type":"inproceedings",
     "file":"yoon-2023-tls"
 },
@@ -236,7 +236,7 @@
     "month":"March",
     "booktitle_short":"PAM",
     "type":"inproceedings",
-	"category":"TLS",
+	"category":["TLS"],
     "file":"farhan-2023-tls"
 },
 {
@@ -249,7 +249,7 @@
     "booktitle_type":"conference",
     "month":"March",
     "booktitle_short":"PAM",
-	"category":"DNS",
+	"category":["DNS"],
     "file":"bhowmick-2023-dns",
     "type":"inproceedings",
 	"dataset":"https://ttl-violation-study.github.io"
@@ -263,7 +263,7 @@
     "booktitle_type":"conference",
     "month":"October",
     "type":"inproceedings",
-	"category":"TLS",
+	"category":["TLS"],
     "file":"pradeep-2022-keypinning",
     "booktitle_short":"IMC"
 },
@@ -274,7 +274,7 @@
     "city":"Los Angeles",
     "year":"2022",
     "booktitle_type":"conference",
-	"category":"TLS",
+	"category":["TLS"],
     "month":"November",
     "type":"inproceedings",
     "file":"larisch-2022-hammurabi",
@@ -292,7 +292,7 @@
     "month":"August",
     "type":"inproceedings",
     "file":"lee-2022-dane",
-	"category":"Email",
+	"category":["Email"],
     "booktitle_short":"Security"
 },
 {
@@ -329,7 +329,7 @@
     "city":"Virtual",
     "year":"2021",
     "booktitle_tychpe":"conference",
-	"category":"TLS",
+	"category":["TLS"],
     "month":"March",
     "booktitle_short":"PAM",
     "type":"inproceedings",
@@ -343,7 +343,7 @@
 	"city":"Pittsburgh",
 	"year":"2020",
 	"booktitle_short":"IMC",
-	"category":"DNS",
+	"category":["DNS"],
 	"month":"October",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
@@ -360,7 +360,7 @@
     "month":"June",
     "booktitle_type":"workshop",
     "file":"aqeel-2020-accs",
-	"category":"TLS",
+	"category":["TLS"],
     "type":"inproceedings"
 },
 {
@@ -373,7 +373,7 @@
         "booktitle_short":"Security",
         "month":"August",
         "file":"lee-2020-dane",
-	"category":"Email",
+	"category":["Email"],
         "dataset":"https://dane-study.github.io",
         "booktitle_type":"conference",
         "type":"inproceedings"
@@ -387,7 +387,7 @@
 	"year":"2019",
 	"booktitle_short":"CCS",
 	"month":"November",
-	"category":"TLS",
+	"category":["TLS"],
         "file":"roberts-2019-phishing",
 	"booktitle_type":"conference",
 	"type":"inproceedings"
@@ -401,7 +401,7 @@
 	"year":"2019",
 	"booktitle_short":"IMC",
 	"month":"October",
-	"category":"Routing",
+	"category":["Routing"],
 	"booktitle_type":"conference",
 	"type":"inproceedings",
         "file":"chung-2019-rpki",
@@ -418,7 +418,7 @@
 	"month":"October",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
-	"category":"DNS",
+	"category":["DNS"],
         "file":"muller-2019-ksk",
         "dataset":"https://github.com/SIDN/RollRollRollYourRoot",
 	"award":"Distinguished Paper Award"
@@ -433,7 +433,7 @@
 	"booktitle_short":"IMC",
 	"month":"October",
 	"booktitle_type":"conference",
-	"category":"DNS",
+	"category":["DNS"],
     "file":"roth-2019-registrar",
 	"type":"inproceedings"
 },
@@ -444,7 +444,7 @@
 	"year":"2019",
 	"journal_long":"IEEE Transactions on Network and Service Management",
 	"type":"article",
-	"category":"DNS",
+	"category":["DNS"],
 	"month":"Sepember",
 	"vol":"16",
 	"pp":"3"
@@ -454,7 +454,7 @@
 	"title":"maTLS: How to Make TLS middlebox-aware?",
 	"author":["Hyunwoo Lee", "Zachary Smith", "Junghwan Lim", "Gyeongjae Choi", "Selin Chun", "Taejoong Chung", "Ted \"Taekyoung\" Kwon"],
 	"booktitle_long":"Network and Distributed System Security Symposium",
-	"category":"TLS",
+	"category":["TLS"],
 	"city":"San Diego",
 	"year":"2019",
 	"booktitle_short":"NDSS",
@@ -474,7 +474,7 @@
 	"booktitle_short":"IMC",
         "dataset":"https://securepki.org/imc18.html",
 	"month":"November",
-	"category":"TLS",
+	"category":["TLS"],
 	"booktitle_type":"conference",
 	"type":"inproceedings",
         "file":"chung-2018-ocsp"
@@ -489,7 +489,7 @@
 	"vol":"48",
 	"pp":"2",
 	"journal_long":"ACM SIGCOMM Computer Communications Review",
-	"category":"TLS",
+	"category":["TLS"],
 	"type":"article",
         "file":"quirin-2018-caa"
 },
@@ -502,7 +502,7 @@
 	"vol":"42",
 	"pp":"4",
 	"journal_long":"The USENIX Magazine",
-	"category":"DNS",
+	"category":["DNS"],
         "file":"chung-2017-login",
 	"type":"article"
 },
@@ -529,7 +529,7 @@
 	"booktitle_short":"IMC",
 	"month":"November",
 	"booktitle_type":"conference",
-	"category":"DNS",
+	"category":["DNS"],
 	"dataset":"http://securepki.org/imc17.html",
 	"type":"inproceedings",
         "file":"chung-2017-registrar",
@@ -558,7 +558,7 @@
 	"year":"2017",
 	"booktitle_short":"SIGCOMM",
 	"month":"August",
-	"category":"DNS",
+	"category":["DNS"],
 	"booktitle_type":"conference",
 	"type":"inproceedings"
 },
@@ -571,7 +571,7 @@
 	"year":"2017",
 	"booktitle_short":"Security",
 	"month":"August",
-	"category":"DNS",
+	"category":["DNS"],
 	"booktitle_type":"conference",
 	"type":"inproceedings",
 	"dataset":"http://securepki.org/sec17.html",
@@ -589,7 +589,7 @@
 	"month":"November",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
-	"category": "DNS, TLS",
+	"category": ["DNS", "TLS"],
 	"file":"chung-2016-middlebox",
 	"dataset":"http://tft.ccs.neu.edu"
 },
@@ -599,7 +599,7 @@
 	"author":["Taejoong Chung","Yabing Liu", "David Choffnes","Dave Levin", "Bruce Maggs", "Alan Mislove", "Christo Wilson"],
 	"booktitle_long":"ACM Internet Measurement Conference",
 	"city":"Santa Monica, California",
-	"category":"TLS",
+	"category":["TLS"],
 	"year":"2016",
 	"booktitle_short":"IMC",
 	"month":"November",
@@ -615,7 +615,7 @@
 	"booktitle_long":"The ACM Conference on Computer and Communications Security",
 	"city":"Hofburg Palace, Vienna",
 	"year":"2016",
-	"category":"TLS",
+	"category":["TLS"],
 	"booktitle_short":"CCS",
 	"month":"October",
 	"booktitle_type":"conference",
