@@ -28,6 +28,19 @@
 },
 {
     "country":"USA",
+    "title":"Decoding DNSSEC Errors at Scale: An Automated DNSSEC Error Resolution Framework using Insights from DNSViz Logs (Conditionally Accepted)",
+    "author":["Mohammad Ishtiaq Ashiq Khan", "Olivier Hureau", "Casey Deccio", "Taejoong Chung"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+    "city":"Madison",
+    "year":"2025",
+	"booktitle_type":"conference",
+    "month":"October",
+    "booktitle_short":"IMC",
+    "type":"inproceedings",
+	"category":"DNS"
+},
+{
+    "country":"USA",
     "title":"Unraveling the Complexities of MTA-STS Deployment and Management in Securing Email",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Tobias Fiebig", "Taejoong Chung"],
 	"booktitle_long":"ACM Internet Measurement Conference",
