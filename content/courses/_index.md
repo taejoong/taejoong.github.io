@@ -19,7 +19,7 @@ header:
 #### CS 4274: Secure Computing Capstone
 * Fall 2023
 #### CS 4264: Principles of Computer Security
-* Spring 2021, Spring 2022
+* Spring 2021, Spring 2022, Spring 2025
 #### CSCI-351: Data Communication and Networks 
 * Fall 2018, Fall 2019 at RIT
 
