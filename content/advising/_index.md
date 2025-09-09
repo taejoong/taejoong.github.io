@@ -19,7 +19,7 @@ header:
 
 * [Weitong Li](https://www.weitongli.com/) (VT Fall 2021, interned at Cloudflare and Cablelabs)
 
-* Munshi Rejwan Ala Muid (VT Fall 2023, co-advised with Thang Hoang)
+* [Munshi Rejwan Ala Muid](https://rezwan-muid.github.io/) (VT Fall 2023, co-advised with Thang Hoang)
 
 * Hoang Tran (VT Spring 2024, interned at Verisign)
 
