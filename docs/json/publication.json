@@ -38,7 +38,8 @@
     "booktitle_short":"SIGCOMM",
     "type":"inproceedings",
 	"category":["TLS", "DNS"],
-	"file":"bhowmick-2025-ocsp"
+	"file":"bhowmick-2025-ocsp",
+	"talk":"https://www.youtube.com/watch?v=hXASMw1JL8M&list=PLU4C2_kotFP2E-uGEPzvKPC8iEfWuG-r0&index=25"
 },
 {
     "country":"USA",
@@ -80,6 +81,7 @@
 	"category":["TLS"],
 	"type":"inproceedings",
 	"file":"muid-2025-acc",
+	"talk":"https://www.youtube.com/watch?v=kF-tH8xbsVc",
 	"software":"https://accurevoke.netsecurelab.org"
 },
 {
@@ -108,6 +110,7 @@
     "booktitle_short":"ATC",
     "type":"inproceedings",
 	"file":"yoon-2024-mmtls",
+	"talk":"https://www.youtube.com/watch?v=Cs21YSZ1Z_0",
 	"category":["TLS"]
 },
 {
@@ -123,6 +126,7 @@
 	"category":["Email"],
 	"dataset":"https://taejoong.github.io/files/publications/ashiq-2024-spf-artifacts.pdf",
 	"file":"ashiq-2024-spf",
+	"talk":"https://www.youtube.com/watch?v=rAlEATNghME",
     "type":"inproceedings"
 },
 {
@@ -151,6 +155,7 @@
 	"dataset":"https://irredicator.netsecurelab.org",
 	"type":"inproceedings",
 	"category":["Routing"],
+	"talk":"https://www.youtube.com/watch?v=AdCCGWtsn2A",
 	"file":"kang-2024-irredicator"
 },
 {
@@ -178,6 +183,7 @@
 	"category":["TLS"],
 	"file":"larisch-2023-roots",
     "booktitle_short":"HotNets",
+	"talk":"https://www.youtube.com/watch?v=Xtm_ISP-PEw",
     "type":"inproceedings"
 },
 {
@@ -194,7 +200,8 @@
     "type":"inproceedings",
 	"file":"li-2023-rov",
 	"category":["Routing"],
-	"award":"NANOG90 Presented"
+	"award":"NANOG90 Presented",
+	"talk":"https://www.youtube.com/watch?v=6i9pYDv0tNQA"
 },
 {
     "country":"USA",
@@ -223,7 +230,8 @@
     "type":"inproceedings",
 	"file":"ashiq-2023-dmarc",
 	"category":["Email"],
-	"dataset":"https://dmarcstudy.github.io"
+	"dataset":"https://dmarcstudy.github.io",
+	"talk":"https://www.youtube.com/watch?v=EhxFQdrKC-s&t=4s"
 },
 {
     "country":"USA",
@@ -251,6 +259,7 @@
     "booktitle_short":"PAM",
     "type":"inproceedings",
 	"category":["TLS"],
+	"talk":"https://www.youtube.com/watch?v=c3ViaIFvLZY",
     "file":"farhan-2023-tls"
 },
 {
@@ -266,7 +275,8 @@
 	"category":["DNS"],
     "file":"bhowmick-2023-dns",
     "type":"inproceedings",
-	"dataset":"https://ttl-violation-study.github.io"
+	"dataset":"https://ttl-violation-study.github.io",
+	"talk":"https://www.youtube.com/watch?v=eCTcVHK2Xlk"
 },
     {"country":"France",
     "title":"A Comparative Analysis of Certificate Pinning in Android & iOS",
@@ -279,6 +289,7 @@
     "type":"inproceedings",
 	"category":["TLS"],
     "file":"pradeep-2022-keypinning",
+	"talk":"https://www.youtube.com/watch?v=4jOsuBjy-O4",
     "booktitle_short":"IMC"
 },
     {"country":"United States",
@@ -293,7 +304,8 @@
     "type":"inproceedings",
     "file":"larisch-2022-hammurabi",
     "booktitle_short":"CCS",
-	"award":"Best Paper Honorable Mention"
+	"award":"Best Paper Honorable Mention",
+	"talk":"https://www.youtube.com/watch?v=U0LaQ4liMHY&t"
 },
 {
     "country":"United States",
@@ -307,7 +319,8 @@
     "type":"inproceedings",
     "file":"lee-2022-dane",
 	"category":["Email"],
-    "booktitle_short":"Security"
+    "booktitle_short":"Security",
+	"talk":"https://www.youtube.com/watch?v=vqDbpi2gmbc"
 },
 {
     "country":"Virtual",
@@ -316,6 +329,7 @@
     "booktitle_long":"ACM SIGCOMM",
     "city":"Virtual",
     "year":"2021",
+	"talk":"https://www.youtube.com/watch?v=RxRxuaNbIHY",
     "booktitle_type":"conference",
     "month":"August",
     "type":"inproceedings",
@@ -347,6 +361,7 @@
     "month":"March",
     "booktitle_short":"PAM",
     "type":"inproceedings",
+	"talk":"https://www.youtube.com/watch?v=sqa37rAjgU8",
     "file":"omolola-2020-reissuance"
 },
 {
@@ -374,6 +389,7 @@
     "month":"June",
     "booktitle_type":"workshop",
     "file":"aqeel-2020-accs",
+	"talk":"https://www.youtube.com/watch?v=XntM2bCpil0",
 	"category":["TLS"],
     "type":"inproceedings"
 },
@@ -390,6 +406,7 @@
 	"category":["Email"],
         "dataset":"https://dane-study.github.io",
         "booktitle_type":"conference",
+		"talk":"https://www.youtube.com/watch?v=amkIb5UqBNE",
         "type":"inproceedings"
 },
 {
@@ -435,7 +452,9 @@
 	"category":["DNS"],
         "file":"muller-2019-ksk",
         "dataset":"https://github.com/SIDN/RollRollRollYourRoot",
-	"award":"Distinguished Paper Award"
+	"award":"Distinguished Paper Award",
+	"talk":"https://www.youtube.com/watch?v=1yu6eQIaH5Y"
+
 },
 {
 	"country":"Netherlands",
@@ -547,7 +566,8 @@
 	"dataset":"http://securepki.org/imc17.html",
 	"type":"inproceedings",
         "file":"chung-2017-registrar",
-	"award":"Applied Networking Research Prize 2019"
+	"award":"Applied Networking Research Prize 2019",
+	"talk":"https://www.youtube.com/live/2HVtswVGmak?si=Jh7ALobxRs7XmPr_"
 },
 {
 	"country":"USA",
@@ -586,6 +606,7 @@
 	"booktitle_short":"Security",
 	"month":"August",
 	"category":["DNS"],
+	"talk":"https://www.youtube.com/watch?v=KLj4ayIi920",
 	"booktitle_type":"conference",
 	"type":"inproceedings",
 	"dataset":"http://securepki.org/sec17.html",

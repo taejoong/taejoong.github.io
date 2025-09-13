@@ -328,6 +328,7 @@ if (!(cats.length === 1 && cats[0] === "Others")) {
         if (d.slides)  labels.push("<a href='slides/" + d.slides + "'><span class='label label-default'>Slides</span></a>");
         if (d.dataset) labels.push("<a href='" + d.dataset + "'><span class='label label-warning'>Measurement Data</span></a>");
         if (d.software)labels.push("<a href='" + d.software + "'><span class='label label-primary'>Software</span></a>");
+        if (d.talk)labels.push("<a href='" + d.talk + "'><span class='label label-info'>Talk</span></a>");
         if (d.award)   labels.push("<span class='label label-success'>" + d.award + "</span>");
 
         if (labels.length > 0) result += "<br>" + labels.join(" ");
