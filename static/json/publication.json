@@ -1,6 +1,19 @@
 [
 {
     "country":"USA",
+    "title":"Post-Quantum Diversity for DNSSEC: Routine Performance, Resilient Fallback",
+    "author":["Taejoong Chung", "Joe Harvey", "Burt Kaliski", "Daniel McVicker", "Benno Overeinder", "Swapneel Sheth", "Ondřej Surý"],
+	"booktitle_long":"NIST PQC Standardization Conference",
+	"city":"Maryland",
+	"year":"2025",
+	"month":"May",
+	"howpublished":"National Institute of Standards and Technology, Post Quantum Cryptography Standardization Conference, September 2025", 
+	"booktitle_type":"conference",
+	"category":["DNS"],
+	"type":"misc"
+},
+{
+    "country":"USA",
     "title":"The Threat Landscape of IP Leasing in the Post-RPKI Era",
     "author":["Weitong Li", "Yongzhe Xu", "Taejoong Chung"],
 	"booktitle_long":"IEEE Symposium on Security and Privacy",
