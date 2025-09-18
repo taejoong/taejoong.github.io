@@ -14,7 +14,7 @@
 },
 {
     "country":"USA",
-    "title":"The Threat Landscape of IP Leasing in the Post-RPKI Era",
+    "title":"The Threat Landscape of IP Leasing in the RPKI Era",
     "author":["Weitong Li", "Yongzhe Xu", "Taejoong Chung"],
 	"booktitle_long":"IEEE Symposium on Security and Privacy",
 	"city":"San Francisco",
