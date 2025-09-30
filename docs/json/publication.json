@@ -56,7 +56,7 @@
 },
 {
     "country":"USA",
-    "title":"Decoding DNSSEC Errors at Scale: An Automated DNSSEC Error Resolution Framework using Insights from DNSViz Logs (Conditionally Accepted)",
+    "title":"Decoding DNSSEC Errors at Scale: An Automated DNSSEC Error Resolution Framework using Insights from DNSViz Logs",
     "author":["Mohammad Ishtiaq Ashiq Khan", "Olivier Hureau", "Casey Deccio", "Taejoong Chung"],
 	"booktitle_long":"ACM Internet Measurement Conference",
     "city":"Madison",
