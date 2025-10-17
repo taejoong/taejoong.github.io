@@ -23,7 +23,8 @@
 	"month":"May",
 	"booktitle_type":"conference",
 	"category":["Routing"],
-	"type":"inproceedings"
+	"type":"inproceedings",
+	"file":"li-2026-hijack"
 },
 {
     "country":"United States",
