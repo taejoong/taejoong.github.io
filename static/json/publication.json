@@ -23,7 +23,8 @@
 	"howpublished":"National Institute of Standards and Technology, Post Quantum Cryptography Standardization Conference, September 2025", 
 	"booktitle_type":"conference",
 	"category":["DNS"],
-	"type":"misc"
+	"type":"misc",
+	"note":"https://csrc.nist.gov/csrc/media/presentations/2025/post-quantum-diversity-for-dnssec/post-quantum_diversity-harvey_1.15.pdf"
 },
 {
     "country":"USA",
