@@ -1,6 +1,19 @@
 [
 {
     "country":"USA",
+    "title":"Post-Quantum Cryptography Strategy for DNSSEC",
+    "author":["Swapneel Sheth", "Taejoong Chung", "Benno Overeinder"],
+	"booktitle_long":"Internet Draft",
+    "year":"2025",
+	"howpublished":"Internet Engineering Task Force (IETF) Network Working Group, Internet Draft",
+    "month":"October",
+    "booktitle_short":"Internet Draft",
+    "type":"misc",
+	"category":["DNS"],
+	"note":"https://www.ietf.org/archive/id/draft-sheth-pqc-dnssec-strategy-00.txt"
+},
+{
+    "country":"USA",
     "title":"Post-Quantum Diversity for DNSSEC: Routine Performance, Resilient Fallback",
     "author":["Taejoong Chung", "Joe Harvey", "Burt Kaliski", "Daniel McVicker", "Benno Overeinder", "Swapneel Sheth", "Ondřej Surý"],
 	"booktitle_long":"NIST PQC Standardization Conference",
@@ -10,7 +23,8 @@
 	"howpublished":"National Institute of Standards and Technology, Post Quantum Cryptography Standardization Conference, September 2025", 
 	"booktitle_type":"conference",
 	"category":["DNS"],
-	"type":"misc"
+	"type":"misc",
+	"note":"https://csrc.nist.gov/csrc/media/presentations/2025/post-quantum-diversity-for-dnssec/post-quantum_diversity-harvey_1.15.pdf"
 },
 {
     "country":"USA",
