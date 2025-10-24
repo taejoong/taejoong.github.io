@@ -17,9 +17,9 @@ header:
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
 
-* [Weitong Li](https://www.weitongli.com/) (VT Fall 2021, interned at Cloudflare and Cablelabs)
+* [Weitong Li](https://www.weitongli.com/) (VT Fall 2021, interned at Cloudflare and Cablelabs); Pratt Fellowship Recipient.
 
-* [Munshi Rejwan Ala Muid](https://rezwan-muid.github.io/) (VT Fall 2023, co-advised with Thang Hoang)
+* [Munshi Rejwan Ala Muid](https://rezwan-muid.github.io/) (VT Fall 2023, co-advised with Thang Hoang); Bitshare Fellowship Recipient.
 
 * Hoang Tran (VT Spring 2024, interned at Verisign)
 
