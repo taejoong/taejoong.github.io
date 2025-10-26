@@ -11,8 +11,6 @@ header:
 
 #### Postdocs
 
-* [Olivier Hureau](https://hureau.com/) 
-
 #### Ph.D. Students
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
@@ -28,6 +26,8 @@ header:
 #### Master's Students
 
 #### Alumni and Interns
+
+* [Olivier Hureau](https://hureau.com/)  (Postdoc 2025, at University of Grenoble Alpes)
 
 * Mahesh Maddhuru (MEng. 2024, at Akamai Technologies)
 
