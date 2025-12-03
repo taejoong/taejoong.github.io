@@ -464,13 +464,13 @@
     
     .service-label {
         display: inline-block;
-        width: 210px;  
-        text-align: right; 
+        width: 195px;  
+        text-align: center; 
         margin-right: 15px;
         padding: 3px 8px;
         border-radius: 4px;
         color: #fff;
-        font-size: 11px;  
+        font-size: 10px;  
         font-weight: 600;
         flex-shrink: 0; 
         text-transform: uppercase;  
@@ -530,7 +530,10 @@
       
       function getRoleColor(role) {
           var r = String(role).toLowerCase();
-          
+         
+		  
+		   
+		    return "#808080";
           
           if (r.includes("chair")) return "#d9534f"; 
           
