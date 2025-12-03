@@ -36,13 +36,13 @@
     
     .service-label {
         display: inline-block;
-        width: 210px; /* Slightly wider to accommodate long titles */
-        text-align: right; 
+        width: 195px; /* Slightly wider to accommodate long titles */
+        text-align: center; 
         margin-right: 15px;
         padding: 3px 8px;
         border-radius: 4px;
         color: #fff;
-        font-size: 11px; /* Slightly smaller font for cleaner look */
+        font-size: 10px; /* Slightly smaller font for cleaner look */
         font-weight: 600;
         flex-shrink: 0; 
         text-transform: uppercase; /* Makes labels look more uniform */
@@ -102,7 +102,10 @@
       // --- 2. COLOR LOGIC ---
       function getRoleColor(role) {
           var r = String(role).toLowerCase();
-          
+         
+		  // return "#861f41"; // maroon
+		   // return "#e87722"; burnt orange
+		    return "#808080";
           // Chairs: Red/Pink Family
           if (r.includes("chair")) return "#d9534f"; // Bootstrap Danger
           
