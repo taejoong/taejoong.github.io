@@ -1,0 +1,250 @@
+<div class="">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <style>
+    .pubs-controls { margin: 10px 0 20px; }
+    .pubs-heading h4 { margin-top: 15px; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; color: #333; }
+    .pubs-elementlist { list-style: none; padding-left: 0; } 
+    
+    .pubs-element { 
+        margin-bottom: 6px; 
+        display: flex; 
+        align-items: center; 
+        line-height: 1.4;
+    }
+
+    .toggle-label { margin-right: 10px; font-weight: 600; }
+    .btn-group .btn.active { box-shadow: inset 0 3px 5px rgba(0,0,0,.125); }
+    .pubs-empty { color: #777; padding: 10px 0; }
+    
+    .panel-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .panel-body { padding-left: 20px; }
+    .pubslist {
+      padding-left: 10px;
+      margin-left: 0;
+    }
+
+    /* --- ALIGNMENT & LABEL STYLES --- */
+    
+    .service-label {
+        display: inline-block;
+        width: 210px; /* Slightly wider to accommodate long titles */
+        text-align: right; 
+        margin-right: 15px;
+        padding: 3px 8px;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 11px; /* Slightly smaller font for cleaner look */
+        font-weight: 600;
+        flex-shrink: 0; 
+        text-transform: uppercase; /* Makes labels look more uniform */
+        letter-spacing: 0.5px;
+    }
+
+    .service-venue {
+        color: #333;
+        font-weight: 700; 
+    }
+    
+    .width-year { width: 60px; text-align: center; } 
+
+  </style>
+
+<div class="panel-heading" style="display:flex; justify-content:space-between; align-items:center;">
+  <h3 class="panel-title" style="margin:0;">Service</h3>
+  <div class="pubs-controls" style="margin:0;">
+    <span class="toggle-label">Group by</span>
+    <div class="btn-group" role="group" aria-label="Group service">
+      <button id="pubs-sort-date" type="button" class="btn btn-default active" aria-pressed="true">Year</button>
+      <button id="pubs-sort-topic" type="button" class="btn btn-default" aria-pressed="false">Role</button>
+    </div>
+  </div>
+</div>
+
+    <ul id="pubslist" class="pubslist"></ul>
+
+    <script>
+      var SERVICE_JSON_URL = "{{ "json/service.json" | relURL }}";
+
+      var pubs_sort_key = "year"; 
+      var services = [];
+
+      function showEmptyMessage(msg) {
+        var root = d3.select("#pubslist");
+        root.html("");
+        root.append("li").attr("class", "pubs-empty").text(msg || "No service history found.");
+      }
+
+      // --- 1. SORTING LOGIC ---
+      // This assigns a numeric weight to roles so colors stay grouped together
+      function getRoleRank(role) {
+          var r = String(role).toLowerCase();
+          if (r.includes("general chair")) return 1;
+          if (r.includes("program committee chair")) return 2;
+          if (r.includes("chair")) return 3; // Web, Travel, Registration chairs
+          if (r.includes("steering")) return 4;
+          if (r.includes("award")) return 5;
+          if (r.includes("program committee member") && !r.includes("shadow")) return 6;
+          if (r.includes("shadow") || r.includes("artifact")) return 7;
+          if (r.includes("editor") || r.includes("journal")) return 8;
+          if (r.includes("reviewer") || r.includes("external")) return 9;
+          return 10; // Judges, Panels, etc.
+      }
+
+      // --- 2. COLOR LOGIC ---
+      function getRoleColor(role) {
+          var r = String(role).toLowerCase();
+          
+          // Chairs: Red/Pink Family
+          if (r.includes("chair")) return "#d9534f"; // Bootstrap Danger
+          
+          // Steering: Dark Blue/Navy
+          if (r.includes("steering")) return "#2c3e50"; // Midnight Blue
+          
+          // Awards: Purple
+          if (r.includes("award")) return "#8e44ad"; // Wisteria
+          
+          // Core PC: Standard Blue
+          if (r.includes("program committee member") && !r.includes("shadow")) return "#337ab7"; // Bootstrap Primary
+          
+          // Shadow/Artifact: Teal/Cyan
+          if (r.includes("shadow") || r.includes("artifact")) return "#5bc0de"; // Bootstrap Info
+          
+          // Reviewers: Orange
+          if (r.includes("reviewer") || r.includes("external") || r.includes("journal")) return "#f0ad4e"; // Bootstrap Warning
+          
+          // Others (Judge, Panel): Green
+          return "#5cb85c"; // Bootstrap Success
+      }
+
+      function getYearColor(year) {
+          return "#777"; // Grey for years
+      }
+
+
+      $(document).ready(function () {
+        queue()
+          .defer(d3.json, SERVICE_JSON_URL)
+          .await(function (error, p) {
+            if (error) { console.error("Failed to load service JSON:", error); return; }
+            if (!Array.isArray(p)) { console.warn("Service JSON is not an array"); return; }
+            services = p;
+            renderservices();
+          });
+
+        $('#pubs-sort-date').on('click', function () {
+          pubs_sort_key = "year";
+          $('#pubs-sort-date').addClass('active').attr('aria-pressed', 'true');
+          $('#pubs-sort-topic').removeClass('active').attr('aria-pressed', 'false');
+          renderservices();
+        });
+
+        $('#pubs-sort-topic').on('click', function () {
+          pubs_sort_key = "role";
+          $('#pubs-sort-topic').addClass('active').attr('aria-pressed', 'true');
+          $('#pubs-sort-date').removeClass('active').attr('aria-pressed', 'false');
+          renderservices();
+        });
+      });
+
+      function renderservices() {
+        var root = d3.select("#pubslist");
+        root.html("");
+
+        if (!services || services.length === 0) { showEmptyMessage("No service history to display."); return; }
+
+        var groups = [];
+
+        if (pubs_sort_key === "role") {
+            // Group by Role
+            var rmap = {};
+            services.forEach(function (d) {
+                var r = d.role || "Other Service";
+                if (!rmap[r]) rmap[r] = [];
+                rmap[r].push(d);
+            });
+            for (var r in rmap) {
+                if (Object.prototype.hasOwnProperty.call(rmap, r)) {
+                    groups.push({ key: r, values: rmap[r] });
+                }
+            }
+            groups.sort(function (a, b) {
+                return String(a.key).localeCompare(String(b.key));
+            });
+            groups.forEach(function(g) {
+                g.values.sort(function(a,b) { return d3.descending(a.year, b.year); });
+            });
+
+        } else {
+            // Group by Year
+            var ymap = {};
+            services.forEach(function (d) {
+                var y = d.year;
+                if (!y) return;
+                if (!ymap[y]) ymap[y] = [];
+                ymap[y].push(d);
+            });
+            for (var y in ymap) {
+                if (Object.prototype.hasOwnProperty.call(ymap, y)) {
+                    groups.push({ key: y, values: ymap[y] });
+                }
+            }
+            // Sort Years Descending
+            groups.sort(function (a, b) {
+                return d3.descending(parseInt(a.key), parseInt(b.key));
+            });
+            
+            // --- NEW SORTING WITHIN YEAR ---
+            groups.forEach(function(g) {
+                g.values.sort(function(a,b) { 
+                    // 1. Sort by Role Rank (Chairs first, etc)
+                    var rankA = getRoleRank(a.role);
+                    var rankB = getRoleRank(b.role);
+                    if (rankA !== rankB) return rankA - rankB;
+                    
+                    // 2. If Role is same, Sort by Venue Name Alphabetically
+                    return String(a.venue).localeCompare(String(b.venue)); 
+                });
+            });
+        }
+
+        if (!groups.length) { showEmptyMessage("No service to display."); return; }
+
+        for (var gi = 0; gi < groups.length; gi++) {
+            var g = groups[gi];
+            var li = root.append("li").attr("class", "pubs-heading");
+            li.append("h4").text(g.key);
+            var ul = li.append("ul").attr("class", "pubs-elementlist");
+
+            for (var i = 0; i < g.values.length; i++) {
+                ul.append("li").attr("class", "pubs-element").html(renderServiceItem(g.values[i]));
+            }
+        }
+      }
+
+      function renderServiceItem(d) {
+        var result = "";
+        
+        if (pubs_sort_key === "year") {
+            var bg = getRoleColor(d.role);
+            result += "<span class='service-label' style='background-color:" + bg + ";'>" + d.role + "</span>";
+            result += "<span class='service-venue'>" + d.venue + "</span>";
+        } else {
+            var bg = getYearColor(d.year);
+            result += "<span class='service-label width-year' style='background-color:" + bg + ";'>" + d.year + "</span>";
+            result += "<span class='service-venue'>" + d.venue + "</span>";
+        }
+
+        return result;
+      }
+    </script>
+  </div>
+</div>

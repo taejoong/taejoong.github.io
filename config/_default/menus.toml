@@ -25,6 +25,11 @@
   weight = 40
 
 [[main]]
+  name = "Service"
+  url = "service/"
+  weight = 43
+
+[[main]]
   name = "Recruiting"
   url = "prospective/"
   weight = 45
