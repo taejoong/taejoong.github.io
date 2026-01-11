@@ -11,11 +11,9 @@ header:
 
 #### Postdocs
 
+* [Weitong Li](https://www.weitongli.com/) 
+
 #### Ph.D. Students
-
-* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (VT Spring 2021, interned at Meta)
-
-* [Weitong Li](https://www.weitongli.com/) (VT Fall 2021, interned at Cloudflare and Cablelabs); Pratt Fellowship Recipient.
 
 * [Munshi Rejwan Ala Muid](https://rezwan-muid.github.io/) (VT Fall 2023, co-advised with Thang Hoang); Bitshare Fellowship Recipient.
 
@@ -26,6 +24,10 @@ header:
 #### Master's Students
 
 #### Alumni and Interns
+
+* [Weitong Li](https://www.weitongli.com/) (Ph.D. 2025, interned at Cloudflare and Cablelabs); Pratt Fellowship Recipient.
+
+* [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (Ph.D. 2025, interned at Meta, now at Meta)
 
 * [Olivier Hureau](https://hureau.com/)  (Postdoc 2025, at University of Grenoble Alpes)
 
