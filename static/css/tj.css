@@ -89,7 +89,7 @@
       font-weight: bold;
       padding-right: 1em;
       padding-left: 3em;
-      vertical-align: 12.5%;
+      vertical-align: baseline;
     }
 
     li.pubs-heading {
