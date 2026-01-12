@@ -1,4 +1,5 @@
 [
+    {"date": "01/12/2026", "text": "Our paper RevDNS (SIGCOMM'25), which re-architects certificate revocation by leveraging DNSSEC to eliminate reliance on centralized CDNs, was selected for the 2026 IETF/IRTF Applied Networking Research Prize (ANRP)!"},
     {"date": "11/25/2025", "text": "I'll be co-chairing <a href='https://tma.ifip.org/2026/'>TMA 2026</a> with <a href='https://www.brunel.ac.uk/people/cigdem-sengul'>Cigdem Sengul</a>. Please submit your best measurement papers to TMA; see you in Delft, the Netherlands!"},
     {"date": "11/25/2025", "text": "We will present RoVista+, our enhanced system for measuring RPKI ROV <i> adoption</i> on the Internet, at <a href='https://nanog.org/events/nanog-96'>NANOG 96</a>. We are currently developing a platform to disseminate our findings to the community."},
     {"date": "09/25/2025", "text": "I will present at <a href='https://nanog.org/events/nanog-95/agenda/'>NANOG 95</a> on our preliminary work using LLMs for dynamic ASN-to-organization mapping, integrating acquisition histories and subsidiaries beyond static BGP methods."},
