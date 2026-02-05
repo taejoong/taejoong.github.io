@@ -1,5 +1,19 @@
 [
 {
+    "country":"Germany",
+    "title":"RScope: Unveiling Global ROV Deployments and Dependencies in the Post-ROV Era",
+    "author":["Weitong Li", "Yongzhe Xu", "Mingwei Zhang", "Vasileios Giotsas", "Taejoong Chung"],
+	"booktitle_long":"ACM Internet Measurement Conference",
+	"city":"Karlsruhe",
+	"year":"2026",
+	"booktitle_short":"IMC",
+	"month":"October",
+	"booktitle_type":"conference",
+	"category":["Routing"],
+	"type":"inproceedings",
+	"file":"li-2026-rov"
+},
+{
     "country":"USA",
     "title":"Post-Quantum Cryptography Strategy for DNSSEC",
     "author":["Swapneel Sheth", "Taejoong Chung", "Benno Overeinder"],
