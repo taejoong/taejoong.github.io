@@ -1,5 +1,15 @@
 [
 {
+    "title":"ASINT: Learning AS-to-Organization Mapping from Internet Metadata",
+    "author":["Yongzhe Xu", "Weitong Li", "Eeshan Umrani", "Taejoong Chung"],
+	"booktitle_long":"Arxiv",
+	"year":"2025",
+	"category":["Routing"],
+	"award":"NANOG95 Presented",
+	"type":"inproceedings",
+	"talk":"https://www.youtube.com/watch?v=7FiPbVeD6vc&t=967s"
+},
+{
     "country":"Germany",
     "title":"RScope: Unveiling Global ROV Deployments and Dependencies in the Post-ROV Era",
     "author":["Weitong Li", "Yongzhe Xu", "Mingwei Zhang", "Vasileios Giotsas", "Taejoong Chung"],
@@ -10,7 +20,9 @@
 	"month":"October",
 	"booktitle_type":"conference",
 	"category":["Routing"],
-	"type":"inproceedings"
+	"award":"NANOG96 Presented",
+	"type":"inproceedings",
+	"talk":"https://www.youtube.com/watch?v=dvB_Nt8z2yg"
 },
 {
     "country":"USA",
