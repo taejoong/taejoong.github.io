@@ -7,6 +7,8 @@
 	"category":["Routing"],
 	"award":"NANOG95 Presented",
 	"type":"inproceedings",
+	"note":"https://arxiv.org/pdf/2508.02571",
+	"dataset":"https://asint.netsecurelab.org/",
 	"talk":"https://www.youtube.com/watch?v=7FiPbVeD6vc&t=967s"
 },
 {
