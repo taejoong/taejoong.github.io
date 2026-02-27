@@ -21,11 +21,13 @@ header:
 
 * Yongzhe Xu (VT Spring 2025)
 
+* Mingxi Qiu (VT Fall 2026)
+
 #### Master's Students
 
 #### Alumni and Interns
 
-* [Weitong Li](https://www.weitongli.com/) (Ph.D. 2025, interned at Cloudflare and Cablelabs); Pratt Fellowship Recipient.
+* [Weitong Li](https://www.weitongli.com/) (Ph.D. 2025, interned at Cloudflare and Cablelabs); Pratt Fellowship Recipient
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (Ph.D. 2025, interned at Meta, now at Meta)
 
