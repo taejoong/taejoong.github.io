@@ -48,6 +48,7 @@ async function init() {
     renderGrants(grants);
     renderStudents(data.students);
     renderService(service);
+    setupCollapsibleSections();
   } catch (error) {
     renderError(error);
     console.error(error);
@@ -111,7 +112,7 @@ function renderAbout(profile) {
 }
 
 function renderUpdates(updates) {
-  const items = updates.slice(0, 10);
+  const items = updates.slice(0, 8);
   document.getElementById("sidebar-updates").innerHTML = items
     .map((item) => {
       if (!item.dateObject) {
@@ -678,4 +679,25 @@ function renderError(error) {
       <p>Run a static server in this folder, then open the page in a browser.</p>
     </section>
   `;
+}
+
+function setupCollapsibleSections() {
+  const sections = document.querySelectorAll(".content-section, .sidebar-section");
+  sections.forEach((section) => {
+    const heading = section.querySelector("h2");
+    if (!heading) return;
+
+    heading.classList.add("collapsible-heading");
+
+    const icon = document.createElement("span");
+    icon.className = "collapse-icon";
+    icon.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>`;
+
+    heading.appendChild(document.createTextNode(" "));
+    heading.appendChild(icon);
+
+    heading.addEventListener("click", () => {
+      section.classList.toggle("is-collapsed");
+    });
+  });
 }

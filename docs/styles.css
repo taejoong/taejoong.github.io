@@ -536,3 +536,27 @@ strong.self-name {
     flex-direction: column;
   }
 }
+
+.collapsible-heading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.collapsible-heading:hover {
+  opacity: 0.8;
+}
+
+.collapse-icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.is-collapsed .collapse-icon {
+  transform: rotate(-90deg);
+}
+
+.is-collapsed>*:not(h2):not(.section-heading-row) {
+  display: none !important;
+}
