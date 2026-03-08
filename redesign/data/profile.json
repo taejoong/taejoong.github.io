@@ -1,0 +1,70 @@
+{
+  "name": "Taejoong \"Tijay\" Chung",
+  "short_name": "Taejoong \"Tijay\" Chung",
+  "title": "Associate Professor",
+  "affiliation": "Virginia Tech",
+  "secondary_affiliation": "Adjunct Professor, POSTECH",
+  "email": "tijay@vt.edu",
+  "summary": "My research primarily centers on understanding and enhancing Internet security protocols for DNS, the Web, Routing, and Emails.",
+  "bio": "Taejoong (Tijay) Chung is an Associate Professor at the Computer Science department at Virginia Tech and Adjunct Professor at the Computer Science department at POSTECH. Before joining Virginia Tech, he spent 2 years at RIT as an Assistant Professor and 3 years at Northeastern university as a postdoc. He received his Ph.D. in Computer Science and Engineering from Seoul National University in 2015. His work focuses on Internet security, privacy implications, and Internet measurement. He received the <a href=\"http://www.nsf.gov/awardsearch/showAward?AWD_ID=2339378\" target=\"_blank\" rel=\"noopener\"><strong>NSF CAREER Award</strong></a> (2024) and <a href=\"https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850465\" target=\"_blank\" rel=\"noopener\"><strong>NSF CRII Award</strong></a> (2019). He also received <a href=\"https://eng.vt.edu/about/faculty-awards-and-distinctions/deans-awards.html\" target=\"_blank\" rel=\"noopener\"><strong>Outstanding New Assistant Professor at the College of Engineering, Virginia Tech</strong></a> (2024). He was a <a href=\"https://www.manrs.org/champions/\" target=\"_blank\" rel=\"noopener\"><strong>Mentor</strong></a> at Mutually Agreed Norms for Routing Security (MANRS), Internet Society in 2023. He received the <strong>ACM CCS Best Paper Honorable Mention Award</strong> (2022), <a href=\"https://irtf.org/anrp/\" target=\"_blank\" rel=\"noopener\"><strong>IRTF Applied Networking Research Prize</strong></a> (2026, 2019), <a href=\"https://conferences.sigcomm.org/imc/2019/awards/\" target=\"_blank\" rel=\"noopener\"><strong>ACM IMC Distinguished Paper Award</strong></a> (2019), and <a href=\"https://www.usenix.org/conferences/best-papers\" target=\"_blank\" rel=\"noopener\"><strong>USENIX Security Distinguished Paper Award</strong></a> (2017).",
+  "recruiting": "I am always looking for motivated Ph.D. students and postdocs. Please feel free to reach out. For postdoc positions, Virginia Tech Presidential Postdoctoral Fellowships are also a strong route.",
+  "areas": [
+    "DNS",
+    "Routing",
+    "TLS / PKI",
+    "Email Security",
+    "Internet Measurement"
+  ],
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:tijay@vt.edu"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=_0mWbaoAAAAJ&hl=en"
+    },
+    {
+      "label": "CV",
+      "url": "https://taejoong.github.io/files/cv-tijay.pdf"
+    }
+  ],
+  "highlights": [
+    "NSF CAREER Award (2024)",
+    "NSF CRII Award (2019)",
+    "Outstanding New Assistant Professor, Virginia Tech (2024)",
+    "ACM CCS Best Paper Honorable Mention (2022)",
+    "ACM IMC Distinguished Paper Award (2019)",
+    "USENIX Security Distinguished Paper Award (2017)"
+  ],
+  "research_programs": [
+    {
+      "title": "DNS and Naming",
+      "categories": [
+        "DNS"
+      ],
+      "description": "Operational security for DNS, DNSSEC, resolver behavior, and the transition path toward post-quantum naming infrastructure."
+    },
+    {
+      "title": "Routing Security",
+      "categories": [
+        "Routing"
+      ],
+      "description": "Measurement and mitigation of RPKI and route origin validation deployment, misconfigurations, and real-world security gaps."
+    },
+    {
+      "title": "TLS and PKI",
+      "categories": [
+        "TLS"
+      ],
+      "description": "Certificate ecosystems, revocation, delegated credentials, and deployable cryptographic systems for large-scale web security."
+    },
+    {
+      "title": "Email Security",
+      "categories": [
+        "Email"
+      ],
+      "description": "SMTP hardening, MTA-STS, SPF, DMARC, and deployment studies that bridge protocol design and messy operational reality."
+    }
+  ]
+}

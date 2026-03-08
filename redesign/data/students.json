@@ -1,0 +1,74 @@
+{
+  "postdocs": [
+    {
+      "name": "Weitong Li",
+      "url": "https://www.weitongli.com/",
+      "note": "Postdoc"
+    }
+  ],
+  "phd": [
+    {
+      "name": "Munshi Rejwan Ala Muid",
+      "url": "https://rezwan-muid.github.io/",
+      "note": "VT Fall 2023, co-advised with Thang Hoang; Bitshare Fellowship Recipient"
+    },
+    {
+      "name": "Hoang Tran",
+      "note": "VT Spring 2024, interned at Verisign"
+    },
+    {
+      "name": "Yongzhe Xu",
+      "note": "VT Spring 2025"
+    },
+    {
+      "name": "Mingxi Qiu",
+      "note": "VT Fall 2026"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Weitong Li",
+      "url": "https://www.weitongli.com/",
+      "note": "Ph.D. 2025; interned at Cloudflare and CableLabs; Pratt Fellowship Recipient"
+    },
+    {
+      "name": "Mohammad Ishtiaq Ashiq Khan",
+      "url": "https://ashiq5.github.io/",
+      "note": "Ph.D. 2025; interned at Meta; now at Meta"
+    },
+    {
+      "name": "Olivier Hureau",
+      "url": "https://hureau.com/",
+      "note": "Postdoc 2025; now at University of Grenoble Alpes"
+    },
+    {
+      "name": "Mahesh Maddhuru",
+      "note": "MEng. 2024; now at Akamai Technologies"
+    },
+    {
+      "name": "Protick Bhowmick",
+      "note": "M.S. 2023; now at Meta; interned at Cisco ThousandEyes"
+    },
+    {
+      "name": "Hyeonmin Lee",
+      "url": "https://hyeonmin-lee.github.io/",
+      "note": "SNU Ph.D. 2022; now at UVA as a postdoc"
+    },
+    {
+      "name": "Syed Muhammad Farhan",
+      "note": "M.S. 2022; now at Amazon"
+    },
+    {
+      "name": "Spencer Roth",
+      "note": "Intern 2018; later at RIT"
+    },
+    {
+      "name": "Aniketh Girish",
+      "note": "Intern 2018; later at IMDEA Networks"
+    },
+    {
+      "name": "Anna Kwon",
+      "note": "Intern 2019; later at MIT"
+    }
+  ]
+}
