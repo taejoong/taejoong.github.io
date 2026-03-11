@@ -49,6 +49,7 @@ async function init() {
     renderStudents(data.students);
     renderService(service);
     setupCollapsibleSections();
+    setupScrollSpy();
 
     // When navigating from a different page with a hash (e.g. index.html#publications),
     // the browser attempts to scroll before the async DOM is built.
@@ -85,13 +86,20 @@ async function loadAllData() {
 }
 
 function renderHeader(profile) {
-  document.getElementById("brand-affiliation").textContent = "";
-  document.getElementById("brand-name").textContent = profile.name;
+  const brandAffiliation = document.getElementById("brand-affiliation");
+  if (brandAffiliation) brandAffiliation.textContent = "";
+
+  const brandName = document.getElementById("brand-name");
+  if (brandName) brandName.textContent = profile.name;
+
   const cvLink = profile.links.find((item) => item.label === "CV");
   if (cvLink) {
-    document.getElementById("nav-cv").href = cvLink.url;
-    document.getElementById("nav-cv").target = "_blank";
-    document.getElementById("nav-cv").rel = "noopener";
+    const navCv = document.getElementById("nav-cv");
+    if (navCv) {
+      navCv.href = cvLink.url;
+      navCv.target = "_blank";
+      navCv.rel = "noopener";
+    }
   }
 }
 
@@ -713,5 +721,39 @@ function setupCollapsibleSections() {
     heading.addEventListener("click", () => {
       section.classList.toggle("is-collapsed");
     });
+  });
+}
+
+function setupScrollSpy() {
+  const sections = document.querySelectorAll("main.content section[id]");
+  const navLinks = document.querySelectorAll(".topnav a[href^='#']");
+
+  if (!sections.length || !navLinks.length) return;
+
+  const observerOptions = {
+    root: null,
+    rootMargin: "-20% 0px -70% 0px", // Trigger when the section is near the top of the viewport
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute("id");
+        navLinks.forEach((link) => {
+          if (link.getAttribute("href") === `#${id}`) {
+            link.classList.add("is-current");
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.classList.remove("is-current");
+            link.removeAttribute("aria-current");
+          }
+        });
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach((section) => {
+    observer.observe(section);
   });
 }
