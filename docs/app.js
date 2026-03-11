@@ -49,6 +49,20 @@ async function init() {
     renderStudents(data.students);
     renderService(service);
     setupCollapsibleSections();
+
+    // When navigating from a different page with a hash (e.g. index.html#publications),
+    // the browser attempts to scroll before the async DOM is built.
+    // We manually scroll to the anchor here after rendering is complete.
+    if (window.location.hash) {
+      setTimeout(() => {
+        // Use document.getElementById to safely query id based on hash (remove the '#')
+        const hashId = window.location.hash.substring(1);
+        const target = document.getElementById(hashId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
   } catch (error) {
     renderError(error);
     console.error(error);
