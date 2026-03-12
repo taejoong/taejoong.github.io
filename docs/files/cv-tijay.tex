@@ -1,0 +1,577 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\newcommand{\myself}{\textcolor{vtcolor2}{T. Chung}}
+\documentclass[10pt,letter,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{textcomp}
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\usepackage{tgtermes}
+%\usepackage{tgschola}
+\usepackage{mathptmx}
+
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+\setlength{\makecvtitlenamewidth}{20cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Taejoong (Tijay)}{Chung}
+\title{Associate Professor (tijay@vt.edu, https://taejoong.github.io)}
+%\address{805 Columbus Avenue}{Boston, MA }{United States}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\email{t.chung@neu.edu}                               % optional, remove / comment the line if not wanted
+%\homepage{taejoong.github.io}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{09/2009--02/2015}{Ph.D.}{Computer Science and Engineering, Seoul National University}{Seoul}{Korea}{
+    \begin{itemize}%
+    %\item \footnotesize Thesis: ``\emph{Analytic Approach of Understanding Crowd Phenomena on the Internet: Case Studies of MMORPG and BitTorrent}''
+    \item Supervisors: {Prof. Yanghee Choi} and {Prof. Ted ``Taekyoung'' Kwon}
+    \end{itemize}
+}
+\cventry{03/2005--09/2009}{B.S.}{Computer Science and Engineering, POSTECH (Pohang University of Science and Technology)}{Pohang}{Korea}{}
+
+\section{Professional Experience}
+\cventry{07/2025--present}{Associate Professor}{Department of Computer Science, Virginia Tech}{Blacksburg}{VA, United States} {}
+\cventry{08/2020--06/2025}{Assistant Professor}{Department of Computer Science, Virginia Tech}{Blacksburg}{VA, United States} {}
+\cventry{02/2023--present}{Adjunct Professor}{Department of Computer Science, POSTECH}{Pohang}{South Korea} {}
+\cventry{08/2018--07/2020}{Assistant Professor}{Department of Computer Science, Rochester Institute of Technology (RIT)}{Rochester}{NY, United States} {}
+\cventry{09/2015--08/2018}{Postdoctoral Researcher}{Northeastern University, Boston, MA}{United States}{}{}
+%\cventry{03/2015--02/2016}{Postdoctoral Researcher}{Seoul National University, Seoul}{Korea}{}{}
+%\cventry{06/2013--03/2014}{Research Intern}{Cisco Systems}{Cambridge, MA}{United States}{}{}
+%\cventry{08/2011--02/2015}{Research Assistant}{Seoul National University, Seoul}{Korea}{}{}
+\if 0
+\cventry{09/2011--12/2011}{Teaching Assistant}{Seoul National University, Seoul}{Korea}{}{
+    \begin{itemize}
+        \item Computer Networks (4190.411, Fall 2011)
+    \end{itemize}
+}
+\cventry{09/2010--12/2010}{Teaching Assistant}{Seoul National University, Seoul}{Korea}{}{
+    \begin{itemize}
+        \item Engineering Math II (400.002A, Fall 2010)
+    \end{itemize}
+}
+\cventry{03/2010--06/2010}{Teaching Assistant}{Seoul National University, Seoul}{Korea}{}{
+    \begin{itemize}
+        \item Engineering Math I (400.001A, Spring 2010)
+    \end{itemize}
+}
+\fi
+
+\section{Honors and Awards}
+\cvitem{2026}{IETF/IRTF Applied Networking Research Prize (ANRP)}
+\cvitem{2024}{National Science Foundation (NSF) CAREER Award }
+\cvitem{2024}{Outstanding New Assistant Professor Award at the College of Engineering, Virginia Tech}
+\cvitem{2023}{Mutually Agreed Norms for Routing Security (MANRS) Mentor} 
+\cvitem{2023, 2025}{College of Engineering Dean's Memorandum for Outstanding Teaching Evaluations}
+\cvitem{2022}{Best Paper Honorable Mention Award, ACM CCS'22}
+\cvitem{2022}{Mutually Agreed Norms for Routing Security (MANRS) Research Fellow} 
+\cvitem{2019}{Distinguished Paper Award, ACM IMC'19}
+\cvitem{2019}{IETF/IRTF Applied Networking Research Prize (ANRP), IETF'105}
+\cvitem{2019}{National Science Foundation (NSF) CRII Award }
+\cvitem{2017}{Distinguished Paper Award, USENIX Security'17}
+\cvitem{2015}{Microsoft Azure Research ``Award Program: Microsoft Azure for Research Supports \$20,000''}
+%\cvitem{2010}{Best Paper Award, Korea Information and Communication Society (KICS)}
+%\cvitem{2010}{Best Paper Award, IEEE Communication Society Seoul Chapter}
+
+\section{Grants}
+	%\cvitem{}{\textbf{Total}: \$5,371,265     \textbf{My Share}: \$2,527,170}
+	%\cvitem{2025}{Towards a Comprehensive View of the ROV Ecosystem: Unraveling Relying Parties, ROV Deployments, and Global Routing Implications}
+%\cvlistitem{Comcast Innovation Fund, 08/2025 -- 07/2026, Sole Primary Investigator, \textdollar50,000}
+	\cvitem{2024}{Holistic Measurement and Mitigation of Email Security Vulnerabilities: Infrastructure, Tools, and Commercialization}
+\cvlistitem{Commonwealth Cyber Initiative, 10/2024-- 10/2025, Sole Primary Investigator, \textdollar50,000}
+	\cvitem{2024}{Leveraging ML for Advanced IRR Validation: Towards a More Secure Internet Infrastructure}
+\cvlistitem{Comcast Innovation Fund, 08/2024 -- 07/2025, Sole Primary Investigator, \textdollar30,000}
+	\cvitem{2024}{CAREER: Securing and Evolving Internet Security Protocols for Naming and Routing}
+\cvlistitem{National Science Foundation. CNS-2339378, 05/2024 --
+	04/2029. Sole Primary Investigator \textdollar691,258 (VT), \textdollar691,258 (total)}
+	\cvitem{2023}{RoVISTA: Understanding the Current Validation Status of RPKI}
+\cvlistitem{Google, Unrestricted Gift. 08/2023. Sole Primary Investigator \textdollar30,000 (VT)}
+	\cvitem{2023}{IMR: MT: Tools for Measuring Route Origin Validation in Resource Public Key Infrastructure (RPKI) at Scale}
+\cvlistitem{National Science Foundation. CNS-2323137, 12/2023 --
+	11/2025. Sole Primary Investigator \textdollar599,997 (VT), \textdollar599,997 (total)}
+	\cvitem{2023}{SaTC: CORE: Medium: Cryptographic accumulators and revocation of credentials}
+\cvlistitem{National Science Foundation. CNS-2247306, 01/2023 --
+	01/2025. Primary Investigator, joint with Foteini Baldimtsi (GMU), Anna Lysyanskaya (Brown), 
+    Charalampos Papamanthou (Yale), Alan Mislove (NEU). \textdollar240,000 (VT), \textdollar1,200,000 (total)}
+\cvitem{2023}{A Study on Key Management Structure for Multi-Metaverse Avatar Authentication and Anonymization Assurance}
+	\cvlistitem{Ministry of Science and ICT, 01/2023 -- 01/2026, Primary Investigator, \textdollar225,000 (VT), \textdollar163~M (total)}
+
+\cvitem{2022}{Towards a complete view of Route Origin Validation in RPKI}
+\cvlistitem{Comcast Innovation Fund, 06/2022 -- 05/2023, Sole Primary Investigator, \textdollar75,000}
+
+\cvitem{2022}{Rapidly Bootstrapping Implementation of DNS-Based Security Extensions with AI-driven Approach}
+\cvlistitem{4-VA, 06/2022 -- 05/2023, Sole Primary Investigator, \textdollar25,000}
+
+\cvitem{2022}{Improving Routing Security with a Complete View of Routing Origin Validation (ROV) in RPKI}
+\cvlistitem{Commonwealth Cyber Initiative, 05/2022 -- 08/2022, Sole Primary Investigator, \textdollar15,000}
+
+\cvitem{2021}{Enhancing the Privacy and Reliability of Massive-scale Bluetooth Low Energy Contact Tracing}
+\cvlistitem{Commonwealth Cyber Initiative, 06/2021 --
+    05/2022. Co-Primary Investigator, joint with Daphne Yao (VT), Carol Fung (VCU)
+    \textdollar 100,000 (VT), \textdollar 150,000 (total)}
+\cvitem{2019}{CNS Core: Large: Collaborative Research: Towards an Evolvable Public Key Infrastructure}
+\cvlistitem{National Science Foundation. CNS-1901090, 06/2019 --
+    05/2022. Primary Investigator, joint with Dave Levin (UMD), Bruce M.
+    Maggs (Duke University), Alan Mislove (NEU), Christo Wilson (NEU),
+    Bryan Parno (CMU). \textdollar300,000 (VT), \textdollar2,000,000
+    (total)}
+
+\cvitem{2019}{CRII: SaTC: Measuring and Improving the Management of
+    Resource Public Key Infrastructure (RPKI)}
+\cvlistitem{National Science Foundation. CNS-1850465, 10/2019 -- 09/2021. Sole Primary Investigator. \textdollar166,561}
+
+\cvitem{2015}{Personal Recommendation System and Privacy Protection through Big Data Analysis on Online Social Networks}
+\cvlistitem{National Research Foundation of Korea (NRF). NRF-2016018668,
+03/2015 -- 02/2016. Sole Primary Investigator. \textwon50,000,000 ($\approx$ \textdollar44,000) }
+
+\if 0
+\section{Publications Summary}
+\publication{Security}{6 papers in top-tier security conferences}{USENIX
+Security, ACM CCS, and ISOC NDSS}{} 
+\publication{Network/Metric}{9 papers in top-tier networking/web
+conferences}{ACM IMC, ACM SIGMETRICS, and ISOC WWW}{}
+\fi 
+
+\section{Refereed Conference Publications (My advisees are underlined)}
+\publication{Oakland'26}{The Threat Landscape of IP Leasing in the RPKI Era}{\underline{W. Li}, \underline{Y. Xu}, and \myself}{IEEE Symposium on Security and Privacy, San Francisco, United States, May 2026}
+
+\publication{NDSS'26}{Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks}{\underline{W. Li}, T. Wan, and \myself}{ISOC NDSS, San Diego, United States, February 2026}
+
+\publication{SIGCOMM'25}{Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS}{\underline{P. Bhowmick}, D. Levin, and \myself}{ACM SIGCOMM, Coimbra, Portugal, September 2025}
+
+\publication{IMC'25}{Unraveling the Complexities of MTA-STS Deployment and Management in Email}{\underline{Md. I. Ashiq}, T. Fiebig, and \myself}{ACM IMC, Winsconsin, United States, October 2025}
+
+\publication{IMC'25}{Decoding DNSSEC Errors at Scale: An Automated DNSSEC Error Resolution Framework using Insights from DNSViz Logs}{\underline{Md. I. Ashiq}, \underline{O. Hureau}, C. Deccio, and \myself}{ACM IMC, Winsconsin, United States, October 2025}
+
+\publication{Oakland'25}{AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators}{\underline{M. Muid}, \myself, and T. Hoang}{IEEE Symposium on Security and Privacy, San Francisco, United States, May 2025}
+
+\publication{USENIX Security'25}{ImpROV: Measurement and Practical Mitigation of Collateral Damage of RPKI Route Origin Validation}{\underline{W. Li}, Y. Li, and \myself}{USENIX Security, Seattle, United States, August 2025}
+
+\publication{USENIX ATC'24}{mmTLS: Scaling the Performance of Encrypted Network Traffic Inspection}{J. Yoon, S. Do, D. Kim, \myself, and K. Park}{USENIX Annual Technical Conference, Santa Clara, United States, July 2024}
+
+\publication{USENIX Security'24}{SPF Beyond the Standard: Management and Operational Challenges in Practice and Practical Recommendations}{\underline{Md. I. Ashiq}, \underline{W. Li}, T. Fiebig, and \myself}{USENIX Security, Philadelphia, United States, August 2024}
+
+\publication{Oakland'24}{An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape}{S. Muhammad Abdullah, A. Cheruvu, S. Kanchi, \myself, P. Gao, M. Jadliwala, and B. Viswanath}{IEEE Symposium on Security and Privacy, San Francisco, United States, May 2024}
+
+\publication{NDSS'24}{IRRedicator: Pruning IRR with RPKI-Valid BGP Insights}{\underline{M. Kang}, \underline{W. Li}, R. van Rijswijk-Deij, T. Kwon, and \myself}{ISOC NDSS, San Diego, USA, Feb. 2024}
+
+\publication{HotNets'23}{No Root Store Left Behind}{J. Larisch, W. Aqeel, \myself, E. Kohler, D. Levin, B. Maggs, B. Parno, and C. Wilson}{ACM HotNets, Cambridge, USA, December 2023}
+
+\publication{ACSAC'23}{Delegation of TLS Authentication to CDNs using Revocable Delegated Credentials}{D. Yoon, \myself, and Y. Kim}{ACSAC, Austin, United States, Canada, December 2023}
+
+\publication{IMC'23}{RoVista: Measuring and Understanding the Route Origin Validation (ROV) in RPKI}{\underline{W. Li}, Z. Lin, \underline{Md. I. Ashiq}, E. Aben, R. Fontugne, A. Phokeer, and \myself}{ACM IMC, Montreal, Canada, October 2023}
+
+\publication{USENIX Security'23}{You’ve Got Report: Measurement and Security Implications of DMARC Reporting}{\underline{Md. I. Ashiq}, \underline{W. Li}, T. Fiebig, and \myself}{USENIX Security, Anaheim, United States, August 2023}
+
+\publication{PAM'23}{Exploring the Evolution of the TLS Certificate Ecosystem}{\underline{S. Farhan} and \myself}{PAM, Virtual, March 2023}
+
+\publication{PAM'23}{Measuring TTL Violation of DNS Resolvers in the Wild}{\underline{P. Bhowmick}, \underline{Md. I. Ashiq}, C. Deccio, and \myself}{PAM, Virtual, March 2023}
+
+\publication{IMC'22}{A Comparative Analysis of Certificate Pinning in Android \& iOS}{A. Pradeep, M. Talha Paracha, \underline{P. Bhowmick}, A. Davanian, A. Razaghpanah, \myself, M. Lindorfer, N. Vallina-Rodriguez, D. Levin, and D. Choffnes}{ACM IMC, Nice, France, October 2022}
+
+
+\publication{CCS'22}{Hammurabi: A Framework for Pluggable, Logic-based X.509 Certificate Validation Policies}{J. Larisch, W. Aqeel, C. Wilson, A. Mislove, \myself, D. Levin, B. Parno, and B. Maggs}{ACM CCS, Los Angeles, CA, USA, Nov 2022}
+
+\publication{USENIX Security'22}{Under the hood of DANE mismanagement in SMTP}{\underline{H. Lee}, \underline{Md. I. Ashiq}, M. Muller, R. van Rijswijk-Deij, T. Kwon, \myself}{USENIX Security, Boston, United States, August 2022}
+
+\publication{SIGCOMM'21}{IP Unbound: Robust, Responsive CDN-scale service without CDN-Scale Addresses
+}{M. Fayed, V. Giotsas, L. Bauer, S. Kerola, M. Majkowski, P. Odintsov, J. Sitnicki, \myself, D. Levin, A. Mislove, N. Sullivan, C. Wood} {ACM SIGCOMM, Virtual Conference, Aug. 2021}
+
+\publication{PAM'21}{Measurement and Analysis of Automated Certificate Reissuance}{O. Omolola, R. Roberts, \underline{I. Ashiq}, \myself, D. Levin, and A. Mislove} {PAM, Virtual Conference, Mar. 2021}
+
+\publication{IMC'20}{The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle}{M. Mueller, W. Toorop, \myself, J. Janssen, and R. van Rijswijk-Deij}{IMC, Pittsburgh, United States, Oct. 2020}
+
+\publication{FCS'20}{Assertion-Carrying Certificates}{W. Aqeel, Z. Hanif, J. Larisch, O. Omolola, \myself, D. Levin, B. Maggs, A. Mislove, B. Parno, and C. Wilson}{Workshop on Foundations of Computer Security, Boston, United States, June 2020}
+
+\publication{USENIX Security'20}{A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email}{\underline{H. Lee}, \underline{A. Gireesh}, R. van Rijswijk-Deij, T. Kwon, \myself}{USENIX Security, Boston, United States, August 2020}
+
+\publication{CCS'19}{You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates}{R. Roberts, Y. Goldschlag, R. Walter, \myself, A. Mislove, D. Levin}{ACM CCS, London, United Kingdom, Nov. 2019}
+
+\publication{IMC'19}{RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins}
+{\myself, E. Aben, T. Bruijnzeels, B. Chandrasekaran, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, R. van Rijswijk-Deij, J. P. Rula, and N. Sullivan}
+{ACM IMC, Amsterdam, The Netherlands, Oct. 2019}
+
+\publication{IMC'19}{Roll, Roll, Roll your Root: A Comprehensive
+Analysis of the First Ever DNSSEC Root KSK Rollover }{M. Müller,
+M. Thomas, D. Wessels, W. Hardaker, \myself, W. Toorop, and R. van Rijswijk-Deij}
+{ACM IMC, Amsterdam, The Netherlands, Oct. 2019}
+
+\publication{NDSS'19}{maTLS: How to Make TLS
+middlebox-aware?}{H. Lee, Z. Smith, J. Lim, G. Choi, S. Chun, \myself, and T. Kwon}{ISOC NDSS, San Diego, USA, Feb. 2019}
+
+\publication{IMC'18}{Is the Web Ready for OCSP Must Staple?}{\myself, J. Lok, B. Chandrasekaran, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, J. Rula, N. Sullivan, and C. Wilson}{ACM IMC, Boston, USA, Nov. 2018}
+
+\publication{CSCW'18}{Privacy Leakage in Event-based Social Networks: A Meetup Case Study}{\myself, J. Han, D. Choi, T. Kwon, J. Rha, and H. Kim}{ACM CSCW, Jersey City, USA, Nov. 2018}
+
+\publication{IMC'17}{Understanding the Role of Registrars in DNSSEC Deployment}{\myself, R. van Rijswijk-Deij, D. Choffnes, A. Mislove, C. Wilson, D. Levin, and B. M. Maggs}{ACM IMC, London, UK, Nov. 2017}
+
+\publication{USENIX Security'17}
+{A Longitudinal, End-to-End View of the DNSSEC Ecosystem}
+{\myself, R. van Rijswijk-Deij, B. Chandrasekaran, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, and C. Wilson}
+{USENIX Security, Vancouver, Canada, Aug. 2017}
+
+\publication{IMC'16}
+{Measuring and Applying Invalid SSL Certificates: The Silent Majority}
+{\myself, Y. Liu, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, and C. Wilson}
+{ACM IMC, Santa Monica, CA, USA, Nov. 2016}
+
+\publication{IMC'16}
+{Tunneling for Transparency: A Large-Scale Analysis of End-to-End Violations in the Internet}
+{\myself, D. Choffnes, and A. Mislove}
+{ACM IMC, Santa Monica, CA, USA, Nov. 2016}
+
+\publication{CCS'16}
+{Measurement and Analysis of Private Key Sharing in the HTTPS Ecosystem}
+{F. Cangialosi, \myself, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, and C. Wilson}
+{ACM CCS, Vienna, Austria, Oct. 2016}
+
+\publication{COSN'15}
+{Characterizing Conversation Patterns in Reddit: From the Perspectives of Content Properties and User Participation Behaviors}
+{D. Choi, J. Han, \myself, Y. Ahn, B. Chun, and T. Kwon}
+{ACM COSN, Stanford, CA, USA, Nov. 2015}
+
+
+\publication{COSN'15}
+{Sharing Topics in Pinterest: Understanding Content Creation and Diffusion Behaviors}
+{J. Han, D. Choi, A. Choi, \myself, T. Kwon, J. Rha, and C. Chuah}
+{ACM COSN, Stanford, CA, USA, Nov. 2015}
+
+
+\publication{ANCS'14}
+{CoRC: Coordinated Routing and Caching for Named Data Networking}
+{H. Choi, J. Yoo, \myself, N. Choi, T. Kwon, and Y. Choi}
+{IEEE ANCS, Marina del Rey, CA, USA, Oct. 2014 }
+
+\publication{WWW'14}
+{Unveiling Group Characteristics in Online Social Games: A Socio-Economic Analysis}
+{\myself, J. Han, D. Choi, T. Kwon, H. K. Kim and Y. Choi}
+{ISOC WWW, Seoul, Korea, Apr. 2014}
+
+\publication{IFIP Networking'13}
+{Spatial and Temporal Locality of Content in BitTorrent: A Measurement Study}
+{\myself, J. Han, H. Lee, J. Kangasharju, T. Kwon, and Y. Choi}
+{IFIP Networking, Brooklyn, NY, USA, May 2013 }
+
+\publication{SIGMETRICS'12}
+{Bundling Practice in Bittorrent: What, How, and Why}
+{J. Han, S. Kim, \myself, T. Kwon, H. Kim, and Y. Choi}
+{ACM SIGMETRICS, London, UK, Jun. 2012}
+
+\publication{IFIP Networking'12}
+{Content Publishing and Downloading Practice in BitTorrent}
+{S. Kim, J. Han, \myself, T. Kwon, H. Kim, and Y. Choi}
+{IFIP Networking, Prague, Czech, May 2012}
+
+\publication{GLOBECOM'12}
+{Bandwidth Allocation for BitTorrent under Multi-Torrent Environments}
+{J. Choi, J. Han, \myself, E. Cho, T. Kwon, and Y. Choi}
+{IEEE GLOBECOM, Houston, Texas, United States, Dec. 2011}. 
+
+\section{Journal Publications}
+\publication{}
+{Privacy Guarantees of BLE Contact Tracing: A Case Study on COVIDWISE.}
+{Salman Ahmed, Ya Xiao, \myself, Carol Fung, Moti Yung, and Danfeng (Daphne) Yao.}
+{IEEE Computer Society, 2021}
+
+\publication{}
+{Rolling with Confidence: Managing the Complexity of DNSSEC Operations}
+{Moritz Muller, \myself, Alan Mislove, and Roland van
+Rijswijk-Deij}
+{IEEE Transactions on Network and Service Management (IEEE TNSM), 2019}
+
+\publication{}
+{Predicting Content Consumption from Content-to-Content Relationships}
+{Jinyoung Han, Daejin Choi, \myself, Chen-Nee Chuah, Hyun-chul Kim, and Ted ``Taekyoung'' Kwon}
+{Elsevier Journal of Network and Computer Applications (JNCA), Vol. 132, pp. 1, April 2019}
+
+\publication{}
+{A First Look at Certification Authority Authorization (CAA)}
+{Quirin Scheitle, \myself, Jens Hiller, Oliver Gasser, Johannes Naab, Roland van Rijswijk-Deij, Oliver Hohlfeld, Ralph Holz, Dave Choffnes, Alan Mislove, and Georg Carle} 
+{ACM SIGCOMM Computer Communications Review (CCR), Vol. 48, pp. 2, Apr. 2018 } 
+
+\publication{}
+{An End-to-End View of DNSSEC Ecosystem Management}
+{\myself, R. van Rijswijk-Deij, B. Chandrasekaran, D. Choffnes, D. Levin, B. M. Maggs, A. Mislove, and C. Wilson}
+{USENIX Magazine ;login:, Vol. 42, No. 4, Dec. 2017}
+
+\publication{}
+{A Target-centric Surveillance System based on Localization and Social Networking
+}
+{J. Han, N. Choi, \myself, T. Kwon, and Y. Choi}
+{Multimedia Tools and Applications (MTAP), Vol. 73, Issue 1, pp. 241-265, Nov. 2014}
+
+\publication{}
+{Strategic Bundling for Content Availability and Fast Distribution in BitTorrent}
+{J. Han, \myself, S. Kim, H. Kim, J. Kangasharju, T. Kwon, and Y. Choi}
+{Computer Communication (COMCOM), Vol. 43, pp. 64-73, May 2014}
+
+
+\publication{}
+{Bundling Practice in Bittorrent: What, How, and Why}
+{J. Han, S. Kim, \myself, T. Kwon, H. Kim, and Y. Choi}
+{ACM SIGMETRICS Performance Evaluation Review, Vol. 40, No. 1, pp. 77-88, Jun. 2012.}
+
+\publication{}
+{How Prevalent is Content Bundling in BitTorrent? }
+{J. Han, \myself, S. Kim, T. Kwon, H. Kim, and Y. Choi}
+{ACM SIGMETRICS Performance Evaluation Review, Vol. 39, No. 1, pp. 319-320, Jun. 2011.}
+
+\section{Posters}
+\publication{IMC'19}
+{Tracking Registrar Support for DNSSEC: It's Slowly Getting Better}
+{Spencer Roth, R. van Rijswijk-Deij, and \myself}
+{IMC, Amsterdam, The Netherlands, USA, Aug. 2017}
+
+\publication{SIGCOMM'17}
+{The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover}
+{R. van Rijswijk-Deij, \myself, D. Choffnes, A. Mislove, and W. Toorop}
+{SIGCOMM, Los Angeles, CA, USA, Aug. 2017}
+
+\publication{ACNS'14}
+{Toward Terabyte-scale Caching with SSD in a Named Data Networking Router}
+{W. So, \myself, H. Yuan, D. Oran, and M. Stapp}
+{ANCS, Marina del Rey, CA, USA, Oct. 2014 }
+
+\publication{PAM'13}
+{Spatial and Temporal Locality of Swarm Dynamics in BitTorrent}
+{\myself, J. Han, H. Lee, J. Kangasharju, T. Kwon, and Y. Choi}
+{PAM, Hong Kong, March. 2013.}
+
+\section{Non-Refereed Conference Publications}
+\publication{TPRC'17}
+{Investigating End-To-End Integrity Violations in Internet Traffic}
+{A. Mislove, D. Choffnes, and \myself}
+{TPRC, Arlington, VA, USA, Sept. 2017}
+
+\section{Teaching}
+%\cventry{Fall }{John Merritt}{Virginia Tech}{}{}{}{}
+\cventry{F20, F23}{CS 6204}{Public Key Infrastructure and Network Security}{}{}{}{}
+\cventry{F22, F23}{CS 5584}{Network Security}{}{}{}{}
+\cventry{S24}{CS/ECE 5560}{Fundamentals of Information Security}{}{}{}{}
+\cventry{S21, S22, S25}{CS 4264}{Principles of Computer Security}{}{}{}{}
+\cventry{F18, F19}{CSCI 351}{Data Communication and Networks}{}{}{}{}
+
+\section{Advising}
+%\cventry{Fall }{John Merritt}{Virginia Tech}{}{}{}{}
+\cventry{02/2025 -- Present}{Yongzhe Xu}{Ph.D. Students, Virginia Tech}{}{}{}{}
+\cventry{01/2024 -- Present}{Hoang Tran}{Ph.D. Students, Virginia Tech}{}{}{}{}
+\cventry{08/2023 -- Present}{Munshi Rejwan Ala Muid}{Ph.D. Students, Virginia Tech}{Co-advised with Thang Hoang}{}{}{}
+\cventry{01/2021 -- Present}{Mohammad Ishtiaq Ashiq Khan}{Ph.D. Students, Virginia Tech}{}{}{}{}
+\cventry{01/2021 -- Present}{Weitong Li}{Ph.D. Students, Virginia Tech}{}{}{}{}
+\cventry{03/2025 -- 08/2025}{Olivier Hureau}{Postdoc, Ph.D. from Université Grenoble Alpes, France}{}{}{}{}
+\cventry{01/2021 -- 11/2023}{Protick Bhowmick}{Masters, Virginia Tech}{at Meta}{}{}{}
+\cventry{08/2020 -- 08/2022}{Syed Muhammad Farhan}{Masters, Virginia Tech}{at Amazon}{}{}{}
+
+
+\section{Ph.D. Committees}
+%\cventry{Fall }{John Merritt}{Virginia Tech}{}{}{}{}
+\cventry{Fall 2024}{Daegun Yoon}{KAIST}{}{}{}{}
+\cventry{Spring 2024}{Aravind Cheruvu}{Virginia Tech}{}{}{}{}
+\cventry{Spring 2024}{Thomas Nguyen}{Virginia Tech}{}{}{}{}
+\cventry{Spring 2024}{Zhongdong Liu}{Virginia Tech}{}{}{}{}
+\cventry{Spring 2024}{Miles Frantz}{Virginia Tech}{}{}{}{}
+\cventry{Spring 2024}{Muhammad Talha Paracha}{Northeastern University}{}{}{}{}
+\cventry{Spring 2023}{Tung Dao}{Virginia Tech}{}{}{}{}
+\cventry{Fall 2022}{Jiameng Pu}{Virginia Tech}{}{}{}{}
+%\cventry{}{Aravind Cheruvu}{Virginia Tech}{}{}{}{}
+%\cventry{}{Aravind Cheruvu}{Virginia Tech}{}{}{}{}
+
+
+%\section{Fellowships}
+%\cventry{2012--2016}{Samsung Ph.D. Industrial Scholarship}{}{}{}{}{}
+%\cventry{2010--2012}{Hyundai (Hajung) Scholarship}{}{}{}{}{}
+%\cventry{Summer 2007}{POSTECH Student Exchange Program to UCLA}{}{}{}{}{}
+%\cventry{2005--2008}{National Science \& Technology Scholarship, KOSAF(Korea Student Aid Foundation)} {}{}{}{}{}
+
+
+%\section{Project Experience}
+%\project{06/2015--06/2016}{Personal Recommendation System and Privacy Protection through Big Data Analysis on Online Social Networks}
+%{National Research Foundation of Korea (NRF)}{}{}
+
+%\project{09/2012--06/2013}{Networking Content Delivery Optimization}
+%{SAMSUNG Electronics}{}{}
+
+%\project{03/2011--02/2014}{Fundamental Research on In-network Caching and Routing for Named-data Networking}
+%{Korea Communications Agency (KCA)}{}{}
+
+%\project{07/2010--12/2012}{Future Internet Service Demonstration: Internet Video Diary}
+%{Korea Internet \& Security Agency (KISA), Korea }{}{}
+
+\section{Service}
+\cventry{}{Award Committee Member}{}{}{}{}
+\cvitem{'21, '22, '23, '24, '25, '26}{IETF/IRTF Applied Networking Research Prize (ANRP)}
+\cvitem{'21}{ACM Student Research Competition (SRS) for SIGCOMM poster and demo session}
+
+\cventry{}{General Chair}{}{}{}{}
+\cvitem{'22}{The ACM/IRTF Applied Networking Research Workshop (ANRW)}
+
+\cventry{}{Program Committee Chair}{}{}{}{}
+\cvitem{'26}{The IFIP Network Traffic Measurement and Analysis Conference (TMA)}
+
+
+\cventry{}{Steering Committee Member}{}{}{}{}
+\cvitem{'23, '24}{The ACM/IRTF Applied Networking Research Workshop (ANRW)}
+
+\cventry{}{Program Committee Member}{}{}{}{}
+\cvitem{'25, '26}{USENIX Security (SEC)}
+\cvitem{'26}{ACM Asia Computer and Communications Security (ASIA CCS)}
+\cvitem{'23}{IEEE Symposium on Security and Privacy (Oakland)}
+\cvitem{'19, '21, '22, '24, '25, '26}{ACM Internet Measurement Conference (IMC)}
+\cvitem{'25}{ACM Internet Measurement Conference (IMC) Student Workshop}
+\cvitem{'23, '24, '25, '26}{The DNS Operations, Analysis, and Research Center (DNS-OARC)}
+\cvitem{'22, '24, '25, '26}{ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)}
+\cvitem{'19, '20, '21, '22, '23, '24, '25, '26}{The Passive and Active Measurement (PAM)}
+\cvitem{'20, '21, '24, '25}{The ACM/IRTF Applied Networking Research Workshop (ANRW)}
+\cvitem{'23, '24, '25}{ACM Asian Conference on Internet Engineering (AINTEC)}
+\cvitem{'23}{IEEE SecWeb}
+\cvitem{'23}{IEEE MetaCom Workshop}
+\cvitem{'22, '23}{ACM Conference on SIGMETRICS/Performance}
+\cvitem{'25}{ACM Conference on SIGMETRICS/Performance - External Reviewer}
+\cvitem{'21, '22}{IEEE International Conference on Network Protocols (ICNP)}
+\cvitem{'21}{ACM Conference on Computer and Communications Security (CCS) – External Reviewer}
+\cvitem{'20}{The Network Traffic Measurement and Analysis Conference (TMA)}
+\cvitem{'19}{International Conference on Social Informatics (SocInfo)}
+\cvitem{'17, '18, '19}{International AAAI Conference on Web and Social Media (ICWSM)}
+\cvitem{'17}{IEEE International Conference on Ubiquitous Computing and Communications (IUCC)}
+\cvitem{'14}{Poster Selection Committee of ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS)}
+
+\cventry{}{Shadow Program Committee Member}{}{}{}{}
+\cvitem{'18}{ACM Internet Measurement Conference (IMC)}
+\cvitem{'17}{ACM Internet Measurement Conference (IMC)}
+
+\cventry{}{Artifact Evaluation Member}{}{}{}{}
+\cvitem{'20}{International Conference on emerging Networking EXperiments and Technologies (CoNEXT)}
+
+\cventry{}{Web Chair}{}{}{}{}
+\cvitem{'21, '22}{ACM SIGCOMM}
+\cvitem{'21}{ACM Internet Measurement Conference (PAM)}
+\cvitem{'19}{ACM Internet Measurement Conference (IMC)}
+
+\cventry{}{Travel Grant Chair}{}{}{}{}
+\cvitem{'22}{ACM Internet Measurement Conference (IMC)}
+
+\cventry{}{Registration Chair}{}{}{}{}
+\cvitem{'18}{ACM Internet Measurement Conference (IMC)}
+
+\cventry{}{Journal Reviewer}{}{}{}{}
+\cvitem{'19, '22, '25}{IEEE Transactions on Dependable and Secure Computing}
+\cvitem{'25}{Elsevier Computer Communications}
+\cvitem{'24}{Journal of Cybersecurity}
+\cvitem{'23}{Journal of Law and Legislation (KJLL)}
+\cvitem{'19, '23}{ACM Transactions on Privacy and Security}
+\cvitem{'23}{ACM Computing Surveys} 
+\cvitem{'21}{Elsevier Computers \& Security}
+\cvitem{'19, '21, '24}{IEEE/ACM Transactions on Networking}
+\cvitem{'16, '19, '20, '24}{ACM Computer Communication Review}
+
+\cventry{}{Proposal Reviewer}{}{}{}{}
+\cvitem{'23}{National Science Foundation: CNS:NeTS}
+\cvitem{'21}{The Commonwealth Cyber Initiative (CCI): NextG}
+
+\cventry{}{Internal and Other Service}{}{}{}{}
+\cvitem{'22}{VT Hacks IX Judge}
+\cvitem{'21}{Career Panel: BranchOut, A Youth Community Outreach Program for Local High School Students}
+\cvitem{'21}{VT Hacks IX Judge}
+
+\if 0
+\section{Talks}
+\cvitem{05/19/2023}{POSTECH}
+\cvitem{02/17/2023}{DNS OARC 40}
+\cvitem{07/27/2022}{POSTECH}
+\cvitem{03/14/2022}{MANRS Community Workshop}
+\cvitem{11/30/2021}{DNS OARC 36}
+\cvitem{12/09/2019}{Workshop on Internet Economics: Knowledge of Internet Structure: Measurement, Epistemology, and Technology (WIE-KISMET) at CAIDA}
+\cvitem{10/23/2019}{ACM Internet Measurement Conference (IMC)}
+\cvitem{10/04/2019}{RIT Industrial Advisory Board (IAB) Meeting}
+\cvitem{08/08/2019}{Office of Naval Research (ONR)}
+\cvitem{07/23/2019}{Internet Engineering Task Force (IETF) 105}
+\cvitem{01/07/2019}{Korea Advanced Institute of Science and Technology
+(KAIST)}
+\cvitem{12/27/2018}{Sungkyunkwan University (SKKU)}
+\cvitem{11/16/2018}{GCCIS PhD Colloquium Series at Rochester Institute
+of Technology (RIT)}
+\cvitem{11/05/2018}{ACM Conference on Computer-Supported Cooperative
+Work and Social Computing (CSCW)} 
+\cvitem{11/01/2018}{ACM Internet Measurement Conference (IMC)}
+\cvitem{09/14/2018}{Great Lakes Security Day (GLSD)}
+\cvitem{06/29/2018}{Sonos at Boston}
+\cvitem{05/30/2018}{Graduate School of Information Security at Korea University}
+\cvitem{03/21/2018}{Department of Computer Science and Engineering at Washington University in St. Louis (WUSTL)}
+\cvitem{02/28/2018}{Department of Computer Science at Rochester Institute of Technology (RIT)}
+\cvitem{11/02/2017}{ACM Internet Measurement Conference (IMC)}
+\cvitem{09/29/2017}{New England Security Day (NESD)}
+\cvitem{09/08/2017}{Research Conference on Communications, Information and Internet Policy (TPRC)}
+\cvitem{08/18/2017}{USENIX Security}
+\cvitem{11/16/2016}{ACM Internet Measurement Conference (IMC)}
+\cvitem{11/15/2016}{ACM Internet Measurement Conference (IMC)}
+\cvitem{10/07/2016}{New England Networking and Systems Day (NENS)}
+\cvitem{12/29/2014}{Korea Advanced Institute of Science and Technology (KAIST)}
+\cvitem{04/10/2014}{World Wide Web Conference (WWW)}
+\cvitem{05/22/2013}{IFIP Networking}
+\cvitem{12/07/2011}{IEEE GLOBECOM}
+\fi
+
+\section{References}
+
+\project{}{Kc Claffy (kc@caida.org)}{Principal investigator for the Center for Applied Internet Data Analysis (CAIDA)}{}{}
+
+\project{}{Bruce M. Maggs (bmm@cs.duke.edu)}{Pelham Wilder Professor of Computer Science, Duke University}{}{}
+
+\project{}{Alan Mislove (amislove@ccs.neu.edu)}{Professor of Computer Science, Northeastern University, USA}{}{}
+
+\project{}{David Choffnes (choffnes@ccs.neu.edu)}{Professor of Computer Science, Northeastern University, USA}{}{}
+
+
+%\project{}{Christo Wilson (c.wilson@ccs.neu.edu)}{Associate Professor of Computer Science, Northeastern University, USA}{}{}
+
+%\project{}{Dave Levin (dml@cs.umd.edu)}{Assistant Professor of Computer Science, University of Maryland, USA }{}{}
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+\end{document}
+
+
+%% end of file `template.tex'.
