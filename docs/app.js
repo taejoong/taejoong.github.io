@@ -4,7 +4,8 @@ const DATA_FILES = {
   publications: "data/publications.json",
   updates: "data/updates.json",
   grants: "data/fundings.json",
-  service: "data/service.json"
+  service: "data/service.json",
+  courses: "data/courses.json"
 };
 
 const ADVISEES = new Set([
@@ -47,6 +48,7 @@ async function init() {
     renderPublications(publications);
     renderGrants(grants);
     renderStudents(data.students);
+    renderTeaching(data.courses);
     renderService(service);
     setupCollapsibleSections();
     setupScrollSpy();
@@ -243,6 +245,21 @@ function renderService(service) {
         </li>
       `
     )
+    .join("");
+}
+
+function renderTeaching(courses) {
+  const root = document.getElementById("teaching-list");
+  if (!root || !courses) return;
+
+  root.innerHTML = courses
+    .map((course) => {
+      const titleText = `<strong>${escapeHtml(course.title)}</strong>`;
+      const termsText = course.terms ? `(${escapeHtml(course.terms.join(", "))})` : "";
+      const noteText = course.note ? ` <em>[${escapeHtml(course.note)}]</em>` : "";
+
+      return `<li>${titleText} ${termsText}${noteText}</li>`;
+    })
     .join("");
 }
 
