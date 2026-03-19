@@ -134,7 +134,7 @@ function renderAbout(profile) {
 }
 
 function renderUpdates(updates) {
-  const items = updates.slice(0, 8);
+  const items = updates.slice(0, 10);
   document.getElementById("sidebar-updates").innerHTML = items
     .map((item) => {
       if (!item.dateObject) {
