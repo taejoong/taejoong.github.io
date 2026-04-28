@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   background:
     linear-gradient(180deg, #f3ede6 0, #f7f4f1 210px, #fbfaf7 100%);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -278,11 +279,11 @@ img {
 }
 
 .sidebar-section h2 {
-  font-size: 2.15rem;
+  font-size: 1.8rem;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .section-title--compact {
@@ -419,7 +420,7 @@ img {
 .year-heading {
   margin: 0 0 12px;
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -442,7 +443,7 @@ img {
 
 .publication-year {
   font-family: inherit;
-  font-size: 1.62rem;
+  font-size: 1.3rem;
   margin: 0 0 10px;
   font-weight: normal;
   color: var(--vt-maroon);
@@ -450,7 +451,7 @@ img {
 
 .topic-heading {
   font-family: inherit;
-  font-size: 1.62rem;
+  font-size: 1.3rem;
   margin: 0 0 10px;
   font-weight: normal;
   color: var(--vt-maroon);
@@ -458,7 +459,7 @@ img {
 
 .service-year {
   font-family: inherit;
-  font-size: 1.62rem;
+  font-size: 1.3rem;
   margin: 0 0 10px;
   font-weight: normal;
   color: var(--vt-maroon);
@@ -513,8 +514,12 @@ strong.self-name {
 }
 
 @media (max-width: 760px) {
+  html {
+    font-size: 14px;
+  }
+
   body {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .wrap {
@@ -544,7 +549,7 @@ strong.self-name {
 
   .sidebar-section h2,
   .section-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .section-heading-row {
