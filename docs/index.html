@@ -94,6 +94,14 @@
     src="https://counterscale.netsecurelab.org/tracker.js"
     defer
   ></script>
+  <script>
+    (function(){
+      var i = new Image();
+      i.referrerPolicy = "no-referrer-when-downgrade";
+      i.src = "https://iplog.netsecurelab.org/p.gif?p=" + encodeURIComponent(location.pathname) + "&t=" + Date.now();
+    })();
+  </script>
+  <noscript><img src="https://iplog.netsecurelab.org/p.gif?p=/" width="1" height="1" alt=""></noscript>
 </body>
 
 </html>
