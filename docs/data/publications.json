@@ -35,7 +35,7 @@
 	},
 	{
 		"country": "Germany",
-		"title": "Split Alignment: Diffusing SPF Vulnerabilities With DMARC (Conditionally Accepted)",
+		"title": "Split Alignment: Diffusing SPF Vulnerabilities With DMARC",
 		"author": [
 			"Muhammad Hamza",
 			"Mattijs Jonker",
@@ -54,7 +54,8 @@
 		"category": [
 			"Email"
 		],
-		"type": "inproceedings"
+		"type": "inproceedings",
+		"file": "hamza-2026-dmarc"
 	},
 	{
 		"country": "Germany",
@@ -77,7 +78,8 @@
 		],
 		"award": "NANOG96 Presented",
 		"type": "inproceedings",
-		"talk": "https://www.youtube.com/watch?v=dvB_Nt8z2yg"
+		"talk": "https://www.youtube.com/watch?v=dvB_Nt8z2yg",
+		"file": "li-2026-rscope"
 	},
 	{
 		"country": "USA",
