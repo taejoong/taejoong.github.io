@@ -361,44 +361,6 @@ img {
   flex-wrap: wrap;
 }
 
-.bio-copy-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  border: 1px solid #c9c2bb;
-  border-radius: 4px;
-  background: transparent;
-  color: var(--text);
-  padding: 6px 8px;
-  font-family: inherit;
-  font-size: 0.9rem;
-  line-height: 1;
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.bio-copy-btn:hover {
-  background: #f1ece6;
-  color: var(--vt-maroon);
-  border-color: var(--vt-maroon);
-}
-
-.bio-copy-btn.is-copied {
-  background: var(--vt-maroon);
-  color: var(--vt-white);
-  border-color: var(--vt-maroon);
-}
-
-.bio-copy-icon {
-  display: block;
-  flex-shrink: 0;
-}
-
-.bio-copy-label {
-  font-size: 0.9rem;
-}
-
 .year-publication-list li {
   margin-bottom: 12px;
 }

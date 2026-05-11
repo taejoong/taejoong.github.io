@@ -130,7 +130,6 @@ function renderSidebar(profile, updates) {
 function renderAbout(profile) {
   const about = document.getElementById("about-copy");
   const toggle = document.getElementById("bio-toggle");
-  const copyBtn = document.getElementById("bio-copy-link");
 
   const bios = {
     first: profile.bio,
@@ -169,50 +168,6 @@ function renderAbout(profile) {
   if (toggle) {
     toggle.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => setMode(button.dataset.mode));
-    });
-  }
-
-  if (copyBtn) {
-    const labelEl = copyBtn.querySelector(".bio-copy-label");
-    const defaultLabel = labelEl ? labelEl.textContent : copyBtn.textContent;
-    copyBtn.addEventListener("click", async () => {
-      const url = window.location.href;
-      let success = true;
-      try {
-        if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(url);
-        } else {
-          const textarea = document.createElement("textarea");
-          textarea.value = url;
-          textarea.setAttribute("readonly", "");
-          textarea.style.position = "absolute";
-          textarea.style.left = "-9999px";
-          document.body.appendChild(textarea);
-          textarea.select();
-          document.execCommand("copy");
-          document.body.removeChild(textarea);
-        }
-      } catch (error) {
-        success = false;
-        console.error("Copy link failed", error);
-      }
-
-      const nextLabel = success ? "Copied!" : "Copy failed";
-      if (labelEl) {
-        labelEl.textContent = nextLabel;
-      } else {
-        copyBtn.textContent = nextLabel;
-      }
-      copyBtn.classList.toggle("is-copied", success);
-
-      setTimeout(() => {
-        if (labelEl) {
-          labelEl.textContent = defaultLabel;
-        } else {
-          copyBtn.textContent = defaultLabel;
-        }
-        copyBtn.classList.remove("is-copied");
-      }, 1800);
     });
   }
 }
