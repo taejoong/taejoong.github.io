@@ -129,10 +129,92 @@ function renderSidebar(profile, updates) {
 
 function renderAbout(profile) {
   const about = document.getElementById("about-copy");
+  const toggle = document.getElementById("bio-toggle");
+  const copyBtn = document.getElementById("bio-copy-link");
 
-  about.innerHTML = `
-    <p>${profile.bio}</p>
-  `;
+  const bios = {
+    first: profile.bio,
+    third: profile.bio_third_person || profile.bio
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const requested = params.get("bio");
+  const initialMode = bios[requested] ? requested : "first";
+
+  const setMode = (mode, { updateUrl = true } = {}) => {
+    const safeMode = bios[mode] ? mode : "first";
+    about.innerHTML = `<p>${bios[safeMode]}</p>`;
+
+    if (toggle) {
+      toggle.querySelectorAll("button").forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.mode === safeMode);
+      });
+    }
+
+    if (updateUrl) {
+      const next = new URLSearchParams(window.location.search);
+      if (safeMode === "first") {
+        next.delete("bio");
+      } else {
+        next.set("bio", safeMode);
+      }
+      const query = next.toString();
+      const newUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+      window.history.replaceState(null, "", newUrl);
+    }
+  };
+
+  setMode(initialMode, { updateUrl: false });
+
+  if (toggle) {
+    toggle.querySelectorAll("button").forEach((button) => {
+      button.addEventListener("click", () => setMode(button.dataset.mode));
+    });
+  }
+
+  if (copyBtn) {
+    const labelEl = copyBtn.querySelector(".bio-copy-label");
+    const defaultLabel = labelEl ? labelEl.textContent : copyBtn.textContent;
+    copyBtn.addEventListener("click", async () => {
+      const url = window.location.href;
+      let success = true;
+      try {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(url);
+        } else {
+          const textarea = document.createElement("textarea");
+          textarea.value = url;
+          textarea.setAttribute("readonly", "");
+          textarea.style.position = "absolute";
+          textarea.style.left = "-9999px";
+          document.body.appendChild(textarea);
+          textarea.select();
+          document.execCommand("copy");
+          document.body.removeChild(textarea);
+        }
+      } catch (error) {
+        success = false;
+        console.error("Copy link failed", error);
+      }
+
+      const nextLabel = success ? "Copied!" : "Copy failed";
+      if (labelEl) {
+        labelEl.textContent = nextLabel;
+      } else {
+        copyBtn.textContent = nextLabel;
+      }
+      copyBtn.classList.toggle("is-copied", success);
+
+      setTimeout(() => {
+        if (labelEl) {
+          labelEl.textContent = defaultLabel;
+        } else {
+          copyBtn.textContent = defaultLabel;
+        }
+        copyBtn.classList.remove("is-copied");
+      }, 1800);
+    });
+  }
 }
 
 function renderUpdates(updates) {
