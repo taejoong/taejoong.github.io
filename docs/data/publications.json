@@ -83,6 +83,30 @@
 	},
 	{
 		"country": "USA",
+		"title": "Comprehensive Revocation Checking at Scale: the Deployment of CRLite in Mozilla Firefox",
+		"author": [
+			"Nehal Fooda",
+			"James Larisch",
+			"John Schanck",
+			"Taejoong Chung",
+			"Dave Levin",
+			"Bruce M. Maggs",
+			"Christo Wilson"
+		],
+		"booktitle_long": "ACM SIGCOMM",
+		"city": "Denver",
+		"year": "2026",
+		"booktitle_type": "conference",
+		"month": "August",
+		"booktitle_short": "SIGCOMM",
+		"type": "inproceedings",
+		"category": [
+			"TLS"
+		],
+		"file": ""
+	},
+	{
+		"country": "USA",
 		"title": "Post-Quantum Cryptography Strategy for DNSSEC",
 		"author": [
 			"Swapneel Sheth",
