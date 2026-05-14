@@ -34,6 +34,47 @@
 		"talk": "https://www.youtube.com/watch?v=7FiPbVeD6vc&t=967s"
 	},
 	{
+		"country": "USA",
+		"title": "iROV: Breaking the Silence of RPKI with Interactive Validation (conditionally accepted)",
+		"author": [
+			"Younsoo Kim",
+			"Seungjin Baek",
+			"Weitong Li",
+			"Taejoong Chung",
+			"Min Suk Kang"
+		],
+		"booktitle_long": "USENIX Security Symposium",
+		"city": "Baltimore",
+		"state": "MD",
+		"year": "2026",
+		"booktitle_short": "Security",
+		"month": "August",
+		"booktitle_type": "conference",
+		"category": [
+			"Routing"
+		],
+		"type": "inproceedings"
+	},
+	{
+		"country": "USA",
+		"title": "Motion in the Clear: Reconstructing VR User Behavior from Network Traffic",
+		"author": [
+			"JiHo Lee",
+			"JinYi Yoon",
+			"Taejoong Chung",
+			"Brendan David-John",
+			"Bo Ji"
+		],
+		"booktitle_long": "USENIX Security Symposium",
+		"city": "Baltimore",
+		"state": "MD",
+		"year": "2026",
+		"booktitle_short": "Security",
+		"month": "August",
+		"booktitle_type": "conference",
+		"type": "inproceedings"
+	},
+	{
 		"country": "Germany",
 		"title": "Split Alignment: Diffusing SPF Vulnerabilities With DMARC",
 		"author": [
