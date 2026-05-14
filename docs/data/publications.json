@@ -72,6 +72,9 @@
 		"booktitle_short": "Security",
 		"month": "August",
 		"booktitle_type": "conference",
+		"category": [
+			"Privacy"
+		],
 		"type": "inproceedings"
 	},
 	{
