@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research Platforms &amp; Projects | Taejoong "Tijay" Chung</title>
   <meta name="description"
-    content="Research platforms and deployable security tools from Taejoong Chung's lab, including RoVista, ASINT, and the DNSSEC Debugger.">
+    content="Research platforms and deployable security tools from Taejoong Chung's lab, including RoVista, ASINT, DFixer (DNSSEC Debugger), and RPKI Warehouse.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -46,115 +46,107 @@
 
     </section>
 
-    <section class="wrap platforms-section" aria-labelledby="platforms-grid-title">
+    <section class="wrap platforms-section" aria-labelledby="platforms-list-title">
       <div class="platforms-section__intro">
-        <h2 id="platforms-grid-title" class="section-title">Live Platforms</h2>
+        <h2 id="platforms-list-title" class="section-title">Live Platforms</h2>
         <p>
-          Each project is packaged as a focused, high-signal experience with a clear entry point for exploration and
-          use.
+          Each project is a focused, deployable tool with a clear entry point for exploration and use.
         </p>
       </div>
 
-      <div class="platforms-grid">
-        <article class="project-card">
-          <div class="project-card__surface">
-            <div class="project-card__icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" class="project-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="1.5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-              </svg>
-            </div>
-            <p class="project-card__eyebrow">Routing Security Platform</p>
-            <div class="project-card__header">
+      <ul class="platforms-list">
+        <li class="platform-row">
+          <div class="platform-row__main">
+            <p class="platform-row__eyebrow">Routing Security</p>
+            <div class="platform-row__heading">
               <h3>RoVista</h3>
               <span class="lead-badge">Lead: Weitong Li</span>
             </div>
-            <p class="project-card__description">
-              A comprehensive measurement platform for evaluating and tracking the deployment status and effectiveness
-              of Route Origin Validation (ROV) in RPKI across the global Internet.
+            <p class="platform-row__desc">
+              Measures and tracks Route Origin Validation (ROV) deployment in RPKI across the global Internet.
             </p>
-            <div class="project-card__footer">
-              <a class="project-button" href="https://rovista.netsecurelab.org/" target="_blank" rel="noopener">
-                Visit Platform
-              </a>
-              <a class="pub-tag pub-tag--orange" href="https://taejoong.github.io/files/publications/li-2023-rov.pdf"
-                target="_blank" rel="noopener">
-                <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg> IMC '23 Paper
-              </a>
-            </div>
           </div>
-        </article>
+          <div class="platform-row__actions">
+            <a class="project-button" href="https://rovista.netsecurelab.org/" target="_blank" rel="noopener">
+              Visit Platform
+            </a>
+            <a class="pub-tag pub-tag--orange" href="https://taejoong.github.io/files/publications/li-2023-rov.pdf"
+              target="_blank" rel="noopener">
+              <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+              </svg> IMC '23 Paper
+            </a>
+          </div>
+        </li>
 
-        <article class="project-card">
-          <div class="project-card__surface">
-            <div class="project-card__icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" class="project-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="1.5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-              </svg>
-            </div>
-            <p class="project-card__eyebrow">Infrastructure Mapping Platform</p>
-            <div class="project-card__header">
+        <li class="platform-row">
+          <div class="platform-row__main">
+            <p class="platform-row__eyebrow">Infrastructure Mapping</p>
+            <div class="platform-row__heading">
               <h3>ASINT</h3>
               <span class="lead-badge">Lead: Yongzhe Xu</span>
             </div>
-            <p class="project-card__description">
-              An advanced, high-precision AS-to-Organization (AS2Org) mapping platform that utilizes Internet metadata
-              to learn and accurately depict the organizational structures behind Autonomous Systems.
+            <p class="platform-row__desc">
+              High-precision AS-to-Organization (AS2Org) mapping learned from Internet metadata.
             </p>
-            <div class="project-card__footer">
-              <a class="project-button" href="https://asint.netsecurelab.org/" target="_blank" rel="noopener">
-                Visit Platform
-              </a>
-              <a class="pub-tag pub-tag--orange" href="https://arxiv.org/pdf/2508.02571" target="_blank" rel="noopener">
-                <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg> Arxiv Paper
-              </a>
-            </div>
           </div>
-        </article>
+          <div class="platform-row__actions">
+            <a class="project-button" href="https://asint.netsecurelab.org/" target="_blank" rel="noopener">
+              Visit Platform
+            </a>
+            <a class="pub-tag pub-tag--orange" href="https://arxiv.org/pdf/2508.02571" target="_blank" rel="noopener">
+              <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+              </svg> Arxiv Paper
+            </a>
+          </div>
+        </li>
 
-        <article class="project-card">
-          <div class="project-card__surface">
-            <div class="project-card__icon-wrapper">
-              <svg xmlns="http://www.w3.org/2000/svg" class="project-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="1.5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
-            </div>
-            <p class="project-card__eyebrow">Diagnostic Utility</p>
-            <div class="project-card__header">
+        <li class="platform-row">
+          <div class="platform-row__main">
+            <p class="platform-row__eyebrow">DNS Diagnostics</p>
+            <div class="platform-row__heading">
               <h3>DFixer (DNSSEC Debugger)</h3>
               <span class="lead-badge">Lead: Mohammad Ishtiaq Ashiq Khan</span>
             </div>
-            <p class="project-card__description">
-              An automated, scalable framework that leverages DNSViz insights to provide clear, actionable guidance to
-              DNS administrators for resolving and correcting DNSSEC configuration errors immediately.
+            <p class="platform-row__desc">
+              Turns DNSViz diagnostics into clear, actionable fixes for DNSSEC misconfigurations.
             </p>
-            <div class="project-card__footer">
-              <a class="project-button" href="http://dnssec-debugger.netsecurelab.org/" target="_blank" rel="noopener">
-                Try the Debugger
-              </a>
-              <a class="pub-tag pub-tag--orange"
-                href="https://taejoong.github.io/files/publications/ashiq-2025-dnssec.pdf" target="_blank"
-                rel="noopener">
-                <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg> IMC '25 Paper
-              </a>
-            </div>
           </div>
-        </article>
-      </div>
+          <div class="platform-row__actions">
+            <a class="project-button" href="http://dnssec-debugger.netsecurelab.org/" target="_blank" rel="noopener">
+              Try the Debugger
+            </a>
+            <a class="pub-tag pub-tag--orange"
+              href="https://taejoong.github.io/files/publications/ashiq-2025-dnssec.pdf" target="_blank"
+              rel="noopener">
+              <svg style="width:12px; height:12px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+              </svg> IMC '25 Paper
+            </a>
+          </div>
+        </li>
+
+        <li class="platform-row">
+          <div class="platform-row__main">
+            <p class="platform-row__eyebrow">RPKI History</p>
+            <div class="platform-row__heading">
+              <h3>RPKI Warehouse</h3>
+            </div>
+            <p class="platform-row__desc">
+              A historical tracker for RPKI objects &mdash; explore how RPKI records have changed over time.
+            </p>
+          </div>
+          <div class="platform-row__actions">
+            <a class="project-button" href="https://rpki.netsecurelab.org/" target="_blank" rel="noopener">
+              Visit Platform
+            </a>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
 
