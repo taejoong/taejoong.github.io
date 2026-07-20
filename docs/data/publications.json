@@ -53,7 +53,8 @@
 		"category": [
 			"Routing"
 		],
-		"type": "inproceedings"
+		"type": "inproceedings",
+		"file": "kim-2026-rov"
 	},
 	{
 		"country": "USA",
@@ -75,7 +76,8 @@
 		"category": [
 			"Privacy"
 		],
-		"type": "inproceedings"
+		"type": "inproceedings",
+		"file": "lee-2026-vr"
 	},
 	{
 		"country": "Germany",
