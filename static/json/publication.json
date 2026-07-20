@@ -3,7 +3,7 @@
     "country":"USA",
     "title":"Comprehensive Revocation Checking at Scale: the Deployment of CRLite in Mozilla Firefox",
     "author":["Nehal Fooda", "James Larisch", "John M. Schanck", "Taejoong Chung", "Dave Levin", "Bruce M. Maggs", "Christo Wilson"],
-	"booktitle_long":"ACM SIGCOMM Conference",
+	"booktitle_long":"ACM SIGCOMM",
 	"city":"Denver",
 	"year":"2026",
 	"booktitle_short":"SIGCOMM",
