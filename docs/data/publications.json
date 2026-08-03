@@ -1,5 +1,23 @@
 [
 	{
+		"country": "USA",
+		"title": "Post-Quantum Authentication for the Resource Public Key Infrastructure",
+		"author": [
+			"Weitong Li",
+			"Taejoong Chung"
+		],
+		"booktitle_long": "Internet Draft",
+		"year": "2026",
+		"howpublished": "Internet Engineering Task Force (IETF) Network Working Group, Internet Draft",
+		"month": "July",
+		"booktitle_short": "Internet Draft",
+		"type": "misc",
+		"category": [
+			"BGP"
+		],
+		"note": "https://datatracker.ietf.org/doc/draft-li-sidrops-pqrpki/"
+	},
+	{
 		"title": "pqRPKI: A Practical RPKI Architecture for the Post-Quantum Era",
 		"author": [
 			"Weitong Li",
