@@ -29,7 +29,8 @@
 		"booktitle_short": "Internet Draft",
 		"type": "misc",
 		"category": [
-			"BGP"
+			"Routing",
+			"PQC"
 		],
 		"note": "https://datatracker.ietf.org/doc/draft-li-sidrops-pqrpki/"
 	},
@@ -223,7 +224,8 @@
 		"booktitle_short": "Internet Draft",
 		"type": "misc",
 		"category": [
-			"DNS"
+			"DNS",
+			"PQC"
 		],
 		"note": "https://www.ietf.org/archive/id/draft-sheth-pqc-dnssec-strategy-00.txt"
 	},
@@ -246,7 +248,8 @@
 		"howpublished": "National Institute of Standards and Technology, Post Quantum Cryptography Standardization Conference, September 2025",
 		"booktitle_type": "conference",
 		"category": [
-			"DNS"
+			"DNS",
+			"PQC"
 		],
 		"type": "misc",
 		"note": "https://csrc.nist.gov/csrc/media/presentations/2025/post-quantum-diversity-for-dnssec/post-quantum_diversity-harvey_1.15.pdf"
@@ -507,7 +510,8 @@
 		"booktitle_short": "Internet Draft",
 		"type": "misc",
 		"category": [
-			"DNS"
+			"DNS",
+			"PQC"
 		],
 		"note": "https://www.ietf.org/archive/id/draft-fregly-research-agenda-for-pqc-dnssec-00.txt"
 	},
