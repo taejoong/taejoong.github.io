@@ -13,6 +13,7 @@ const ADVISEES = new Set([
   "Weitong Li",
   "Munshi Rejwan Ala Muid",
   "Hoang Tran",
+  "Minh Hoang Tran",
   "Muhammad Hamza",
   "Yongzhe Xu",
   "Protick Bhowmick",

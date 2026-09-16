@@ -1,5 +1,21 @@
 [
 	{
+		"title": "Enc53: DNSSEC-Anchored Stateless Tickets for Post-Quantum Authoritative DNS",
+		"author": [
+			"Minh Hoang Tran",
+			"Munshi Rejwan Ala Muid",
+			"Taejoong Chung"
+		],
+		"booktitle_long": "Arxiv",
+		"year": "2026",
+		"category": [
+			"DNS",
+			"PQC"
+		],
+		"type": "inproceedings",
+		"note": "https://arxiv.org/pdf/2609.14210"
+	},
+	{
 		"country": "USA",
 		"title": "Post-Quantum Authentication for the Resource Public Key Infrastructure",
 		"author": [
@@ -27,7 +43,8 @@
 		"booktitle_long": "Arxiv",
 		"year": "2026",
 		"category": [
-			"Routing"
+			"Routing",
+			"PQC"
 		],
 		"type": "inproceedings",
 		"note": "https://arxiv.org/pdf/2603.06968"
