@@ -379,16 +379,17 @@ function renderPublicationItem(item) {
 
 function renderPublicationLinks(item) {
   const links = [];
+  const pub = publicationKey(item);
 
   if (item.file) {
     links.push(
-      `<a class="pub-tag" href="https://taejoong.github.io/files/publications/${item.file}.pdf" target="_blank" rel="noopener">PDF</a>`
+      `<a class="pub-tag" href="https://taejoong.github.io/files/publications/${item.file}.pdf" target="_blank" rel="noopener" data-pub="${pub}">PDF</a>`
     );
   }
 
   if (item.note) {
     links.push(
-      `<a class="pub-tag pub-tag--orange" href="${item.note}" target="_blank" rel="noopener">Link</a>`
+      `<a class="pub-tag pub-tag--orange" href="${item.note}" target="_blank" rel="noopener" data-pub="${pub}">Link</a>`
     );
   }
 
@@ -396,25 +397,25 @@ function renderPublicationLinks(item) {
 
   if (item.slides) {
     links.push(
-      `<a class="pub-tag pub-tag--stone" href="${item.slides}" target="_blank" rel="noopener">Slides</a>`
+      `<a class="pub-tag pub-tag--stone" href="${item.slides}" target="_blank" rel="noopener" data-pub="${pub}">Slides</a>`
     );
   }
 
   if (item.dataset) {
     links.push(
-      `<a class="pub-tag pub-tag--orange" href="${item.dataset}" target="_blank" rel="noopener">Data</a>`
+      `<a class="pub-tag pub-tag--orange" href="${item.dataset}" target="_blank" rel="noopener" data-pub="${pub}">Data</a>`
     );
   }
 
   if (item.software) {
     links.push(
-      `<a class="pub-tag pub-tag--stone" href="${item.software}" target="_blank" rel="noopener">Software</a>`
+      `<a class="pub-tag pub-tag--stone" href="${item.software}" target="_blank" rel="noopener" data-pub="${pub}">Software</a>`
     );
   }
 
   if (item.talk) {
     links.push(
-      `<a class="pub-tag pub-tag--talk" href="${item.talk}" target="_blank" rel="noopener">Talk</a>`
+      `<a class="pub-tag pub-tag--talk" href="${item.talk}" target="_blank" rel="noopener" data-pub="${pub}">Talk</a>`
     );
   }
 
@@ -664,17 +665,21 @@ function renderBibtexDetails(item) {
 
   return `
     <details>
-      <summary class="pub-tag-summary pub-tag--stone">BibTeX</summary>
+      <summary class="pub-tag-summary pub-tag--stone" data-pub="${publicationKey(item)}">BibTeX</summary>
       <pre class="bibtex-pre">${escapeHtml(bibtex)}</pre>
     </details>
   `;
 }
 
-function buildBibtex(item) {
-  const key = (item.file || `${item.title}-${item.year || ""}`)
+function publicationKey(item) {
+  return (item.file || `${item.title}-${item.year || ""}`)
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function buildBibtex(item) {
+  const key = publicationKey(item);
 
   const authors = Array.isArray(item.author) ? item.author.join(" and ") : "";
   if (!key || !authors || !item.title) {
