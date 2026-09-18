@@ -35,14 +35,19 @@
 		"note": "https://datatracker.ietf.org/doc/draft-li-sidrops-pqrpki/"
 	},
 	{
+		"country": "Korea",
 		"title": "pqRPKI: A Practical RPKI Architecture for the Post-Quantum Era",
 		"author": [
 			"Weitong Li",
 			"Yuze Li",
 			"Taejoong Chung"
 		],
-		"booktitle_long": "Arxiv",
-		"year": "2026",
+		"booktitle_long": "Network and Distributed System Security Symposium",
+		"booktitle_short": "NDSS",
+		"booktitle_type": "conference",
+		"city": "Seoul",
+		"year": "2027",
+		"month": "February",
 		"category": [
 			"Routing",
 			"PQC"
