@@ -8,16 +8,18 @@
         shows it on the dashboard under "Paper downloads (PDF)" and
         "Top clicks":
           /p.gif?e=click&c=<category>&a=<action>&l=<label>&p=<path>
+          plus n=<paper title> and g=<topics> for publication clicks
    --------------------------------------------------------------- */
 
 const TRACK_PIXEL = "https://iplog.netsecurelab.org/p.gif";
 
-function trackEvent(category, action, label) {
+function trackEvent(category, action, label, extra = {}) {
   const path = `/click/${[category, action, label].filter(Boolean).join("/")}`;
+  const title = extra.title || label;
 
   try {
     if (window.clicky && typeof window.clicky.log === "function") {
-      window.clicky.log(path, `${category}: ${action}${label ? ` (${label})` : ""}`, "click");
+      window.clicky.log(path, `${category}: ${action}${title ? ` (${title})` : ""}`, "click");
     }
   } catch (error) {
     /* analytics must never break the page */
@@ -32,6 +34,8 @@ function trackEvent(category, action, label) {
       t: String(Date.now())
     });
     if (label) params.set("l", label);
+    if (extra.title) params.set("n", extra.title.slice(0, 200));
+    if (extra.topic) params.set("g", extra.topic.slice(0, 120));
 
     const pixel = new Image();
     pixel.referrerPolicy = "no-referrer-when-downgrade";
@@ -52,7 +56,13 @@ function describeClick(target) {
 
   if (pub) {
     // PDF / Link / Slides / Data / Software / Talk / BibTeX on a publication
-    return { category: "pub", action: text || "link", label: pub };
+    return {
+      category: "pub",
+      action: text || "link",
+      label: pub,
+      title: element.dataset.title || "",
+      topic: element.dataset.topic || ""
+    };
   }
 
   if (element.closest("#sidebar-links") || element.id === "nav-cv") {
@@ -113,7 +123,7 @@ function setupClickTracking() {
       const info = describeClick(event.target);
       if (!info) return;
 
-      trackEvent(info.category, info.action, info.label);
+      trackEvent(info.category, info.action, info.label, { title: info.title, topic: info.topic });
     },
     true
   );

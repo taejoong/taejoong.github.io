@@ -379,17 +379,17 @@ function renderPublicationItem(item) {
 
 function renderPublicationLinks(item) {
   const links = [];
-  const pub = publicationKey(item);
+  const pub = publicationAttrs(item);
 
   if (item.file) {
     links.push(
-      `<a class="pub-tag" href="https://taejoong.github.io/files/publications/${item.file}.pdf" target="_blank" rel="noopener" data-pub="${pub}">PDF</a>`
+      `<a class="pub-tag" href="https://taejoong.github.io/files/publications/${item.file}.pdf" target="_blank" rel="noopener" ${pub}>PDF</a>`
     );
   }
 
   if (item.note) {
     links.push(
-      `<a class="pub-tag pub-tag--orange" href="${item.note}" target="_blank" rel="noopener" data-pub="${pub}">Link</a>`
+      `<a class="pub-tag pub-tag--orange" href="${item.note}" target="_blank" rel="noopener" ${pub}>Link</a>`
     );
   }
 
@@ -397,25 +397,25 @@ function renderPublicationLinks(item) {
 
   if (item.slides) {
     links.push(
-      `<a class="pub-tag pub-tag--stone" href="${item.slides}" target="_blank" rel="noopener" data-pub="${pub}">Slides</a>`
+      `<a class="pub-tag pub-tag--stone" href="${item.slides}" target="_blank" rel="noopener" ${pub}>Slides</a>`
     );
   }
 
   if (item.dataset) {
     links.push(
-      `<a class="pub-tag pub-tag--orange" href="${item.dataset}" target="_blank" rel="noopener" data-pub="${pub}">Data</a>`
+      `<a class="pub-tag pub-tag--orange" href="${item.dataset}" target="_blank" rel="noopener" ${pub}>Data</a>`
     );
   }
 
   if (item.software) {
     links.push(
-      `<a class="pub-tag pub-tag--stone" href="${item.software}" target="_blank" rel="noopener" data-pub="${pub}">Software</a>`
+      `<a class="pub-tag pub-tag--stone" href="${item.software}" target="_blank" rel="noopener" ${pub}>Software</a>`
     );
   }
 
   if (item.talk) {
     links.push(
-      `<a class="pub-tag pub-tag--talk" href="${item.talk}" target="_blank" rel="noopener" data-pub="${pub}">Talk</a>`
+      `<a class="pub-tag pub-tag--talk" href="${item.talk}" target="_blank" rel="noopener" ${pub}>Talk</a>`
     );
   }
 
@@ -665,10 +665,17 @@ function renderBibtexDetails(item) {
 
   return `
     <details>
-      <summary class="pub-tag-summary pub-tag--stone" data-pub="${publicationKey(item)}">BibTeX</summary>
+      <summary class="pub-tag-summary pub-tag--stone" ${publicationAttrs(item)}>BibTeX</summary>
       <pre class="bibtex-pre">${escapeHtml(bibtex)}</pre>
     </details>
   `;
+}
+
+// data-* attributes read by track.js so a click can report which paper (and
+// which topics) it was on.
+function publicationAttrs(item) {
+  const topics = normalizeCategories(item.category).join(", ");
+  return `data-pub="${publicationKey(item)}" data-title="${escapeHtml(item.title)}" data-topic="${escapeHtml(topics)}"`;
 }
 
 function publicationKey(item) {
