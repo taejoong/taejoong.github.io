@@ -17,7 +17,7 @@ header:
 
 * [Munshi Rejwan Ala Muid](https://rezwan-muid.github.io/) (VT Fall 2023, co-advised with Thang Hoang); Bitshare Fellowship Recipient.
 
-* Hoang Tran (VT Spring 2024, interned at Verisign)
+* Hoang Tran (VT Spring 2024, interned at Verisign in Summer 2025)
 
 * Yongzhe Xu (VT Spring 2025, interning at Cloudflare in Summer and Fall 2026)
 
