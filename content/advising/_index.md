@@ -31,7 +31,7 @@ header:
 
 * [Mohammad Ishtiaq Ashiq Khan](https://ashiq5.github.io/) (Ph.D. 2025, interned at Meta, now at Meta)
 
-* [Olivier Hureau](https://hureau.com/)  (Postdoc 2025, at University of Grenoble Alpes)
+* [Olivier Hureau](https://hureau.com/)  (Postdoc 2025, now an Associate Professor at University of Grenoble Alpes)
 
 * Mahesh Maddhuru (MEng. 2024, at Akamai Technologies)
 
