@@ -19,7 +19,7 @@ header:
 
 * Hoang Tran (VT Spring 2024, interned at Verisign)
 
-* Yongzhe Xu (VT Spring 2025)
+* Yongzhe Xu (VT Spring 2025, interning at Cloudflare in Summer and Fall 2026)
 
 * Mingxi Qiu (VT Fall 2026)
 
