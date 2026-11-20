@@ -237,6 +237,7 @@ function renderStudents(students) {
   ];
 
   document.getElementById("students-content").innerHTML = groups
+    .filter(([, items]) => items && items.length)
     .map(
       ([title, items]) => `
         <div class="student-group">
