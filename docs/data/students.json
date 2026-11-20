@@ -1,11 +1,5 @@
 {
-  "postdocs": [
-    {
-      "name": "Weitong Li",
-      "url": "https://www.weitongli.com/",
-      "note": "Postdoc"
-    }
-  ],
+  "postdocs": [],
   "phd": [
     {
       "name": "Munshi Rejwan Ala Muid",
@@ -33,7 +27,7 @@
     {
       "name": "Weitong Li",
       "url": "https://www.weitongli.com/",
-      "note": "Ph.D. 2025; interned at Cloudflare and CableLabs; Pratt Fellowship Recipient; Graduate Student Award"
+      "note": "Ph.D. 2025; Postdoc 2026; interned at Cloudflare and CableLabs; Pratt Fellowship Recipient; Graduate Student Award"
     },
     {
       "name": "Mohammad Ishtiaq Ashiq Khan",
